@@ -14,3 +14,6 @@ This repository holds the materials for the germ-free mice paper.
 |Sppl. figure 7A| Suppl_figure7/GF_Plutznick_genus_merge_rtkrarefied_to_181.000000_n_0.tsv    | The input for GF_Plutznick_PCoA_microbiome_rarefied.R    |  
 |Sppl. figure 7A| Suppl_figure7/Genus_rtk.txtrarefied_to_169838.000000_n_0_onlyGenusName.tsv   | The input for GF_Plutznick_PCoA_microbiome_rarefied.R    |  
 |Sppl. figure 7A| Suppl_figure7/output.genus.rrarefied_to_1130.000000_n_0.tsv              | The input for GF_Plutznick_PCoA_microbiome_rarefied.R    |  
+|Sppl. figure 7B,C| Suppl_figure7/plutznick_GFstudy_effectsize_plot.R          | The script for creating  supplementary figure 7B and C  |  
+|Sppl. figure 7B,C| Suppl_figure7/peruMmetabolitedata_forcomp_18062020.csv        | The input for plutznick_GFstudy_effectsize_plot.R |  
+|Sppl. figure 7B,C| Suppl_figure7/VolnormImput_reduced.xlsx         | The input for plutznick_GFstudy_effectsize_plot.R |  
