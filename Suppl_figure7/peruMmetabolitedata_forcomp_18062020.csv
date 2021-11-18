@@ -1,0 +1,2641 @@
+﻿id,treatment,microbiome,value,shortform_biocrates,MATCH_NAME 
+exGF06,AngII,COL,0.717,3-IAA,indoleacetate
+exGF07,AngII,COL,1.03,3-IAA,indoleacetate
+exGF09,AngII,COL,0.807,3-IAA,indoleacetate
+exGF10,AngII,COL,0.605,3-IAA,indoleacetate
+exGF11,AngII,COL,0.456,3-IAA,indoleacetate
+exGF12,AngII,COL,0.356,3-IAA,indoleacetate
+exGF13,AngII,COL,0.386,3-IAA,indoleacetate
+exGF14,AngII,COL,0.683,3-IAA,indoleacetate
+exGF16,AngII,COL,0.497,3-IAA,indoleacetate
+exGF17,AngII,COL,0.656,3-IAA,indoleacetate
+exGF18,AngII,COL,0.331,3-IAA,indoleacetate
+exGF19,AngII,COL,0.445,3-IAA,indoleacetate
+GF07,AngII,GF,0.45,3-IAA,indoleacetate
+GF08,AngII,GF,0.567,3-IAA,indoleacetate
+GF09,AngII,GF,0.901,3-IAA,indoleacetate
+GF10,AngII,GF,0.402,3-IAA,indoleacetate
+GF15,AngII,GF,0.467,3-IAA,indoleacetate
+GF16,AngII,GF,0.655,3-IAA,indoleacetate
+GF17,AngII,GF,0.69,3-IAA,indoleacetate
+GF19,AngII,GF,0.403,3-IAA,indoleacetate
+GF20,AngII,GF,0.413,3-IAA,indoleacetate
+GF21,AngII,GF,0.597,3-IAA,indoleacetate
+GF22,AngII,GF,0.322,3-IAA,indoleacetate
+sexGF1,Sham,COL,0.336,3-IAA,indoleacetate
+sexGF2,Sham,COL,0.6,3-IAA,indoleacetate
+sexGF3,Sham,COL,0.409,3-IAA,indoleacetate
+sexGF4,Sham,COL,0.296,3-IAA,indoleacetate
+sexGF5,Sham,COL,0.296,3-IAA,indoleacetate
+sGF1,Sham,GF,0.3,3-IAA,indoleacetate
+sGF2,Sham,GF,0.278,3-IAA,indoleacetate
+sGF3,Sham,GF,0.588,3-IAA,indoleacetate
+sGF4,Sham,GF,0.373,3-IAA,indoleacetate
+sGF5,Sham,GF,0.429,3-IAA,indoleacetate
+exGF06,AngII,COL,1.31,ADMA,Asymmetric dimethylarginine
+exGF07,AngII,COL,1.11,ADMA,Asymmetric dimethylarginine
+exGF09,AngII,COL,1.09,ADMA,Asymmetric dimethylarginine
+exGF10,AngII,COL,1.09,ADMA,Asymmetric dimethylarginine
+exGF11,AngII,COL,1.18,ADMA,Asymmetric dimethylarginine
+exGF12,AngII,COL,0.802,ADMA,Asymmetric dimethylarginine
+exGF13,AngII,COL,0.844,ADMA,Asymmetric dimethylarginine
+exGF14,AngII,COL,1.18,ADMA,Asymmetric dimethylarginine
+exGF16,AngII,COL,0.882,ADMA,Asymmetric dimethylarginine
+exGF17,AngII,COL,1.16,ADMA,Asymmetric dimethylarginine
+exGF18,AngII,COL,1.17,ADMA,Asymmetric dimethylarginine
+exGF19,AngII,COL,0.871,ADMA,Asymmetric dimethylarginine
+GF07,AngII,GF,1.09,ADMA,Asymmetric dimethylarginine
+GF08,AngII,GF,1.3,ADMA,Asymmetric dimethylarginine
+GF09,AngII,GF,1.23,ADMA,Asymmetric dimethylarginine
+GF10,AngII,GF,1.33,ADMA,Asymmetric dimethylarginine
+GF15,AngII,GF,1.44,ADMA,Asymmetric dimethylarginine
+GF16,AngII,GF,0.751,ADMA,Asymmetric dimethylarginine
+GF17,AngII,GF,1.53,ADMA,Asymmetric dimethylarginine
+GF19,AngII,GF,1.05,ADMA,Asymmetric dimethylarginine
+GF20,AngII,GF,1.21,ADMA,Asymmetric dimethylarginine
+GF21,AngII,GF,1.37,ADMA,Asymmetric dimethylarginine
+GF22,AngII,GF,1.22,ADMA,Asymmetric dimethylarginine
+sexGF1,Sham,COL,0.836,ADMA,Asymmetric dimethylarginine
+sexGF2,Sham,COL,0.917,ADMA,Asymmetric dimethylarginine
+sexGF3,Sham,COL,0.711,ADMA,Asymmetric dimethylarginine
+sexGF4,Sham,COL,0.898,ADMA,Asymmetric dimethylarginine
+sexGF5,Sham,COL,0.882,ADMA,Asymmetric dimethylarginine
+sGF1,Sham,GF,1.21,ADMA,Asymmetric dimethylarginine
+sGF2,Sham,GF,1.36,ADMA,Asymmetric dimethylarginine
+sGF3,Sham,GF,1.33,ADMA,Asymmetric dimethylarginine
+sGF4,Sham,GF,1.31,ADMA,Asymmetric dimethylarginine
+sGF5,Sham,GF,1.23,ADMA,Asymmetric dimethylarginine
+exGF06,AngII,COL,496,Ala,alanine
+exGF07,AngII,COL,547,Ala,alanine
+exGF09,AngII,COL,511,Ala,alanine
+exGF10,AngII,COL,539,Ala,alanine
+exGF11,AngII,COL,642,Ala,alanine
+exGF12,AngII,COL,597,Ala,alanine
+exGF13,AngII,COL,500,Ala,alanine
+exGF14,AngII,COL,654,Ala,alanine
+exGF16,AngII,COL,390,Ala,alanine
+exGF17,AngII,COL,539,Ala,alanine
+exGF18,AngII,COL,489,Ala,alanine
+exGF19,AngII,COL,548,Ala,alanine
+GF07,AngII,GF,482,Ala,alanine
+GF08,AngII,GF,440,Ala,alanine
+GF09,AngII,GF,621,Ala,alanine
+GF10,AngII,GF,528,Ala,alanine
+GF15,AngII,GF,558,Ala,alanine
+GF16,AngII,GF,996,Ala,alanine
+GF17,AngII,GF,906,Ala,alanine
+GF19,AngII,GF,492,Ala,alanine
+GF20,AngII,GF,461,Ala,alanine
+GF21,AngII,GF,664,Ala,alanine
+GF22,AngII,GF,430,Ala,alanine
+sexGF1,Sham,COL,408,Ala,alanine
+sexGF2,Sham,COL,428,Ala,alanine
+sexGF3,Sham,COL,316,Ala,alanine
+sexGF4,Sham,COL,432,Ala,alanine
+sexGF5,Sham,COL,450,Ala,alanine
+sGF1,Sham,GF,401,Ala,alanine
+sGF2,Sham,GF,401,Ala,alanine
+sGF3,Sham,GF,560,Ala,alanine
+sGF4,Sham,GF,480,Ala,alanine
+sGF5,Sham,GF,495,Ala,alanine
+exGF06,AngII,COL,254,Arg,arginine
+exGF07,AngII,COL,272,Arg,arginine
+exGF09,AngII,COL,242,Arg,arginine
+exGF10,AngII,COL,261,Arg,arginine
+exGF11,AngII,COL,245,Arg,arginine
+exGF12,AngII,COL,135,Arg,arginine
+exGF13,AngII,COL,178,Arg,arginine
+exGF14,AngII,COL,274,Arg,arginine
+exGF16,AngII,COL,196,Arg,arginine
+exGF17,AngII,COL,210,Arg,arginine
+exGF18,AngII,COL,166,Arg,arginine
+exGF19,AngII,COL,239,Arg,arginine
+GF07,AngII,GF,208,Arg,arginine
+GF08,AngII,GF,267,Arg,arginine
+GF09,AngII,GF,157,Arg,arginine
+GF10,AngII,GF,241,Arg,arginine
+GF15,AngII,GF,211,Arg,arginine
+GF16,AngII,GF,179,Arg,arginine
+GF17,AngII,GF,225,Arg,arginine
+GF19,AngII,GF,53,Arg,arginine
+GF20,AngII,GF,176,Arg,arginine
+GF21,AngII,GF,245,Arg,arginine
+GF22,AngII,GF,180,Arg,arginine
+sexGF1,Sham,COL,123,Arg,arginine
+sexGF2,Sham,COL,142,Arg,arginine
+sexGF3,Sham,COL,129,Arg,arginine
+sexGF4,Sham,COL,136,Arg,arginine
+sexGF5,Sham,COL,94.9,Arg,arginine
+sGF1,Sham,GF,175,Arg,arginine
+sGF2,Sham,GF,197,Arg,arginine
+sGF3,Sham,GF,225,Arg,arginine
+sGF4,Sham,GF,220,Arg,arginine
+sGF5,Sham,GF,215,Arg,arginine
+exGF06,AngII,COL,52.2,Asn,asparagine
+exGF07,AngII,COL,48.9,Asn,asparagine
+exGF09,AngII,COL,49.4,Asn,asparagine
+exGF10,AngII,COL,52.1,Asn,asparagine
+exGF11,AngII,COL,58,Asn,asparagine
+exGF12,AngII,COL,63.4,Asn,asparagine
+exGF13,AngII,COL,48.4,Asn,asparagine
+exGF14,AngII,COL,65.1,Asn,asparagine
+exGF16,AngII,COL,44.8,Asn,asparagine
+exGF17,AngII,COL,57.3,Asn,asparagine
+exGF18,AngII,COL,63.5,Asn,asparagine
+exGF19,AngII,COL,71.9,Asn,asparagine
+GF07,AngII,GF,35.9,Asn,asparagine
+GF08,AngII,GF,36.9,Asn,asparagine
+GF09,AngII,GF,51.2,Asn,asparagine
+GF10,AngII,GF,39.7,Asn,asparagine
+GF15,AngII,GF,62.8,Asn,asparagine
+GF16,AngII,GF,133,Asn,asparagine
+GF17,AngII,GF,89.2,Asn,asparagine
+GF19,AngII,GF,41.9,Asn,asparagine
+GF20,AngII,GF,45.4,Asn,asparagine
+GF21,AngII,GF,58.8,Asn,asparagine
+GF22,AngII,GF,43.5,Asn,asparagine
+sexGF1,Sham,COL,41.8,Asn,asparagine
+sexGF2,Sham,COL,51.1,Asn,asparagine
+sexGF3,Sham,COL,32.4,Asn,asparagine
+sexGF4,Sham,COL,41.5,Asn,asparagine
+sexGF5,Sham,COL,39.5,Asn,asparagine
+sGF1,Sham,GF,52.7,Asn,asparagine
+sGF2,Sham,GF,53.5,Asn,asparagine
+sGF3,Sham,GF,68.5,Asn,asparagine
+sGF4,Sham,GF,68.7,Asn,asparagine
+sGF5,Sham,GF,64.3,Asn,asparagine
+exGF06,AngII,COL,27.4,Asp,aspartate
+exGF07,AngII,COL,17.3,Asp,aspartate
+exGF09,AngII,COL,23.7,Asp,aspartate
+exGF10,AngII,COL,24.3,Asp,aspartate
+exGF11,AngII,COL,30.3,Asp,aspartate
+exGF12,AngII,COL,14.9,Asp,aspartate
+exGF13,AngII,COL,23.5,Asp,aspartate
+exGF14,AngII,COL,33.7,Asp,aspartate
+exGF16,AngII,COL,27.2,Asp,aspartate
+exGF17,AngII,COL,33.7,Asp,aspartate
+exGF18,AngII,COL,23.7,Asp,aspartate
+exGF19,AngII,COL,38.7,Asp,aspartate
+GF07,AngII,GF,34.5,Asp,aspartate
+GF08,AngII,GF,89,Asp,aspartate
+GF09,AngII,GF,22.6,Asp,aspartate
+GF10,AngII,GF,20.4,Asp,aspartate
+GF15,AngII,GF,29,Asp,aspartate
+GF16,AngII,GF,30.2,Asp,aspartate
+GF17,AngII,GF,39.7,Asp,aspartate
+GF19,AngII,GF,34.4,Asp,aspartate
+GF20,AngII,GF,20.2,Asp,aspartate
+GF21,AngII,GF,24.4,Asp,aspartate
+GF22,AngII,GF,22.4,Asp,aspartate
+sexGF1,Sham,COL,20.7,Asp,aspartate
+sexGF2,Sham,COL,17.5,Asp,aspartate
+sexGF3,Sham,COL,17.9,Asp,aspartate
+sexGF4,Sham,COL,18.6,Asp,aspartate
+sexGF5,Sham,COL,23.9,Asp,aspartate
+sGF1,Sham,GF,86.5,Asp,aspartate
+sGF2,Sham,GF,73.2,Asp,aspartate
+sGF3,Sham,GF,77.8,Asp,aspartate
+sGF4,Sham,GF,65.2,Asp,aspartate
+sGF5,Sham,GF,72.7,Asp,aspartate
+exGF06,AngII,COL,10.3,beta-Ala,NA
+exGF07,AngII,COL,7.89,beta-Ala,NA
+exGF09,AngII,COL,10.1,beta-Ala,NA
+exGF10,AngII,COL,10.6,beta-Ala,NA
+exGF11,AngII,COL,11.4,beta-Ala,NA
+exGF12,AngII,COL,5.32,beta-Ala,NA
+exGF13,AngII,COL,7.67,beta-Ala,NA
+exGF14,AngII,COL,11.3,beta-Ala,NA
+exGF16,AngII,COL,8.6,beta-Ala,NA
+exGF17,AngII,COL,12,beta-Ala,NA
+exGF18,AngII,COL,4.48,beta-Ala,NA
+exGF19,AngII,COL,6.27,beta-Ala,NA
+GF07,AngII,GF,13.8,beta-Ala,NA
+GF08,AngII,GF,16.1,beta-Ala,NA
+GF09,AngII,GF,6.94,beta-Ala,NA
+GF10,AngII,GF,13,beta-Ala,NA
+GF15,AngII,GF,8.07,beta-Ala,NA
+GF16,AngII,GF,5.81,beta-Ala,NA
+GF17,AngII,GF,8.74,beta-Ala,NA
+GF19,AngII,GF,10.1,beta-Ala,NA
+GF20,AngII,GF,7.93,beta-Ala,NA
+GF21,AngII,GF,7.62,beta-Ala,NA
+GF22,AngII,GF,7.49,beta-Ala,NA
+sexGF1,Sham,COL,8.81,beta-Ala,NA
+sexGF2,Sham,COL,8.34,beta-Ala,NA
+sexGF3,Sham,COL,6.84,beta-Ala,NA
+sexGF4,Sham,COL,7.07,beta-Ala,NA
+sexGF5,Sham,COL,6.91,beta-Ala,NA
+sGF1,Sham,GF,10.4,beta-Ala,NA
+sGF2,Sham,GF,10.8,beta-Ala,NA
+sGF3,Sham,GF,10.6,beta-Ala,NA
+sGF4,Sham,GF,10.2,beta-Ala,NA
+sGF5,Sham,GF,9.3,beta-Ala,NA
+exGF06,AngII,COL,39,Betaine,betaine
+exGF07,AngII,COL,41.1,Betaine,betaine
+exGF09,AngII,COL,52.2,Betaine,betaine
+exGF10,AngII,COL,76.6,Betaine,betaine
+exGF11,AngII,COL,74.8,Betaine,betaine
+exGF12,AngII,COL,58.9,Betaine,betaine
+exGF13,AngII,COL,56.7,Betaine,betaine
+exGF14,AngII,COL,73.4,Betaine,betaine
+exGF16,AngII,COL,40.2,Betaine,betaine
+exGF17,AngII,COL,52.5,Betaine,betaine
+exGF18,AngII,COL,54.2,Betaine,betaine
+exGF19,AngII,COL,80.5,Betaine,betaine
+GF07,AngII,GF,42.1,Betaine,betaine
+GF08,AngII,GF,41.3,Betaine,betaine
+GF09,AngII,GF,61.9,Betaine,betaine
+GF10,AngII,GF,65,Betaine,betaine
+GF15,AngII,GF,39.7,Betaine,betaine
+GF16,AngII,GF,,Betaine,betaine
+GF17,AngII,GF,51.8,Betaine,betaine
+GF19,AngII,GF,48.8,Betaine,betaine
+GF20,AngII,GF,35.2,Betaine,betaine
+GF21,AngII,GF,54.8,Betaine,betaine
+GF22,AngII,GF,39.8,Betaine,betaine
+sexGF1,Sham,COL,39.4,Betaine,betaine
+sexGF2,Sham,COL,39.4,Betaine,betaine
+sexGF3,Sham,COL,31.8,Betaine,betaine
+sexGF4,Sham,COL,36.2,Betaine,betaine
+sexGF5,Sham,COL,46,Betaine,betaine
+sGF1,Sham,GF,34.3,Betaine,betaine
+sGF2,Sham,GF,35.9,Betaine,betaine
+sGF3,Sham,GF,63.8,Betaine,betaine
+sGF4,Sham,GF,50.5,Betaine,betaine
+sGF5,Sham,GF,50.7,Betaine,betaine
+exGF06,AngII,COL,9.05,C2,Acetylcarnitine
+exGF07,AngII,COL,10.6,C2,Acetylcarnitine
+exGF09,AngII,COL,17.1,C2,Acetylcarnitine
+exGF10,AngII,COL,13,C2,Acetylcarnitine
+exGF11,AngII,COL,13.5,C2,Acetylcarnitine
+exGF12,AngII,COL,16.1,C2,Acetylcarnitine
+exGF13,AngII,COL,18.6,C2,Acetylcarnitine
+exGF14,AngII,COL,18,C2,Acetylcarnitine
+exGF16,AngII,COL,11.3,C2,Acetylcarnitine
+exGF17,AngII,COL,14.5,C2,Acetylcarnitine
+exGF18,AngII,COL,11.2,C2,Acetylcarnitine
+exGF19,AngII,COL,13,C2,Acetylcarnitine
+GF07,AngII,GF,14.9,C2,Acetylcarnitine
+GF08,AngII,GF,13.5,C2,Acetylcarnitine
+GF09,AngII,GF,18.2,C2,Acetylcarnitine
+GF10,AngII,GF,13.3,C2,Acetylcarnitine
+GF15,AngII,GF,23.7,C2,Acetylcarnitine
+GF16,AngII,GF,21.4,C2,Acetylcarnitine
+GF17,AngII,GF,17.6,C2,Acetylcarnitine
+GF19,AngII,GF,13.2,C2,Acetylcarnitine
+GF20,AngII,GF,15.5,C2,Acetylcarnitine
+GF21,AngII,GF,14.9,C2,Acetylcarnitine
+GF22,AngII,GF,18.5,C2,Acetylcarnitine
+sGF1,Sham,GF,17,C2,Acetylcarnitine
+sGF2,Sham,GF,20.1,C2,Acetylcarnitine
+sGF3,Sham,GF,15.9,C2,Acetylcarnitine
+sGF4,Sham,GF,16.4,C2,Acetylcarnitine
+sGF5,Sham,GF,15.9,C2,Acetylcarnitine
+sexGF1,Sham,COL,16.3,C2,Acetylcarnitine
+sexGF2,Sham,COL,15.2,C2,Acetylcarnitine
+sexGF3,Sham,COL,15.6,C2,Acetylcarnitine
+sexGF4,Sham,COL,13,C2,Acetylcarnitine
+sexGF5,Sham,COL,13.2,C2,Acetylcarnitine
+exGF06,AngII,COL,0.278,C3,Propionylcarnitine
+exGF07,AngII,COL,0.358,C3,Propionylcarnitine
+exGF09,AngII,COL,0.536,C3,Propionylcarnitine
+exGF10,AngII,COL,0.509,C3,Propionylcarnitine
+exGF11,AngII,COL,0.532,C3,Propionylcarnitine
+exGF12,AngII,COL,0.703,C3,Propionylcarnitine
+exGF13,AngII,COL,0.891,C3,Propionylcarnitine
+exGF14,AngII,COL,0.558,C3,Propionylcarnitine
+exGF16,AngII,COL,0.348,C3,Propionylcarnitine
+exGF17,AngII,COL,0.373,C3,Propionylcarnitine
+exGF18,AngII,COL,0.397,C3,Propionylcarnitine
+exGF19,AngII,COL,0.775,C3,Propionylcarnitine
+GF07,AngII,GF,0.298,C3,Propionylcarnitine
+GF08,AngII,GF,0.29,C3,Propionylcarnitine
+GF09,AngII,GF,1.26,C3,Propionylcarnitine
+GF10,AngII,GF,0.263,C3,Propionylcarnitine
+GF15,AngII,GF,0.617,C3,Propionylcarnitine
+GF16,AngII,GF,1.26,C3,Propionylcarnitine
+GF17,AngII,GF,0.459,C3,Propionylcarnitine
+GF19,AngII,GF,0.302,C3,Propionylcarnitine
+GF20,AngII,GF,0.267,C3,Propionylcarnitine
+GF21,AngII,GF,0.395,C3,Propionylcarnitine
+GF22,AngII,GF,0.353,C3,Propionylcarnitine
+sGF1,Sham,GF,0.346,C3,Propionylcarnitine
+sGF2,Sham,GF,0.451,C3,Propionylcarnitine
+sGF3,Sham,GF,0.671,C3,Propionylcarnitine
+sGF4,Sham,GF,0.393,C3,Propionylcarnitine
+sGF5,Sham,GF,0.638,C3,Propionylcarnitine
+sexGF1,Sham,COL,0.913,C3,Propionylcarnitine
+sexGF2,Sham,COL,0.513,C3,Propionylcarnitine
+sexGF3,Sham,COL,0.646,C3,Propionylcarnitine
+sexGF4,Sham,COL,0.428,C3,Propionylcarnitine
+sexGF5,Sham,COL,0.565,C3,Propionylcarnitine
+exGF06,AngII,COL,0.213,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF07,AngII,COL,0.164,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF09,AngII,COL,0.143,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF10,AngII,COL,0.151,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF11,AngII,COL,0.137,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF12,AngII,COL,0.074,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF13,AngII,COL,0.133,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF14,AngII,COL,0.114,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF16,AngII,COL,0.121,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF17,AngII,COL,0.098,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF18,AngII,COL,0.185,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF19,AngII,COL,0.174,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF07,AngII,GF,0.143,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF08,AngII,GF,0.154,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF09,AngII,GF,0.101,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF10,AngII,GF,0.167,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF15,AngII,GF,0.115,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF16,AngII,GF,0.119,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF17,AngII,GF,0.109,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF19,AngII,GF,0.152,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF20,AngII,GF,0.102,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF21,AngII,GF,0.177,Cer(d18:1/16:0),Cer(d18:1/16:0)
+GF22,AngII,GF,0.122,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sGF1,Sham,GF,0.062,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sGF2,Sham,GF,0.064,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sGF3,Sham,GF,0.075,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sGF4,Sham,GF,0.079,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sGF5,Sham,GF,0.065,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sexGF1,Sham,COL,0.102,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sexGF2,Sham,COL,0.082,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sexGF3,Sham,COL,0.081,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sexGF4,Sham,COL,0.086,Cer(d18:1/16:0),Cer(d18:1/16:0)
+sexGF5,Sham,COL,0.073,Cer(d18:1/16:0),Cer(d18:1/16:0)
+exGF06,AngII,COL,0.762,Cer(d18:1/22:0),NA
+exGF07,AngII,COL,0.642,Cer(d18:1/22:0),NA
+exGF09,AngII,COL,0.757,Cer(d18:1/22:0),NA
+exGF10,AngII,COL,0.697,Cer(d18:1/22:0),NA
+exGF11,AngII,COL,0.784,Cer(d18:1/22:0),NA
+exGF12,AngII,COL,0.795,Cer(d18:1/22:0),NA
+exGF13,AngII,COL,0.951,Cer(d18:1/22:0),NA
+exGF14,AngII,COL,0.962,Cer(d18:1/22:0),NA
+exGF16,AngII,COL,0.542,Cer(d18:1/22:0),NA
+exGF17,AngII,COL,0.701,Cer(d18:1/22:0),NA
+exGF18,AngII,COL,0.287,Cer(d18:1/22:0),NA
+exGF19,AngII,COL,0.388,Cer(d18:1/22:0),NA
+GF07,AngII,GF,0.541,Cer(d18:1/22:0),NA
+GF08,AngII,GF,0.471,Cer(d18:1/22:0),NA
+GF09,AngII,GF,0.197,Cer(d18:1/22:0),NA
+GF10,AngII,GF,0.456,Cer(d18:1/22:0),NA
+GF15,AngII,GF,0.407,Cer(d18:1/22:0),NA
+GF16,AngII,GF,0.334,Cer(d18:1/22:0),NA
+GF17,AngII,GF,0.456,Cer(d18:1/22:0),NA
+GF19,AngII,GF,0.648,Cer(d18:1/22:0),NA
+GF20,AngII,GF,0.584,Cer(d18:1/22:0),NA
+GF21,AngII,GF,0.617,Cer(d18:1/22:0),NA
+GF22,AngII,GF,0.65,Cer(d18:1/22:0),NA
+sGF1,Sham,GF,0.491,Cer(d18:1/22:0),NA
+sGF2,Sham,GF,0.483,Cer(d18:1/22:0),NA
+sGF3,Sham,GF,0.617,Cer(d18:1/22:0),NA
+sGF4,Sham,GF,0.569,Cer(d18:1/22:0),NA
+sGF5,Sham,GF,0.536,Cer(d18:1/22:0),NA
+sexGF1,Sham,COL,0.845,Cer(d18:1/22:0),NA
+sexGF2,Sham,COL,0.752,Cer(d18:1/22:0),NA
+sexGF3,Sham,COL,0.777,Cer(d18:1/22:0),NA
+sexGF4,Sham,COL,0.771,Cer(d18:1/22:0),NA
+sexGF5,Sham,COL,0.72,Cer(d18:1/22:0),NA
+exGF06,AngII,COL,0.517,Cer(d18:1/23:0),NA
+exGF07,AngII,COL,0.438,Cer(d18:1/23:0),NA
+exGF09,AngII,COL,0.389,Cer(d18:1/23:0),NA
+exGF10,AngII,COL,0.327,Cer(d18:1/23:0),NA
+exGF11,AngII,COL,0.339,Cer(d18:1/23:0),NA
+exGF12,AngII,COL,0.225,Cer(d18:1/23:0),NA
+exGF13,AngII,COL,0.435,Cer(d18:1/23:0),NA
+exGF14,AngII,COL,0.318,Cer(d18:1/23:0),NA
+exGF16,AngII,COL,0.415,Cer(d18:1/23:0),NA
+exGF17,AngII,COL,0.367,Cer(d18:1/23:0),NA
+exGF18,AngII,COL,0.249,Cer(d18:1/23:0),NA
+exGF19,AngII,COL,0.38,Cer(d18:1/23:0),NA
+GF07,AngII,GF,0.49,Cer(d18:1/23:0),NA
+GF08,AngII,GF,0.479,Cer(d18:1/23:0),NA
+GF09,AngII,GF,0.181,Cer(d18:1/23:0),NA
+GF10,AngII,GF,0.449,Cer(d18:1/23:0),NA
+GF15,AngII,GF,0.408,Cer(d18:1/23:0),NA
+GF16,AngII,GF,0.385,Cer(d18:1/23:0),NA
+GF17,AngII,GF,0.338,Cer(d18:1/23:0),NA
+GF19,AngII,GF,0.455,Cer(d18:1/23:0),NA
+GF20,AngII,GF,0.432,Cer(d18:1/23:0),NA
+GF21,AngII,GF,0.469,Cer(d18:1/23:0),NA
+GF22,AngII,GF,0.471,Cer(d18:1/23:0),NA
+sGF1,Sham,GF,0.225,Cer(d18:1/23:0),NA
+sGF2,Sham,GF,0.265,Cer(d18:1/23:0),NA
+sGF3,Sham,GF,0.267,Cer(d18:1/23:0),NA
+sGF4,Sham,GF,0.311,Cer(d18:1/23:0),NA
+sGF5,Sham,GF,0.329,Cer(d18:1/23:0),NA
+sexGF1,Sham,COL,0.331,Cer(d18:1/23:0),NA
+sexGF2,Sham,COL,0.293,Cer(d18:1/23:0),NA
+sexGF3,Sham,COL,0.23,Cer(d18:1/23:0),NA
+sexGF4,Sham,COL,0.336,Cer(d18:1/23:0),NA
+sexGF5,Sham,COL,0.313,Cer(d18:1/23:0),NA
+exGF06,AngII,COL,2.1,Cer(d18:1/24:1),NA
+exGF07,AngII,COL,1.48,Cer(d18:1/24:1),NA
+exGF09,AngII,COL,1.42,Cer(d18:1/24:1),NA
+exGF10,AngII,COL,1.37,Cer(d18:1/24:1),NA
+exGF11,AngII,COL,1.36,Cer(d18:1/24:1),NA
+exGF12,AngII,COL,0.901,Cer(d18:1/24:1),NA
+exGF13,AngII,COL,1.35,Cer(d18:1/24:1),NA
+exGF14,AngII,COL,1.33,Cer(d18:1/24:1),NA
+exGF16,AngII,COL,1.11,Cer(d18:1/24:1),NA
+exGF17,AngII,COL,1.08,Cer(d18:1/24:1),NA
+exGF18,AngII,COL,1.29,Cer(d18:1/24:1),NA
+exGF19,AngII,COL,1.69,Cer(d18:1/24:1),NA
+GF07,AngII,GF,1.21,Cer(d18:1/24:1),NA
+GF08,AngII,GF,1.32,Cer(d18:1/24:1),NA
+GF09,AngII,GF,0.46,Cer(d18:1/24:1),NA
+GF10,AngII,GF,1.05,Cer(d18:1/24:1),NA
+GF15,AngII,GF,0.961,Cer(d18:1/24:1),NA
+GF16,AngII,GF,0.399,Cer(d18:1/24:1),NA
+GF17,AngII,GF,0.944,Cer(d18:1/24:1),NA
+GF19,AngII,GF,1.2,Cer(d18:1/24:1),NA
+GF20,AngII,GF,0.994,Cer(d18:1/24:1),NA
+GF21,AngII,GF,1.36,Cer(d18:1/24:1),NA
+GF22,AngII,GF,1.42,Cer(d18:1/24:1),NA
+sGF1,Sham,GF,0.582,Cer(d18:1/24:1),NA
+sGF2,Sham,GF,0.538,Cer(d18:1/24:1),NA
+sGF3,Sham,GF,0.604,Cer(d18:1/24:1),NA
+sGF4,Sham,GF,0.661,Cer(d18:1/24:1),NA
+sGF5,Sham,GF,0.555,Cer(d18:1/24:1),NA
+sexGF1,Sham,COL,0.879,Cer(d18:1/24:1),NA
+sexGF2,Sham,COL,0.839,Cer(d18:1/24:1),NA
+sexGF3,Sham,COL,1.03,Cer(d18:1/24:1),NA
+sexGF4,Sham,COL,0.951,Cer(d18:1/24:1),NA
+sexGF5,Sham,COL,0.926,Cer(d18:1/24:1),NA
+exGF06,AngII,COL,104,Cit,citrulline
+exGF07,AngII,COL,101,Cit,citrulline
+exGF09,AngII,COL,96.1,Cit,citrulline
+exGF10,AngII,COL,94.4,Cit,citrulline
+exGF11,AngII,COL,103,Cit,citrulline
+exGF12,AngII,COL,49.6,Cit,citrulline
+exGF13,AngII,COL,59.4,Cit,citrulline
+exGF14,AngII,COL,98.6,Cit,citrulline
+exGF16,AngII,COL,84.5,Cit,citrulline
+exGF17,AngII,COL,92.6,Cit,citrulline
+exGF18,AngII,COL,99.2,Cit,citrulline
+exGF19,AngII,COL,91.8,Cit,citrulline
+GF07,AngII,GF,97.9,Cit,citrulline
+GF08,AngII,GF,106,Cit,citrulline
+GF09,AngII,GF,194,Cit,citrulline
+GF10,AngII,GF,119,Cit,citrulline
+GF15,AngII,GF,128,Cit,citrulline
+GF16,AngII,GF,69.2,Cit,citrulline
+GF17,AngII,GF,164,Cit,citrulline
+GF19,AngII,GF,82.5,Cit,citrulline
+GF20,AngII,GF,105,Cit,citrulline
+GF21,AngII,GF,138,Cit,citrulline
+GF22,AngII,GF,94.9,Cit,citrulline
+sexGF1,Sham,COL,50.6,Cit,citrulline
+sexGF2,Sham,COL,51.3,Cit,citrulline
+sexGF3,Sham,COL,42.5,Cit,citrulline
+sexGF4,Sham,COL,55.8,Cit,citrulline
+sexGF5,Sham,COL,49.4,Cit,citrulline
+sGF1,Sham,GF,53.2,Cit,citrulline
+sGF2,Sham,GF,60.1,Cit,citrulline
+sGF3,Sham,GF,89.5,Cit,citrulline
+sGF4,Sham,GF,94.7,Cit,citrulline
+sGF5,Sham,GF,89.3,Cit,citrulline
+exGF06,AngII,COL,3.2,DG(18:1_18:1),DG(18:1_18:1)
+exGF07,AngII,COL,2.11,DG(18:1_18:1),DG(18:1_18:1)
+exGF09,AngII,COL,2.52,DG(18:1_18:1),DG(18:1_18:1)
+exGF10,AngII,COL,3.02,DG(18:1_18:1),DG(18:1_18:1)
+exGF11,AngII,COL,2.93,DG(18:1_18:1),DG(18:1_18:1)
+exGF12,AngII,COL,1.81,DG(18:1_18:1),DG(18:1_18:1)
+exGF13,AngII,COL,3.01,DG(18:1_18:1),DG(18:1_18:1)
+exGF14,AngII,COL,1.9,DG(18:1_18:1),DG(18:1_18:1)
+exGF16,AngII,COL,0.971,DG(18:1_18:1),DG(18:1_18:1)
+exGF17,AngII,COL,1.71,DG(18:1_18:1),DG(18:1_18:1)
+exGF18,AngII,COL,1.01,DG(18:1_18:1),DG(18:1_18:1)
+exGF19,AngII,COL,1.42,DG(18:1_18:1),DG(18:1_18:1)
+GF07,AngII,GF,3.26,DG(18:1_18:1),DG(18:1_18:1)
+GF08,AngII,GF,3.41,DG(18:1_18:1),DG(18:1_18:1)
+GF09,AngII,GF,,DG(18:1_18:1),DG(18:1_18:1)
+GF10,AngII,GF,4.08,DG(18:1_18:1),DG(18:1_18:1)
+GF15,AngII,GF,1.28,DG(18:1_18:1),DG(18:1_18:1)
+GF16,AngII,GF,1.57,DG(18:1_18:1),DG(18:1_18:1)
+GF17,AngII,GF,1.53,DG(18:1_18:1),DG(18:1_18:1)
+GF19,AngII,GF,2.43,DG(18:1_18:1),DG(18:1_18:1)
+GF20,AngII,GF,1.94,DG(18:1_18:1),DG(18:1_18:1)
+GF21,AngII,GF,1.93,DG(18:1_18:1),DG(18:1_18:1)
+GF22,AngII,GF,1.55,DG(18:1_18:1),DG(18:1_18:1)
+sGF1,Sham,GF,0.84,DG(18:1_18:1),DG(18:1_18:1)
+sGF2,Sham,GF,0.478,DG(18:1_18:1),DG(18:1_18:1)
+sGF3,Sham,GF,0.945,DG(18:1_18:1),DG(18:1_18:1)
+sGF4,Sham,GF,0.573,DG(18:1_18:1),DG(18:1_18:1)
+sGF5,Sham,GF,0.737,DG(18:1_18:1),DG(18:1_18:1)
+sexGF1,Sham,COL,2.95,DG(18:1_18:1),DG(18:1_18:1)
+sexGF2,Sham,COL,2.95,DG(18:1_18:1),DG(18:1_18:1)
+sexGF3,Sham,COL,1.68,DG(18:1_18:1),DG(18:1_18:1)
+sexGF4,Sham,COL,1.77,DG(18:1_18:1),DG(18:1_18:1)
+sexGF5,Sham,COL,2.1,DG(18:1_18:1),DG(18:1_18:1)
+exGF06,AngII,COL,1.75,DG(18:1_18:3),NA
+exGF07,AngII,COL,,DG(18:1_18:3),NA
+exGF09,AngII,COL,1.13,DG(18:1_18:3),NA
+exGF10,AngII,COL,1.42,DG(18:1_18:3),NA
+exGF11,AngII,COL,1.51,DG(18:1_18:3),NA
+exGF12,AngII,COL,1.02,DG(18:1_18:3),NA
+exGF13,AngII,COL,1.14,DG(18:1_18:3),NA
+exGF14,AngII,COL,1.25,DG(18:1_18:3),NA
+exGF16,AngII,COL,0.811,DG(18:1_18:3),NA
+exGF17,AngII,COL,1.12,DG(18:1_18:3),NA
+exGF18,AngII,COL,1.01,DG(18:1_18:3),NA
+exGF19,AngII,COL,0.604,DG(18:1_18:3),NA
+GF07,AngII,GF,1.22,DG(18:1_18:3),NA
+GF08,AngII,GF,1.69,DG(18:1_18:3),NA
+GF09,AngII,GF,,DG(18:1_18:3),NA
+GF10,AngII,GF,1.77,DG(18:1_18:3),NA
+GF15,AngII,GF,0.817,DG(18:1_18:3),NA
+GF16,AngII,GF,1.43,DG(18:1_18:3),NA
+GF17,AngII,GF,,DG(18:1_18:3),NA
+GF19,AngII,GF,1.05,DG(18:1_18:3),NA
+GF20,AngII,GF,1.89,DG(18:1_18:3),NA
+GF21,AngII,GF,0.968,DG(18:1_18:3),NA
+GF22,AngII,GF,1.21,DG(18:1_18:3),NA
+sGF1,Sham,GF,0.982,DG(18:1_18:3),NA
+sGF2,Sham,GF,0.948,DG(18:1_18:3),NA
+sGF3,Sham,GF,0.949,DG(18:1_18:3),NA
+sGF4,Sham,GF,,DG(18:1_18:3),NA
+sGF5,Sham,GF,1.14,DG(18:1_18:3),NA
+sexGF1,Sham,COL,1.62,DG(18:1_18:3),NA
+sexGF2,Sham,COL,1.91,DG(18:1_18:3),NA
+sexGF3,Sham,COL,1.89,DG(18:1_18:3),NA
+sexGF4,Sham,COL,1.77,DG(18:1_18:3),NA
+sexGF5,Sham,COL,1.1,DG(18:1_18:3),NA
+exGF06,AngII,COL,14.3,DG(18:2_18:2),DG(18:2_18:2)
+exGF07,AngII,COL,13.5,DG(18:2_18:2),DG(18:2_18:2)
+exGF09,AngII,COL,9.61,DG(18:2_18:2),DG(18:2_18:2)
+exGF10,AngII,COL,8.08,DG(18:2_18:2),DG(18:2_18:2)
+exGF11,AngII,COL,8.28,DG(18:2_18:2),DG(18:2_18:2)
+exGF12,AngII,COL,11.2,DG(18:2_18:2),DG(18:2_18:2)
+exGF13,AngII,COL,9.42,DG(18:2_18:2),DG(18:2_18:2)
+exGF14,AngII,COL,8.6,DG(18:2_18:2),DG(18:2_18:2)
+exGF16,AngII,COL,5.81,DG(18:2_18:2),DG(18:2_18:2)
+exGF17,AngII,COL,9.87,DG(18:2_18:2),DG(18:2_18:2)
+exGF18,AngII,COL,6.71,DG(18:2_18:2),DG(18:2_18:2)
+exGF19,AngII,COL,4.76,DG(18:2_18:2),DG(18:2_18:2)
+GF07,AngII,GF,9.97,DG(18:2_18:2),DG(18:2_18:2)
+GF08,AngII,GF,14.2,DG(18:2_18:2),DG(18:2_18:2)
+GF09,AngII,GF,1.88,DG(18:2_18:2),DG(18:2_18:2)
+GF10,AngII,GF,18.2,DG(18:2_18:2),DG(18:2_18:2)
+GF15,AngII,GF,7.76,DG(18:2_18:2),DG(18:2_18:2)
+GF16,AngII,GF,11.9,DG(18:2_18:2),DG(18:2_18:2)
+GF17,AngII,GF,9.61,DG(18:2_18:2),DG(18:2_18:2)
+GF19,AngII,GF,12.1,DG(18:2_18:2),DG(18:2_18:2)
+GF20,AngII,GF,14.4,DG(18:2_18:2),DG(18:2_18:2)
+GF21,AngII,GF,9.05,DG(18:2_18:2),DG(18:2_18:2)
+GF22,AngII,GF,9.77,DG(18:2_18:2),DG(18:2_18:2)
+sGF1,Sham,GF,10.4,DG(18:2_18:2),DG(18:2_18:2)
+sGF2,Sham,GF,5.47,DG(18:2_18:2),DG(18:2_18:2)
+sGF3,Sham,GF,11.2,DG(18:2_18:2),DG(18:2_18:2)
+sGF4,Sham,GF,4.69,DG(18:2_18:2),DG(18:2_18:2)
+sGF5,Sham,GF,10.3,DG(18:2_18:2),DG(18:2_18:2)
+sexGF1,Sham,COL,17,DG(18:2_18:2),DG(18:2_18:2)
+sexGF2,Sham,COL,20.4,DG(18:2_18:2),DG(18:2_18:2)
+sexGF3,Sham,COL,9.79,DG(18:2_18:2),DG(18:2_18:2)
+sexGF4,Sham,COL,9.16,DG(18:2_18:2),DG(18:2_18:2)
+sexGF5,Sham,COL,12.4,DG(18:2_18:2),DG(18:2_18:2)
+exGF06,AngII,COL,0.41,GABA,NA
+exGF07,AngII,COL,0.483,GABA,NA
+exGF09,AngII,COL,0.533,GABA,NA
+exGF10,AngII,COL,0.67,GABA,NA
+exGF11,AngII,COL,0.526,GABA,NA
+exGF12,AngII,COL,0.286,GABA,NA
+exGF13,AngII,COL,0.403,GABA,NA
+exGF14,AngII,COL,0.464,GABA,NA
+exGF16,AngII,COL,0.388,GABA,NA
+exGF17,AngII,COL,0.471,GABA,NA
+exGF18,AngII,COL,0.363,GABA,NA
+exGF19,AngII,COL,0.503,GABA,NA
+GF07,AngII,GF,0.543,GABA,NA
+GF08,AngII,GF,0.71,GABA,NA
+GF09,AngII,GF,0.801,GABA,NA
+GF10,AngII,GF,0.67,GABA,NA
+GF15,AngII,GF,0.489,GABA,NA
+GF16,AngII,GF,0.9,GABA,NA
+GF17,AngII,GF,0.469,GABA,NA
+GF19,AngII,GF,0.601,GABA,NA
+GF20,AngII,GF,0.385,GABA,NA
+GF21,AngII,GF,0.519,GABA,NA
+GF22,AngII,GF,0.536,GABA,NA
+sexGF1,Sham,COL,0.367,GABA,NA
+sexGF2,Sham,COL,0.377,GABA,NA
+sexGF3,Sham,COL,0.282,GABA,NA
+sexGF4,Sham,COL,0.217,GABA,NA
+sexGF5,Sham,COL,0.329,GABA,NA
+sGF1,Sham,GF,0.611,GABA,NA
+sGF2,Sham,GF,0.631,GABA,NA
+sGF3,Sham,GF,0.612,GABA,NA
+sGF4,Sham,GF,0.711,GABA,NA
+sGF5,Sham,GF,0.612,GABA,NA
+exGF06,AngII,COL,485,Gln,glutamine
+exGF07,AngII,COL,472,Gln,glutamine
+exGF09,AngII,COL,617,Gln,glutamine
+exGF10,AngII,COL,648,Gln,glutamine
+exGF11,AngII,COL,656,Gln,glutamine
+exGF12,AngII,COL,650,Gln,glutamine
+exGF13,AngII,COL,700,Gln,glutamine
+exGF14,AngII,COL,728,Gln,glutamine
+exGF16,AngII,COL,582,Gln,glutamine
+exGF17,AngII,COL,580,Gln,glutamine
+exGF18,AngII,COL,450,Gln,glutamine
+exGF19,AngII,COL,623,Gln,glutamine
+GF07,AngII,GF,395,Gln,glutamine
+GF08,AngII,GF,347,Gln,glutamine
+GF09,AngII,GF,752,Gln,glutamine
+GF10,AngII,GF,486,Gln,glutamine
+GF15,AngII,GF,654,Gln,glutamine
+GF16,AngII,GF,983,Gln,glutamine
+GF17,AngII,GF,469,Gln,glutamine
+GF19,AngII,GF,456,Gln,glutamine
+GF20,AngII,GF,501,Gln,glutamine
+GF21,AngII,GF,564,Gln,glutamine
+GF22,AngII,GF,488,Gln,glutamine
+sexGF1,Sham,COL,665,Gln,glutamine
+sexGF2,Sham,COL,682,Gln,glutamine
+sexGF3,Sham,COL,609,Gln,glutamine
+sexGF4,Sham,COL,780,Gln,glutamine
+sexGF5,Sham,COL,752,Gln,glutamine
+sGF1,Sham,GF,420,Gln,glutamine
+sGF2,Sham,GF,427,Gln,glutamine
+sGF3,Sham,GF,614,Gln,glutamine
+sGF4,Sham,GF,592,Gln,glutamine
+sGF5,Sham,GF,560,Gln,glutamine
+exGF06,AngII,COL,83.1,Glu,glutamate
+exGF07,AngII,COL,49.4,Glu,glutamate
+exGF09,AngII,COL,77,Glu,glutamate
+exGF10,AngII,COL,114,Glu,glutamate
+exGF11,AngII,COL,121,Glu,glutamate
+exGF12,AngII,COL,51.4,Glu,glutamate
+exGF13,AngII,COL,79.2,Glu,glutamate
+exGF14,AngII,COL,121,Glu,glutamate
+exGF16,AngII,COL,91.9,Glu,glutamate
+exGF17,AngII,COL,110,Glu,glutamate
+exGF18,AngII,COL,79,Glu,glutamate
+exGF19,AngII,COL,95.4,Glu,glutamate
+GF07,AngII,GF,106,Glu,glutamate
+GF08,AngII,GF,236,Glu,glutamate
+GF09,AngII,GF,48.9,Glu,glutamate
+GF10,AngII,GF,61.3,Glu,glutamate
+GF15,AngII,GF,132,Glu,glutamate
+GF16,AngII,GF,131,Glu,glutamate
+GF17,AngII,GF,161,Glu,glutamate
+GF19,AngII,GF,126,Glu,glutamate
+GF20,AngII,GF,75.1,Glu,glutamate
+GF21,AngII,GF,87.5,Glu,glutamate
+GF22,AngII,GF,106,Glu,glutamate
+sexGF1,Sham,COL,74.1,Glu,glutamate
+sexGF2,Sham,COL,69.4,Glu,glutamate
+sexGF3,Sham,COL,58.8,Glu,glutamate
+sexGF4,Sham,COL,58.4,Glu,glutamate
+sexGF5,Sham,COL,76.4,Glu,glutamate
+sGF1,Sham,GF,208,Glu,glutamate
+sGF2,Sham,GF,210,Glu,glutamate
+sGF3,Sham,GF,218,Glu,glutamate
+sGF4,Sham,GF,186,Glu,glutamate
+sGF5,Sham,GF,191,Glu,glutamate
+exGF06,AngII,COL,292,Gly,glycine
+exGF07,AngII,COL,289,Gly,glycine
+exGF09,AngII,COL,286,Gly,glycine
+exGF10,AngII,COL,291,Gly,glycine
+exGF11,AngII,COL,307,Gly,glycine
+exGF12,AngII,COL,280,Gly,glycine
+exGF13,AngII,COL,296,Gly,glycine
+exGF14,AngII,COL,299,Gly,glycine
+exGF16,AngII,COL,267,Gly,glycine
+exGF17,AngII,COL,257,Gly,glycine
+exGF18,AngII,COL,249,Gly,glycine
+exGF19,AngII,COL,247,Gly,glycine
+GF07,AngII,GF,287,Gly,glycine
+GF08,AngII,GF,270,Gly,glycine
+GF09,AngII,GF,206,Gly,glycine
+GF10,AngII,GF,281,Gly,glycine
+GF15,AngII,GF,451,Gly,glycine
+GF16,AngII,GF,445,Gly,glycine
+GF17,AngII,GF,485,Gly,glycine
+GF19,AngII,GF,287,Gly,glycine
+GF20,AngII,GF,331,Gly,glycine
+GF21,AngII,GF,405,Gly,glycine
+GF22,AngII,GF,349,Gly,glycine
+sexGF1,Sham,COL,269,Gly,glycine
+sexGF2,Sham,COL,294,Gly,glycine
+sexGF3,Sham,COL,223,Gly,glycine
+sexGF4,Sham,COL,276,Gly,glycine
+sexGF5,Sham,COL,272,Gly,glycine
+sGF1,Sham,GF,360,Gly,glycine
+sGF2,Sham,GF,382,Gly,glycine
+sGF3,Sham,GF,477,Gly,glycine
+sGF4,Sham,GF,471,Gly,glycine
+sGF5,Sham,GF,391,Gly,glycine
+exGF06,AngII,COL,1.65,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF07,AngII,COL,1.03,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF09,AngII,COL,0.909,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF10,AngII,COL,0.784,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF11,AngII,COL,0.835,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF12,AngII,COL,0.469,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF13,AngII,COL,0.679,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF14,AngII,COL,0.901,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF16,AngII,COL,0.636,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF17,AngII,COL,0.717,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF18,AngII,COL,1.58,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF19,AngII,COL,1.73,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF07,AngII,GF,0.925,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF08,AngII,GF,0.676,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF09,AngII,GF,0.67,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF10,AngII,GF,1.12,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF15,AngII,GF,0.782,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF16,AngII,GF,0.578,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF17,AngII,GF,0.876,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF19,AngII,GF,0.833,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF20,AngII,GF,0.648,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF21,AngII,GF,1.06,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+GF22,AngII,GF,0.865,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sGF1,Sham,GF,0.365,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sGF2,Sham,GF,0.309,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sGF3,Sham,GF,0.515,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sGF4,Sham,GF,0.408,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sGF5,Sham,GF,0.384,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sexGF1,Sham,COL,0.411,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sexGF2,Sham,COL,0.475,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sexGF3,Sham,COL,0.417,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sexGF4,Sham,COL,0.307,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+sexGF5,Sham,COL,0.371,HexCer(d18:1/16:0),HexCer(d18:1/16:0)
+exGF06,AngII,COL,1.31,HexCer(d18:1/23:0),NA
+exGF07,AngII,COL,0.62,HexCer(d18:1/23:0),NA
+exGF09,AngII,COL,0.852,HexCer(d18:1/23:0),NA
+exGF10,AngII,COL,0.709,HexCer(d18:1/23:0),NA
+exGF11,AngII,COL,0.666,HexCer(d18:1/23:0),NA
+exGF12,AngII,COL,,HexCer(d18:1/23:0),NA
+exGF13,AngII,COL,0.648,HexCer(d18:1/23:0),NA
+exGF14,AngII,COL,0.88,HexCer(d18:1/23:0),NA
+exGF16,AngII,COL,0.73,HexCer(d18:1/23:0),NA
+exGF17,AngII,COL,0.639,HexCer(d18:1/23:0),NA
+exGF18,AngII,COL,1.19,HexCer(d18:1/23:0),NA
+exGF19,AngII,COL,1.24,HexCer(d18:1/23:0),NA
+GF07,AngII,GF,0.917,HexCer(d18:1/23:0),NA
+GF08,AngII,GF,0.781,HexCer(d18:1/23:0),NA
+GF09,AngII,GF,0.626,HexCer(d18:1/23:0),NA
+GF10,AngII,GF,0.957,HexCer(d18:1/23:0),NA
+GF15,AngII,GF,1,HexCer(d18:1/23:0),NA
+GF16,AngII,GF,0.786,HexCer(d18:1/23:0),NA
+GF17,AngII,GF,0.782,HexCer(d18:1/23:0),NA
+GF19,AngII,GF,0.798,HexCer(d18:1/23:0),NA
+GF20,AngII,GF,1.02,HexCer(d18:1/23:0),NA
+GF21,AngII,GF,1.1,HexCer(d18:1/23:0),NA
+GF22,AngII,GF,1.02,HexCer(d18:1/23:0),NA
+sGF1,Sham,GF,0.58,HexCer(d18:1/23:0),NA
+sGF2,Sham,GF,0.47,HexCer(d18:1/23:0),NA
+sGF3,Sham,GF,0.586,HexCer(d18:1/23:0),NA
+sGF4,Sham,GF,0.547,HexCer(d18:1/23:0),NA
+sGF5,Sham,GF,0.656,HexCer(d18:1/23:0),NA
+sexGF1,Sham,COL,0.39,HexCer(d18:1/23:0),NA
+sexGF2,Sham,COL,0.415,HexCer(d18:1/23:0),NA
+sexGF3,Sham,COL,0.478,HexCer(d18:1/23:0),NA
+sexGF4,Sham,COL,0.611,HexCer(d18:1/23:0),NA
+sexGF5,Sham,COL,0.537,HexCer(d18:1/23:0),NA
+exGF06,AngII,COL,69.1,His,histidine
+exGF07,AngII,COL,73.2,His,histidine
+exGF09,AngII,COL,80.1,His,histidine
+exGF10,AngII,COL,79.5,His,histidine
+exGF11,AngII,COL,78.9,His,histidine
+exGF12,AngII,COL,81.6,His,histidine
+exGF13,AngII,COL,75,His,histidine
+exGF14,AngII,COL,86,His,histidine
+exGF16,AngII,COL,68.3,His,histidine
+exGF17,AngII,COL,67.7,His,histidine
+exGF18,AngII,COL,47.4,His,histidine
+exGF19,AngII,COL,92.2,His,histidine
+GF07,AngII,GF,53.9,His,histidine
+GF08,AngII,GF,51.3,His,histidine
+GF09,AngII,GF,96.2,His,histidine
+GF10,AngII,GF,66,His,histidine
+GF15,AngII,GF,76.6,His,histidine
+GF16,AngII,GF,130,His,histidine
+GF17,AngII,GF,77.1,His,histidine
+GF19,AngII,GF,62.7,His,histidine
+GF20,AngII,GF,68.1,His,histidine
+GF21,AngII,GF,77.1,His,histidine
+GF22,AngII,GF,66,His,histidine
+sexGF1,Sham,COL,76.2,His,histidine
+sexGF2,Sham,COL,70.4,His,histidine
+sexGF3,Sham,COL,65.9,His,histidine
+sexGF4,Sham,COL,75.1,His,histidine
+sexGF5,Sham,COL,76.5,His,histidine
+sGF1,Sham,GF,60,His,histidine
+sGF2,Sham,GF,70.1,His,histidine
+sGF3,Sham,GF,81.6,His,histidine
+sGF4,Sham,GF,82.9,His,histidine
+sGF5,Sham,GF,69.8,His,histidine
+exGF06,AngII,COL,180,Ile,isoleucine
+exGF07,AngII,COL,164,Ile,isoleucine
+exGF09,AngII,COL,173,Ile,isoleucine
+exGF10,AngII,COL,184,Ile,isoleucine
+exGF11,AngII,COL,186,Ile,isoleucine
+exGF12,AngII,COL,154,Ile,isoleucine
+exGF13,AngII,COL,137,Ile,isoleucine
+exGF14,AngII,COL,198,Ile,isoleucine
+exGF16,AngII,COL,122,Ile,isoleucine
+exGF17,AngII,COL,160,Ile,isoleucine
+exGF18,AngII,COL,146,Ile,isoleucine
+exGF19,AngII,COL,199,Ile,isoleucine
+GF07,AngII,GF,137,Ile,isoleucine
+GF08,AngII,GF,190,Ile,isoleucine
+GF09,AngII,GF,296,Ile,isoleucine
+GF10,AngII,GF,185,Ile,isoleucine
+GF15,AngII,GF,176,Ile,isoleucine
+GF16,AngII,GF,169,Ile,isoleucine
+GF17,AngII,GF,217,Ile,isoleucine
+GF19,AngII,GF,154,Ile,isoleucine
+GF20,AngII,GF,139,Ile,isoleucine
+GF21,AngII,GF,181,Ile,isoleucine
+GF22,AngII,GF,153,Ile,isoleucine
+sexGF1,Sham,COL,113,Ile,isoleucine
+sexGF2,Sham,COL,156,Ile,isoleucine
+sexGF3,Sham,COL,110,Ile,isoleucine
+sexGF4,Sham,COL,106,Ile,isoleucine
+sexGF5,Sham,COL,108,Ile,isoleucine
+sGF1,Sham,GF,159,Ile,isoleucine
+sGF2,Sham,GF,163,Ile,isoleucine
+sGF3,Sham,GF,186,Ile,isoleucine
+sGF4,Sham,GF,188,Ile,isoleucine
+sGF5,Sham,GF,174,Ile,isoleucine
+exGF06,AngII,COL,229,Leu,leucine
+exGF07,AngII,COL,225,Leu,leucine
+exGF09,AngII,COL,262,Leu,leucine
+exGF10,AngII,COL,245,Leu,leucine
+exGF11,AngII,COL,272,Leu,leucine
+exGF12,AngII,COL,232,Leu,leucine
+exGF13,AngII,COL,183,Leu,leucine
+exGF14,AngII,COL,270,Leu,leucine
+exGF16,AngII,COL,170,Leu,leucine
+exGF17,AngII,COL,225,Leu,leucine
+exGF18,AngII,COL,167,Leu,leucine
+exGF19,AngII,COL,279,Leu,leucine
+GF07,AngII,GF,166,Leu,leucine
+GF08,AngII,GF,240,Leu,leucine
+GF09,AngII,GF,,Leu,leucine
+GF10,AngII,GF,224,Leu,leucine
+GF15,AngII,GF,263,Leu,leucine
+GF16,AngII,GF,254,Leu,leucine
+GF17,AngII,GF,304,Leu,leucine
+GF19,AngII,GF,213,Leu,leucine
+GF20,AngII,GF,187,Leu,leucine
+GF21,AngII,GF,261,Leu,leucine
+GF22,AngII,GF,219,Leu,leucine
+sexGF1,Sham,COL,162,Leu,leucine
+sexGF2,Sham,COL,221,Leu,leucine
+sexGF3,Sham,COL,152,Leu,leucine
+sexGF4,Sham,COL,148,Leu,leucine
+sexGF5,Sham,COL,151,Leu,leucine
+sGF1,Sham,GF,249,Leu,leucine
+sGF2,Sham,GF,250,Leu,leucine
+sGF3,Sham,GF,290,Leu,leucine
+sGF4,Sham,GF,279,Leu,leucine
+sGF5,Sham,GF,255,Leu,leucine
+exGF06,AngII,COL,413,Lys,lysine
+exGF07,AngII,COL,435,Lys,lysine
+exGF09,AngII,COL,430,Lys,lysine
+exGF10,AngII,COL,444,Lys,lysine
+exGF11,AngII,COL,493,Lys,lysine
+exGF12,AngII,COL,280,Lys,lysine
+exGF13,AngII,COL,303,Lys,lysine
+exGF14,AngII,COL,456,Lys,lysine
+exGF16,AngII,COL,275,Lys,lysine
+exGF17,AngII,COL,361,Lys,lysine
+exGF18,AngII,COL,341,Lys,lysine
+exGF19,AngII,COL,489,Lys,lysine
+GF07,AngII,GF,323,Lys,lysine
+GF08,AngII,GF,373,Lys,lysine
+GF09,AngII,GF,602,Lys,lysine
+GF10,AngII,GF,364,Lys,lysine
+GF15,AngII,GF,401,Lys,lysine
+GF16,AngII,GF,381,Lys,lysine
+GF17,AngII,GF,464,Lys,lysine
+GF19,AngII,GF,336,Lys,lysine
+GF20,AngII,GF,386,Lys,lysine
+GF21,AngII,GF,480,Lys,lysine
+GF22,AngII,GF,340,Lys,lysine
+sexGF1,Sham,COL,278,Lys,lysine
+sexGF2,Sham,COL,295,Lys,lysine
+sexGF3,Sham,COL,217,Lys,lysine
+sexGF4,Sham,COL,269,Lys,lysine
+sexGF5,Sham,COL,247,Lys,lysine
+sGF1,Sham,GF,348,Lys,lysine
+sGF2,Sham,GF,361,Lys,lysine
+sGF3,Sham,GF,494,Lys,lysine
+sGF4,Sham,GF,438,Lys,lysine
+sGF5,Sham,GF,385,Lys,lysine
+exGF06,AngII,COL,259,lysoPC a C16:0,lysoPC a C16:0
+exGF07,AngII,COL,256,lysoPC a C16:0,lysoPC a C16:0
+exGF09,AngII,COL,259,lysoPC a C16:0,lysoPC a C16:0
+exGF10,AngII,COL,249,lysoPC a C16:0,lysoPC a C16:0
+exGF11,AngII,COL,273,lysoPC a C16:0,lysoPC a C16:0
+exGF12,AngII,COL,203,lysoPC a C16:0,lysoPC a C16:0
+exGF13,AngII,COL,227,lysoPC a C16:0,lysoPC a C16:0
+exGF14,AngII,COL,317,lysoPC a C16:0,lysoPC a C16:0
+exGF16,AngII,COL,282,lysoPC a C16:0,lysoPC a C16:0
+exGF17,AngII,COL,291,lysoPC a C16:0,lysoPC a C16:0
+exGF18,AngII,COL,282,lysoPC a C16:0,lysoPC a C16:0
+exGF19,AngII,COL,234,lysoPC a C16:0,lysoPC a C16:0
+GF07,AngII,GF,321,lysoPC a C16:0,lysoPC a C16:0
+GF08,AngII,GF,309,lysoPC a C16:0,lysoPC a C16:0
+GF09,AngII,GF,142,lysoPC a C16:0,lysoPC a C16:0
+GF10,AngII,GF,291,lysoPC a C16:0,lysoPC a C16:0
+GF15,AngII,GF,282,lysoPC a C16:0,lysoPC a C16:0
+GF16,AngII,GF,156,lysoPC a C16:0,lysoPC a C16:0
+GF17,AngII,GF,301,lysoPC a C16:0,lysoPC a C16:0
+GF19,AngII,GF,273,lysoPC a C16:0,lysoPC a C16:0
+GF20,AngII,GF,283,lysoPC a C16:0,lysoPC a C16:0
+GF21,AngII,GF,293,lysoPC a C16:0,lysoPC a C16:0
+GF22,AngII,GF,306,lysoPC a C16:0,lysoPC a C16:0
+sGF1,Sham,GF,310,lysoPC a C16:0,lysoPC a C16:0
+sGF2,Sham,GF,310,lysoPC a C16:0,lysoPC a C16:0
+sGF3,Sham,GF,390,lysoPC a C16:0,lysoPC a C16:0
+sGF4,Sham,GF,364,lysoPC a C16:0,lysoPC a C16:0
+sGF5,Sham,GF,333,lysoPC a C16:0,lysoPC a C16:0
+sexGF1,Sham,COL,295,lysoPC a C16:0,lysoPC a C16:0
+sexGF2,Sham,COL,246,lysoPC a C16:0,lysoPC a C16:0
+sexGF3,Sham,COL,285,lysoPC a C16:0,lysoPC a C16:0
+sexGF4,Sham,COL,253,lysoPC a C16:0,lysoPC a C16:0
+sexGF5,Sham,COL,252,lysoPC a C16:0,lysoPC a C16:0
+exGF06,AngII,COL,159,lysoPC a C18:0,lysoPC a C18:0
+exGF07,AngII,COL,153,lysoPC a C18:0,lysoPC a C18:0
+exGF09,AngII,COL,131,lysoPC a C18:0,lysoPC a C18:0
+exGF10,AngII,COL,119,lysoPC a C18:0,lysoPC a C18:0
+exGF11,AngII,COL,128,lysoPC a C18:0,lysoPC a C18:0
+exGF12,AngII,COL,81.7,lysoPC a C18:0,lysoPC a C18:0
+exGF13,AngII,COL,103,lysoPC a C18:0,lysoPC a C18:0
+exGF14,AngII,COL,136,lysoPC a C18:0,lysoPC a C18:0
+exGF16,AngII,COL,154,lysoPC a C18:0,lysoPC a C18:0
+exGF17,AngII,COL,124,lysoPC a C18:0,lysoPC a C18:0
+exGF18,AngII,COL,132,lysoPC a C18:0,lysoPC a C18:0
+exGF19,AngII,COL,113,lysoPC a C18:0,lysoPC a C18:0
+GF07,AngII,GF,166,lysoPC a C18:0,lysoPC a C18:0
+GF08,AngII,GF,164,lysoPC a C18:0,lysoPC a C18:0
+GF09,AngII,GF,94.1,lysoPC a C18:0,lysoPC a C18:0
+GF10,AngII,GF,177,lysoPC a C18:0,lysoPC a C18:0
+GF15,AngII,GF,158,lysoPC a C18:0,lysoPC a C18:0
+GF16,AngII,GF,56.6,lysoPC a C18:0,lysoPC a C18:0
+GF17,AngII,GF,179,lysoPC a C18:0,lysoPC a C18:0
+GF19,AngII,GF,164,lysoPC a C18:0,lysoPC a C18:0
+GF20,AngII,GF,135,lysoPC a C18:0,lysoPC a C18:0
+GF21,AngII,GF,174,lysoPC a C18:0,lysoPC a C18:0
+GF22,AngII,GF,177,lysoPC a C18:0,lysoPC a C18:0
+sGF1,Sham,GF,159,lysoPC a C18:0,lysoPC a C18:0
+sGF2,Sham,GF,151,lysoPC a C18:0,lysoPC a C18:0
+sGF3,Sham,GF,200,lysoPC a C18:0,lysoPC a C18:0
+sGF4,Sham,GF,173,lysoPC a C18:0,lysoPC a C18:0
+sGF5,Sham,GF,159,lysoPC a C18:0,lysoPC a C18:0
+sexGF1,Sham,COL,103,lysoPC a C18:0,lysoPC a C18:0
+sexGF2,Sham,COL,92,lysoPC a C18:0,lysoPC a C18:0
+sexGF3,Sham,COL,103,lysoPC a C18:0,lysoPC a C18:0
+sexGF4,Sham,COL,83.6,lysoPC a C18:0,lysoPC a C18:0
+sexGF5,Sham,COL,83.2,lysoPC a C18:0,lysoPC a C18:0
+exGF06,AngII,COL,167,lysoPC a C18:2,lysoPC a C18:2
+exGF07,AngII,COL,151,lysoPC a C18:2,lysoPC a C18:2
+exGF09,AngII,COL,167,lysoPC a C18:2,lysoPC a C18:2
+exGF10,AngII,COL,145,lysoPC a C18:2,lysoPC a C18:2
+exGF11,AngII,COL,154,lysoPC a C18:2,lysoPC a C18:2
+exGF12,AngII,COL,133,lysoPC a C18:2,lysoPC a C18:2
+exGF13,AngII,COL,147,lysoPC a C18:2,lysoPC a C18:2
+exGF14,AngII,COL,178,lysoPC a C18:2,lysoPC a C18:2
+exGF16,AngII,COL,155,lysoPC a C18:2,lysoPC a C18:2
+exGF17,AngII,COL,134,lysoPC a C18:2,lysoPC a C18:2
+exGF18,AngII,COL,133,lysoPC a C18:2,lysoPC a C18:2
+exGF19,AngII,COL,138,lysoPC a C18:2,lysoPC a C18:2
+GF07,AngII,GF,195,lysoPC a C18:2,lysoPC a C18:2
+GF08,AngII,GF,179,lysoPC a C18:2,lysoPC a C18:2
+GF09,AngII,GF,72.6,lysoPC a C18:2,lysoPC a C18:2
+GF10,AngII,GF,220,lysoPC a C18:2,lysoPC a C18:2
+GF15,AngII,GF,164,lysoPC a C18:2,lysoPC a C18:2
+GF16,AngII,GF,97.9,lysoPC a C18:2,lysoPC a C18:2
+GF17,AngII,GF,121,lysoPC a C18:2,lysoPC a C18:2
+GF19,AngII,GF,175,lysoPC a C18:2,lysoPC a C18:2
+GF20,AngII,GF,151,lysoPC a C18:2,lysoPC a C18:2
+GF21,AngII,GF,177,lysoPC a C18:2,lysoPC a C18:2
+GF22,AngII,GF,170,lysoPC a C18:2,lysoPC a C18:2
+sGF1,Sham,GF,128,lysoPC a C18:2,lysoPC a C18:2
+sGF2,Sham,GF,136,lysoPC a C18:2,lysoPC a C18:2
+sGF3,Sham,GF,168,lysoPC a C18:2,lysoPC a C18:2
+sGF4,Sham,GF,154,lysoPC a C18:2,lysoPC a C18:2
+sGF5,Sham,GF,134,lysoPC a C18:2,lysoPC a C18:2
+sexGF1,Sham,COL,179,lysoPC a C18:2,lysoPC a C18:2
+sexGF2,Sham,COL,159,lysoPC a C18:2,lysoPC a C18:2
+sexGF3,Sham,COL,174,lysoPC a C18:2,lysoPC a C18:2
+sexGF4,Sham,COL,163,lysoPC a C18:2,lysoPC a C18:2
+sexGF5,Sham,COL,154,lysoPC a C18:2,lysoPC a C18:2
+exGF06,AngII,COL,52.3,lysoPC a C20:4,lysoPC a C20:4
+exGF07,AngII,COL,38.3,lysoPC a C20:4,lysoPC a C20:4
+exGF09,AngII,COL,47.7,lysoPC a C20:4,lysoPC a C20:4
+exGF10,AngII,COL,37,lysoPC a C20:4,lysoPC a C20:4
+exGF11,AngII,COL,40.9,lysoPC a C20:4,lysoPC a C20:4
+exGF12,AngII,COL,34,lysoPC a C20:4,lysoPC a C20:4
+exGF13,AngII,COL,47.4,lysoPC a C20:4,lysoPC a C20:4
+exGF14,AngII,COL,40.1,lysoPC a C20:4,lysoPC a C20:4
+exGF16,AngII,COL,39.2,lysoPC a C20:4,lysoPC a C20:4
+exGF17,AngII,COL,32.6,lysoPC a C20:4,lysoPC a C20:4
+exGF18,AngII,COL,52.1,lysoPC a C20:4,lysoPC a C20:4
+exGF19,AngII,COL,35.9,lysoPC a C20:4,lysoPC a C20:4
+GF07,AngII,GF,43,lysoPC a C20:4,lysoPC a C20:4
+GF08,AngII,GF,43.2,lysoPC a C20:4,lysoPC a C20:4
+GF09,AngII,GF,19.3,lysoPC a C20:4,lysoPC a C20:4
+GF10,AngII,GF,46.6,lysoPC a C20:4,lysoPC a C20:4
+GF15,AngII,GF,42.4,lysoPC a C20:4,lysoPC a C20:4
+GF16,AngII,GF,7.74,lysoPC a C20:4,lysoPC a C20:4
+GF17,AngII,GF,32.5,lysoPC a C20:4,lysoPC a C20:4
+GF19,AngII,GF,40.9,lysoPC a C20:4,lysoPC a C20:4
+GF20,AngII,GF,36.3,lysoPC a C20:4,lysoPC a C20:4
+GF21,AngII,GF,47.7,lysoPC a C20:4,lysoPC a C20:4
+GF22,AngII,GF,44.4,lysoPC a C20:4,lysoPC a C20:4
+sGF1,Sham,GF,26.2,lysoPC a C20:4,lysoPC a C20:4
+sGF2,Sham,GF,28.3,lysoPC a C20:4,lysoPC a C20:4
+sGF3,Sham,GF,39.3,lysoPC a C20:4,lysoPC a C20:4
+sGF4,Sham,GF,35.9,lysoPC a C20:4,lysoPC a C20:4
+sGF5,Sham,GF,31.8,lysoPC a C20:4,lysoPC a C20:4
+sexGF1,Sham,COL,39.5,lysoPC a C20:4,lysoPC a C20:4
+sexGF2,Sham,COL,35,lysoPC a C20:4,lysoPC a C20:4
+sexGF3,Sham,COL,44.4,lysoPC a C20:4,lysoPC a C20:4
+sexGF4,Sham,COL,39.8,lysoPC a C20:4,lysoPC a C20:4
+sexGF5,Sham,COL,40.8,lysoPC a C20:4,lysoPC a C20:4
+exGF06,AngII,COL,84.8,Met,methionine
+exGF07,AngII,COL,95.5,Met,methionine
+exGF09,AngII,COL,80.6,Met,methionine
+exGF10,AngII,COL,114,Met,methionine
+exGF11,AngII,COL,106,Met,methionine
+exGF12,AngII,COL,77.6,Met,methionine
+exGF13,AngII,COL,63.5,Met,methionine
+exGF14,AngII,COL,106,Met,methionine
+exGF16,AngII,COL,58.8,Met,methionine
+exGF17,AngII,COL,77,Met,methionine
+exGF18,AngII,COL,79.5,Met,methionine
+exGF19,AngII,COL,102,Met,methionine
+GF07,AngII,GF,66.1,Met,methionine
+GF08,AngII,GF,64.9,Met,methionine
+GF09,AngII,GF,87,Met,methionine
+GF10,AngII,GF,77.6,Met,methionine
+GF15,AngII,GF,70.6,Met,methionine
+GF16,AngII,GF,86.2,Met,methionine
+GF17,AngII,GF,134,Met,methionine
+GF19,AngII,GF,64.1,Met,methionine
+GF20,AngII,GF,57.6,Met,methionine
+GF21,AngII,GF,109,Met,methionine
+GF22,AngII,GF,57.3,Met,methionine
+sexGF1,Sham,COL,59.1,Met,methionine
+sexGF2,Sham,COL,63.3,Met,methionine
+sexGF3,Sham,COL,45.9,Met,methionine
+sexGF4,Sham,COL,57.1,Met,methionine
+sexGF5,Sham,COL,61.8,Met,methionine
+sGF1,Sham,GF,50.7,Met,methionine
+sGF2,Sham,GF,54.9,Met,methionine
+sGF3,Sham,GF,107,Met,methionine
+sGF4,Sham,GF,80,Met,methionine
+sGF5,Sham,GF,77.3,Met,methionine
+exGF06,AngII,COL,109,Orn,ornithine
+exGF07,AngII,COL,120,Orn,ornithine
+exGF09,AngII,COL,85.5,Orn,ornithine
+exGF10,AngII,COL,123,Orn,ornithine
+exGF11,AngII,COL,118,Orn,ornithine
+exGF12,AngII,COL,71.4,Orn,ornithine
+exGF13,AngII,COL,65.9,Orn,ornithine
+exGF14,AngII,COL,130,Orn,ornithine
+exGF16,AngII,COL,68.3,Orn,ornithine
+exGF17,AngII,COL,95.6,Orn,ornithine
+exGF18,AngII,COL,113,Orn,ornithine
+exGF19,AngII,COL,166,Orn,ornithine
+GF07,AngII,GF,84,Orn,ornithine
+GF08,AngII,GF,97.2,Orn,ornithine
+GF09,AngII,GF,247,Orn,ornithine
+GF10,AngII,GF,90.4,Orn,ornithine
+GF15,AngII,GF,133,Orn,ornithine
+GF16,AngII,GF,172,Orn,ornithine
+GF17,AngII,GF,159,Orn,ornithine
+GF19,AngII,GF,284,Orn,ornithine
+GF20,AngII,GF,121,Orn,ornithine
+GF21,AngII,GF,141,Orn,ornithine
+GF22,AngII,GF,129,Orn,ornithine
+sexGF1,Sham,COL,88.4,Orn,ornithine
+sexGF2,Sham,COL,83.9,Orn,ornithine
+sexGF3,Sham,COL,54.7,Orn,ornithine
+sexGF4,Sham,COL,91,Orn,ornithine
+sexGF5,Sham,COL,113,Orn,ornithine
+sGF1,Sham,GF,103,Orn,ornithine
+sGF2,Sham,GF,102,Orn,ornithine
+sGF3,Sham,GF,146,Orn,ornithine
+sGF4,Sham,GF,142,Orn,ornithine
+sGF5,Sham,GF,122,Orn,ornithine
+exGF06,AngII,COL,18.3,PC aa C32:0,PC aa C32:0
+exGF07,AngII,COL,13.3,PC aa C32:0,PC aa C32:0
+exGF09,AngII,COL,14.3,PC aa C32:0,PC aa C32:0
+exGF10,AngII,COL,14.5,PC aa C32:0,PC aa C32:0
+exGF11,AngII,COL,15,PC aa C32:0,PC aa C32:0
+exGF12,AngII,COL,10,PC aa C32:0,PC aa C32:0
+exGF13,AngII,COL,12.8,PC aa C32:0,PC aa C32:0
+exGF14,AngII,COL,11.7,PC aa C32:0,PC aa C32:0
+exGF16,AngII,COL,10.9,PC aa C32:0,PC aa C32:0
+exGF17,AngII,COL,12.5,PC aa C32:0,PC aa C32:0
+exGF18,AngII,COL,12.5,PC aa C32:0,PC aa C32:0
+exGF19,AngII,COL,11.5,PC aa C32:0,PC aa C32:0
+GF07,AngII,GF,17.8,PC aa C32:0,PC aa C32:0
+GF08,AngII,GF,16.7,PC aa C32:0,PC aa C32:0
+GF09,AngII,GF,7.27,PC aa C32:0,PC aa C32:0
+GF10,AngII,GF,16,PC aa C32:0,PC aa C32:0
+GF15,AngII,GF,11.2,PC aa C32:0,PC aa C32:0
+GF16,AngII,GF,9.48,PC aa C32:0,PC aa C32:0
+GF17,AngII,GF,16.2,PC aa C32:0,PC aa C32:0
+GF19,AngII,GF,11.7,PC aa C32:0,PC aa C32:0
+GF20,AngII,GF,12.6,PC aa C32:0,PC aa C32:0
+GF21,AngII,GF,15.2,PC aa C32:0,PC aa C32:0
+GF22,AngII,GF,17.1,PC aa C32:0,PC aa C32:0
+sGF1,Sham,GF,9.76,PC aa C32:0,PC aa C32:0
+sGF2,Sham,GF,9.43,PC aa C32:0,PC aa C32:0
+sGF3,Sham,GF,11.8,PC aa C32:0,PC aa C32:0
+sGF4,Sham,GF,9.72,PC aa C32:0,PC aa C32:0
+sGF5,Sham,GF,10.4,PC aa C32:0,PC aa C32:0
+sexGF1,Sham,COL,9.67,PC aa C32:0,PC aa C32:0
+sexGF2,Sham,COL,8.9,PC aa C32:0,PC aa C32:0
+sexGF3,Sham,COL,10.2,PC aa C32:0,PC aa C32:0
+sexGF4,Sham,COL,9.6,PC aa C32:0,PC aa C32:0
+sexGF5,Sham,COL,10.6,PC aa C32:0,PC aa C32:0
+exGF06,AngII,COL,8.71,PC aa C32:1,PC aa C32:1
+exGF07,AngII,COL,5.33,PC aa C32:1,PC aa C32:1
+exGF09,AngII,COL,5.74,PC aa C32:1,PC aa C32:1
+exGF10,AngII,COL,6.39,PC aa C32:1,PC aa C32:1
+exGF11,AngII,COL,6.36,PC aa C32:1,PC aa C32:1
+exGF12,AngII,COL,3.75,PC aa C32:1,PC aa C32:1
+exGF13,AngII,COL,5.26,PC aa C32:1,PC aa C32:1
+exGF14,AngII,COL,4.09,PC aa C32:1,PC aa C32:1
+exGF16,AngII,COL,2.54,PC aa C32:1,PC aa C32:1
+exGF17,AngII,COL,3.46,PC aa C32:1,PC aa C32:1
+exGF18,AngII,COL,4.14,PC aa C32:1,PC aa C32:1
+exGF19,AngII,COL,6.67,PC aa C32:1,PC aa C32:1
+GF07,AngII,GF,6.08,PC aa C32:1,PC aa C32:1
+GF08,AngII,GF,5.68,PC aa C32:1,PC aa C32:1
+GF09,AngII,GF,2.49,PC aa C32:1,PC aa C32:1
+GF10,AngII,GF,6.77,PC aa C32:1,PC aa C32:1
+GF15,AngII,GF,3.07,PC aa C32:1,PC aa C32:1
+GF16,AngII,GF,4.21,PC aa C32:1,PC aa C32:1
+GF17,AngII,GF,3.01,PC aa C32:1,PC aa C32:1
+GF19,AngII,GF,4.6,PC aa C32:1,PC aa C32:1
+GF20,AngII,GF,4.14,PC aa C32:1,PC aa C32:1
+GF21,AngII,GF,5.64,PC aa C32:1,PC aa C32:1
+GF22,AngII,GF,4.82,PC aa C32:1,PC aa C32:1
+sGF1,Sham,GF,1.44,PC aa C32:1,PC aa C32:1
+sGF2,Sham,GF,1.57,PC aa C32:1,PC aa C32:1
+sGF3,Sham,GF,2,PC aa C32:1,PC aa C32:1
+sGF4,Sham,GF,1.67,PC aa C32:1,PC aa C32:1
+sGF5,Sham,GF,1.76,PC aa C32:1,PC aa C32:1
+sexGF1,Sham,COL,4.82,PC aa C32:1,PC aa C32:1
+sexGF2,Sham,COL,3.55,PC aa C32:1,PC aa C32:1
+sexGF3,Sham,COL,4.71,PC aa C32:1,PC aa C32:1
+sexGF4,Sham,COL,5.13,PC aa C32:1,PC aa C32:1
+sexGF5,Sham,COL,4.77,PC aa C32:1,PC aa C32:1
+exGF06,AngII,COL,1.97,PC aa C32:2,NA
+exGF07,AngII,COL,1.24,PC aa C32:2,NA
+exGF09,AngII,COL,1.41,PC aa C32:2,NA
+exGF10,AngII,COL,1.25,PC aa C32:2,NA
+exGF11,AngII,COL,1.18,PC aa C32:2,NA
+exGF12,AngII,COL,1.14,PC aa C32:2,NA
+exGF13,AngII,COL,1.22,PC aa C32:2,NA
+exGF14,AngII,COL,0.853,PC aa C32:2,NA
+exGF16,AngII,COL,0.845,PC aa C32:2,NA
+exGF17,AngII,COL,0.88,PC aa C32:2,NA
+exGF18,AngII,COL,1.56,PC aa C32:2,NA
+exGF19,AngII,COL,1.42,PC aa C32:2,NA
+GF07,AngII,GF,1.7,PC aa C32:2,NA
+GF08,AngII,GF,1.72,PC aa C32:2,NA
+GF09,AngII,GF,0.742,PC aa C32:2,NA
+GF10,AngII,GF,2.33,PC aa C32:2,NA
+GF15,AngII,GF,0.876,PC aa C32:2,NA
+GF16,AngII,GF,1.12,PC aa C32:2,NA
+GF17,AngII,GF,1.1,PC aa C32:2,NA
+GF19,AngII,GF,1.32,PC aa C32:2,NA
+GF20,AngII,GF,1.46,PC aa C32:2,NA
+GF21,AngII,GF,2,PC aa C32:2,NA
+GF22,AngII,GF,1.82,PC aa C32:2,NA
+sGF1,Sham,GF,0.734,PC aa C32:2,NA
+sGF2,Sham,GF,0.813,PC aa C32:2,NA
+sGF3,Sham,GF,1.13,PC aa C32:2,NA
+sGF4,Sham,GF,0.895,PC aa C32:2,NA
+sGF5,Sham,GF,0.791,PC aa C32:2,NA
+sexGF1,Sham,COL,1.34,PC aa C32:2,NA
+sexGF2,Sham,COL,1.22,PC aa C32:2,NA
+sexGF3,Sham,COL,1.54,PC aa C32:2,NA
+sexGF4,Sham,COL,1.4,PC aa C32:2,NA
+sexGF5,Sham,COL,1.21,PC aa C32:2,NA
+exGF06,AngII,COL,238,PC aa C34:1,PC aa C34:1
+exGF07,AngII,COL,154,PC aa C34:1,PC aa C34:1
+exGF09,AngII,COL,163,PC aa C34:1,PC aa C34:1
+exGF10,AngII,COL,187,PC aa C34:1,PC aa C34:1
+exGF11,AngII,COL,190,PC aa C34:1,PC aa C34:1
+exGF12,AngII,COL,102,PC aa C34:1,PC aa C34:1
+exGF13,AngII,COL,132,PC aa C34:1,PC aa C34:1
+exGF14,AngII,COL,150,PC aa C34:1,PC aa C34:1
+exGF16,AngII,COL,100,PC aa C34:1,PC aa C34:1
+exGF17,AngII,COL,141,PC aa C34:1,PC aa C34:1
+exGF18,AngII,COL,109,PC aa C34:1,PC aa C34:1
+exGF19,AngII,COL,156,PC aa C34:1,PC aa C34:1
+GF07,AngII,GF,184,PC aa C34:1,PC aa C34:1
+GF08,AngII,GF,157,PC aa C34:1,PC aa C34:1
+GF09,AngII,GF,36.1,PC aa C34:1,PC aa C34:1
+GF10,AngII,GF,154,PC aa C34:1,PC aa C34:1
+GF15,AngII,GF,109,PC aa C34:1,PC aa C34:1
+GF16,AngII,GF,70.4,PC aa C34:1,PC aa C34:1
+GF17,AngII,GF,111,PC aa C34:1,PC aa C34:1
+GF19,AngII,GF,129,PC aa C34:1,PC aa C34:1
+GF20,AngII,GF,122,PC aa C34:1,PC aa C34:1
+GF21,AngII,GF,162,PC aa C34:1,PC aa C34:1
+GF22,AngII,GF,143,PC aa C34:1,PC aa C34:1
+sGF1,Sham,GF,48.8,PC aa C34:1,PC aa C34:1
+sGF2,Sham,GF,55.5,PC aa C34:1,PC aa C34:1
+sGF3,Sham,GF,76.2,PC aa C34:1,PC aa C34:1
+sGF4,Sham,GF,66.6,PC aa C34:1,PC aa C34:1
+sGF5,Sham,GF,62.1,PC aa C34:1,PC aa C34:1
+sexGF1,Sham,COL,145,PC aa C34:1,PC aa C34:1
+sexGF2,Sham,COL,116,PC aa C34:1,PC aa C34:1
+sexGF3,Sham,COL,133,PC aa C34:1,PC aa C34:1
+sexGF4,Sham,COL,144,PC aa C34:1,PC aa C34:1
+sexGF5,Sham,COL,120,PC aa C34:1,PC aa C34:1
+exGF06,AngII,COL,440,PC aa C34:2,PC aa C34:2
+exGF07,AngII,COL,344,PC aa C34:2,PC aa C34:2
+exGF09,AngII,COL,328,PC aa C34:2,PC aa C34:2
+exGF10,AngII,COL,368,PC aa C34:2,PC aa C34:2
+exGF11,AngII,COL,341,PC aa C34:2,PC aa C34:2
+exGF12,AngII,COL,293,PC aa C34:2,PC aa C34:2
+exGF13,AngII,COL,314,PC aa C34:2,PC aa C34:2
+exGF14,AngII,COL,316,PC aa C34:2,PC aa C34:2
+exGF16,AngII,COL,283,PC aa C34:2,PC aa C34:2
+exGF17,AngII,COL,305,PC aa C34:2,PC aa C34:2
+exGF18,AngII,COL,307,PC aa C34:2,PC aa C34:2
+exGF19,AngII,COL,294,PC aa C34:2,PC aa C34:2
+GF07,AngII,GF,418,PC aa C34:2,PC aa C34:2
+GF08,AngII,GF,376,PC aa C34:2,PC aa C34:2
+GF09,AngII,GF,267,PC aa C34:2,PC aa C34:2
+GF10,AngII,GF,197,PC aa C34:2,PC aa C34:2
+GF15,AngII,GF,286,PC aa C34:2,PC aa C34:2
+GF16,AngII,GF,262,PC aa C34:2,PC aa C34:2
+GF17,AngII,GF,365,PC aa C34:2,PC aa C34:2
+GF19,AngII,GF,341,PC aa C34:2,PC aa C34:2
+GF20,AngII,GF,333,PC aa C34:2,PC aa C34:2
+GF21,AngII,GF,367,PC aa C34:2,PC aa C34:2
+GF22,AngII,GF,325,PC aa C34:2,PC aa C34:2
+sGF1,Sham,GF,226,PC aa C34:2,PC aa C34:2
+sGF2,Sham,GF,237,PC aa C34:2,PC aa C34:2
+sGF3,Sham,GF,291,PC aa C34:2,PC aa C34:2
+sGF4,Sham,GF,230,PC aa C34:2,PC aa C34:2
+sGF5,Sham,GF,279,PC aa C34:2,PC aa C34:2
+sexGF1,Sham,COL,330,PC aa C34:2,PC aa C34:2
+sexGF2,Sham,COL,305,PC aa C34:2,PC aa C34:2
+sexGF3,Sham,COL,314,PC aa C34:2,PC aa C34:2
+sexGF4,Sham,COL,313,PC aa C34:2,PC aa C34:2
+sexGF5,Sham,COL,301,PC aa C34:2,PC aa C34:2
+exGF06,AngII,COL,59,PC aa C36:1,PC aa C36:1
+exGF07,AngII,COL,35.8,PC aa C36:1,PC aa C36:1
+exGF09,AngII,COL,36.8,PC aa C36:1,PC aa C36:1
+exGF10,AngII,COL,37.9,PC aa C36:1,PC aa C36:1
+exGF11,AngII,COL,36.8,PC aa C36:1,PC aa C36:1
+exGF12,AngII,COL,18.3,PC aa C36:1,PC aa C36:1
+exGF13,AngII,COL,24.3,PC aa C36:1,PC aa C36:1
+exGF14,AngII,COL,28.8,PC aa C36:1,PC aa C36:1
+exGF16,AngII,COL,23.3,PC aa C36:1,PC aa C36:1
+exGF17,AngII,COL,26.4,PC aa C36:1,PC aa C36:1
+exGF18,AngII,COL,20,PC aa C36:1,PC aa C36:1
+exGF19,AngII,COL,31,PC aa C36:1,PC aa C36:1
+GF07,AngII,GF,40.1,PC aa C36:1,PC aa C36:1
+GF08,AngII,GF,35.9,PC aa C36:1,PC aa C36:1
+GF09,AngII,GF,13.9,PC aa C36:1,PC aa C36:1
+GF10,AngII,GF,63.6,PC aa C36:1,PC aa C36:1
+GF15,AngII,GF,24.3,PC aa C36:1,PC aa C36:1
+GF16,AngII,GF,14,PC aa C36:1,PC aa C36:1
+GF17,AngII,GF,26.8,PC aa C36:1,PC aa C36:1
+GF19,AngII,GF,31,PC aa C36:1,PC aa C36:1
+GF20,AngII,GF,24.9,PC aa C36:1,PC aa C36:1
+GF21,AngII,GF,42.8,PC aa C36:1,PC aa C36:1
+GF22,AngII,GF,36.8,PC aa C36:1,PC aa C36:1
+sGF1,Sham,GF,12.7,PC aa C36:1,PC aa C36:1
+sGF2,Sham,GF,13.1,PC aa C36:1,PC aa C36:1
+sGF3,Sham,GF,16.8,PC aa C36:1,PC aa C36:1
+sGF4,Sham,GF,13.7,PC aa C36:1,PC aa C36:1
+sGF5,Sham,GF,13.6,PC aa C36:1,PC aa C36:1
+sexGF1,Sham,COL,21.8,PC aa C36:1,PC aa C36:1
+sexGF2,Sham,COL,17.8,PC aa C36:1,PC aa C36:1
+sexGF3,Sham,COL,20,PC aa C36:1,PC aa C36:1
+sexGF4,Sham,COL,21.2,PC aa C36:1,PC aa C36:1
+sexGF5,Sham,COL,16.5,PC aa C36:1,PC aa C36:1
+exGF06,AngII,COL,361,PC aa C36:2,PC aa C36:2
+exGF07,AngII,COL,277,PC aa C36:2,PC aa C36:2
+exGF09,AngII,COL,262,PC aa C36:2,PC aa C36:2
+exGF10,AngII,COL,276,PC aa C36:2,PC aa C36:2
+exGF11,AngII,COL,245,PC aa C36:2,PC aa C36:2
+exGF12,AngII,COL,189,PC aa C36:2,PC aa C36:2
+exGF13,AngII,COL,216,PC aa C36:2,PC aa C36:2
+exGF14,AngII,COL,215,PC aa C36:2,PC aa C36:2
+exGF16,AngII,COL,207,PC aa C36:2,PC aa C36:2
+exGF17,AngII,COL,205,PC aa C36:2,PC aa C36:2
+exGF18,AngII,COL,196,PC aa C36:2,PC aa C36:2
+exGF19,AngII,COL,215,PC aa C36:2,PC aa C36:2
+GF07,AngII,GF,320,PC aa C36:2,PC aa C36:2
+GF08,AngII,GF,297,PC aa C36:2,PC aa C36:2
+GF09,AngII,GF,238,PC aa C36:2,PC aa C36:2
+GF10,AngII,GF,185,PC aa C36:2,PC aa C36:2
+GF15,AngII,GF,223,PC aa C36:2,PC aa C36:2
+GF16,AngII,GF,174,PC aa C36:2,PC aa C36:2
+GF17,AngII,GF,287,PC aa C36:2,PC aa C36:2
+GF19,AngII,GF,288,PC aa C36:2,PC aa C36:2
+GF20,AngII,GF,249,PC aa C36:2,PC aa C36:2
+GF21,AngII,GF,306,PC aa C36:2,PC aa C36:2
+GF22,AngII,GF,267,PC aa C36:2,PC aa C36:2
+sGF1,Sham,GF,160,PC aa C36:2,PC aa C36:2
+sGF2,Sham,GF,153,PC aa C36:2,PC aa C36:2
+sGF3,Sham,GF,195,PC aa C36:2,PC aa C36:2
+sGF4,Sham,GF,142,PC aa C36:2,PC aa C36:2
+sGF5,Sham,GF,180,PC aa C36:2,PC aa C36:2
+sexGF1,Sham,COL,191,PC aa C36:2,PC aa C36:2
+sexGF2,Sham,COL,188,PC aa C36:2,PC aa C36:2
+sexGF3,Sham,COL,185,PC aa C36:2,PC aa C36:2
+sexGF4,Sham,COL,173,PC aa C36:2,PC aa C36:2
+sexGF5,Sham,COL,158,PC aa C36:2,PC aa C36:2
+exGF06,AngII,COL,146,PC aa C36:3,NA
+exGF07,AngII,COL,87.6,PC aa C36:3,NA
+exGF09,AngII,COL,102,PC aa C36:3,NA
+exGF10,AngII,COL,109,PC aa C36:3,NA
+exGF11,AngII,COL,105,PC aa C36:3,NA
+exGF12,AngII,COL,74.7,PC aa C36:3,NA
+exGF13,AngII,COL,85.3,PC aa C36:3,NA
+exGF14,AngII,COL,75.3,PC aa C36:3,NA
+exGF16,AngII,COL,70.7,PC aa C36:3,NA
+exGF17,AngII,COL,74.5,PC aa C36:3,NA
+exGF18,AngII,COL,87.4,PC aa C36:3,NA
+exGF19,AngII,COL,89.7,PC aa C36:3,NA
+GF07,AngII,GF,124,PC aa C36:3,NA
+GF08,AngII,GF,112,PC aa C36:3,NA
+GF09,AngII,GF,67.3,PC aa C36:3,NA
+GF10,AngII,GF,125,PC aa C36:3,NA
+GF15,AngII,GF,71.1,PC aa C36:3,NA
+GF16,AngII,GF,44.7,PC aa C36:3,NA
+GF17,AngII,GF,88.6,PC aa C36:3,NA
+GF19,AngII,GF,90.6,PC aa C36:3,NA
+GF20,AngII,GF,80.3,PC aa C36:3,NA
+GF21,AngII,GF,112,PC aa C36:3,NA
+GF22,AngII,GF,93.2,PC aa C36:3,NA
+sGF1,Sham,GF,47.4,PC aa C36:3,NA
+sGF2,Sham,GF,46,PC aa C36:3,NA
+sGF3,Sham,GF,58,PC aa C36:3,NA
+sGF4,Sham,GF,46.7,PC aa C36:3,NA
+sGF5,Sham,GF,52.8,PC aa C36:3,NA
+sexGF1,Sham,COL,79.4,PC aa C36:3,NA
+sexGF2,Sham,COL,73.6,PC aa C36:3,NA
+sexGF3,Sham,COL,79.8,PC aa C36:3,NA
+sexGF4,Sham,COL,75.5,PC aa C36:3,NA
+sexGF5,Sham,COL,70.8,PC aa C36:3,NA
+exGF06,AngII,COL,222,PC aa C36:4,PC aa C36:4
+exGF07,AngII,COL,145,PC aa C36:4,PC aa C36:4
+exGF09,AngII,COL,160,PC aa C36:4,PC aa C36:4
+exGF10,AngII,COL,134,PC aa C36:4,PC aa C36:4
+exGF11,AngII,COL,152,PC aa C36:4,PC aa C36:4
+exGF12,AngII,COL,123,PC aa C36:4,PC aa C36:4
+exGF13,AngII,COL,150,PC aa C36:4,PC aa C36:4
+exGF14,AngII,COL,105,PC aa C36:4,PC aa C36:4
+exGF16,AngII,COL,93.3,PC aa C36:4,PC aa C36:4
+exGF17,AngII,COL,109,PC aa C36:4,PC aa C36:4
+exGF18,AngII,COL,166,PC aa C36:4,PC aa C36:4
+exGF19,AngII,COL,125,PC aa C36:4,PC aa C36:4
+GF07,AngII,GF,142,PC aa C36:4,PC aa C36:4
+GF08,AngII,GF,139,PC aa C36:4,PC aa C36:4
+GF09,AngII,GF,96.5,PC aa C36:4,PC aa C36:4
+GF10,AngII,GF,139,PC aa C36:4,PC aa C36:4
+GF15,AngII,GF,93.7,PC aa C36:4,PC aa C36:4
+GF16,AngII,GF,53.3,PC aa C36:4,PC aa C36:4
+GF17,AngII,GF,127,PC aa C36:4,PC aa C36:4
+GF19,AngII,GF,121,PC aa C36:4,PC aa C36:4
+GF20,AngII,GF,117,PC aa C36:4,PC aa C36:4
+GF21,AngII,GF,158,PC aa C36:4,PC aa C36:4
+GF22,AngII,GF,139,PC aa C36:4,PC aa C36:4
+sGF1,Sham,GF,65.8,PC aa C36:4,PC aa C36:4
+sGF2,Sham,GF,68.8,PC aa C36:4,PC aa C36:4
+sGF3,Sham,GF,90.8,PC aa C36:4,PC aa C36:4
+sGF4,Sham,GF,66.7,PC aa C36:4,PC aa C36:4
+sGF5,Sham,GF,83.9,PC aa C36:4,PC aa C36:4
+sexGF1,Sham,COL,112,PC aa C36:4,PC aa C36:4
+sexGF2,Sham,COL,105,PC aa C36:4,PC aa C36:4
+sexGF3,Sham,COL,120,PC aa C36:4,PC aa C36:4
+sexGF4,Sham,COL,109,PC aa C36:4,PC aa C36:4
+sexGF5,Sham,COL,110,PC aa C36:4,PC aa C36:4
+exGF06,AngII,COL,44.4,PC aa C38:3,NA
+exGF07,AngII,COL,25,PC aa C38:3,NA
+exGF09,AngII,COL,33,PC aa C38:3,NA
+exGF10,AngII,COL,33.6,PC aa C38:3,NA
+exGF11,AngII,COL,33.3,PC aa C38:3,NA
+exGF12,AngII,COL,19,PC aa C38:3,NA
+exGF13,AngII,COL,25,PC aa C38:3,NA
+exGF14,AngII,COL,22.9,PC aa C38:3,NA
+exGF16,AngII,COL,22,PC aa C38:3,NA
+exGF17,AngII,COL,21.9,PC aa C38:3,NA
+exGF18,AngII,COL,19,PC aa C38:3,NA
+exGF19,AngII,COL,25.4,PC aa C38:3,NA
+GF07,AngII,GF,31.8,PC aa C38:3,NA
+GF08,AngII,GF,28.8,PC aa C38:3,NA
+GF09,AngII,GF,13.7,PC aa C38:3,NA
+GF10,AngII,GF,34.3,PC aa C38:3,NA
+GF15,AngII,GF,20.5,PC aa C38:3,NA
+GF16,AngII,GF,8.78,PC aa C38:3,NA
+GF17,AngII,GF,22,PC aa C38:3,NA
+GF19,AngII,GF,25.8,PC aa C38:3,NA
+GF20,AngII,GF,21.4,PC aa C38:3,NA
+GF21,AngII,GF,31.2,PC aa C38:3,NA
+GF22,AngII,GF,28,PC aa C38:3,NA
+sGF1,Sham,GF,13.7,PC aa C38:3,NA
+sGF2,Sham,GF,13.6,PC aa C38:3,NA
+sGF3,Sham,GF,16.6,PC aa C38:3,NA
+sGF4,Sham,GF,14.7,PC aa C38:3,NA
+sGF5,Sham,GF,15.4,PC aa C38:3,NA
+sexGF1,Sham,COL,21.7,PC aa C38:3,NA
+sexGF2,Sham,COL,19.7,PC aa C38:3,NA
+sexGF3,Sham,COL,22.2,PC aa C38:3,NA
+sexGF4,Sham,COL,19.7,PC aa C38:3,NA
+sexGF5,Sham,COL,18.1,PC aa C38:3,NA
+exGF06,AngII,COL,187,PC aa C38:4,PC aa C38:4
+exGF07,AngII,COL,115,PC aa C38:4,PC aa C38:4
+exGF09,AngII,COL,116,PC aa C38:4,PC aa C38:4
+exGF10,AngII,COL,94.5,PC aa C38:4,PC aa C38:4
+exGF11,AngII,COL,100,PC aa C38:4,PC aa C38:4
+exGF12,AngII,COL,71.4,PC aa C38:4,PC aa C38:4
+exGF13,AngII,COL,102,PC aa C38:4,PC aa C38:4
+exGF14,AngII,COL,66,PC aa C38:4,PC aa C38:4
+exGF16,AngII,COL,76,PC aa C38:4,PC aa C38:4
+exGF17,AngII,COL,69.4,PC aa C38:4,PC aa C38:4
+exGF18,AngII,COL,109,PC aa C38:4,PC aa C38:4
+exGF19,AngII,COL,83,PC aa C38:4,PC aa C38:4
+GF07,AngII,GF,97.1,PC aa C38:4,PC aa C38:4
+GF08,AngII,GF,103,PC aa C38:4,PC aa C38:4
+GF09,AngII,GF,70.2,PC aa C38:4,PC aa C38:4
+GF10,AngII,GF,103,PC aa C38:4,PC aa C38:4
+GF15,AngII,GF,73.4,PC aa C38:4,PC aa C38:4
+GF16,AngII,GF,20.2,PC aa C38:4,PC aa C38:4
+GF17,AngII,GF,111,PC aa C38:4,PC aa C38:4
+GF19,AngII,GF,87.4,PC aa C38:4,PC aa C38:4
+GF20,AngII,GF,81.7,PC aa C38:4,PC aa C38:4
+GF21,AngII,GF,130,PC aa C38:4,PC aa C38:4
+GF22,AngII,GF,113,PC aa C38:4,PC aa C38:4
+sGF1,Sham,GF,46,PC aa C38:4,PC aa C38:4
+sGF2,Sham,GF,46.7,PC aa C38:4,PC aa C38:4
+sGF3,Sham,GF,65.3,PC aa C38:4,PC aa C38:4
+sGF4,Sham,GF,46.6,PC aa C38:4,PC aa C38:4
+sGF5,Sham,GF,58.8,PC aa C38:4,PC aa C38:4
+sexGF1,Sham,COL,55.7,PC aa C38:4,PC aa C38:4
+sexGF2,Sham,COL,53.4,PC aa C38:4,PC aa C38:4
+sexGF3,Sham,COL,63.8,PC aa C38:4,PC aa C38:4
+sexGF4,Sham,COL,56.2,PC aa C38:4,PC aa C38:4
+sexGF5,Sham,COL,56,PC aa C38:4,PC aa C38:4
+exGF06,AngII,COL,64.8,PC aa C38:5,NA
+exGF07,AngII,COL,34.8,PC aa C38:5,NA
+exGF09,AngII,COL,40.5,PC aa C38:5,NA
+exGF10,AngII,COL,36.3,PC aa C38:5,NA
+exGF11,AngII,COL,36.9,PC aa C38:5,NA
+exGF12,AngII,COL,24.6,PC aa C38:5,NA
+exGF13,AngII,COL,30.8,PC aa C38:5,NA
+exGF14,AngII,COL,25.1,PC aa C38:5,NA
+exGF16,AngII,COL,23.8,PC aa C38:5,NA
+exGF17,AngII,COL,27.2,PC aa C38:5,NA
+exGF18,AngII,COL,50.7,PC aa C38:5,NA
+exGF19,AngII,COL,32.5,PC aa C38:5,NA
+GF07,AngII,GF,44.7,PC aa C38:5,NA
+GF08,AngII,GF,42.8,PC aa C38:5,NA
+GF09,AngII,GF,18.2,PC aa C38:5,NA
+GF10,AngII,GF,48.8,PC aa C38:5,NA
+GF15,AngII,GF,28.6,PC aa C38:5,NA
+GF16,AngII,GF,8.55,PC aa C38:5,NA
+GF17,AngII,GF,34.7,PC aa C38:5,NA
+GF19,AngII,GF,35.6,PC aa C38:5,NA
+GF20,AngII,GF,33.1,PC aa C38:5,NA
+GF21,AngII,GF,49.5,PC aa C38:5,NA
+GF22,AngII,GF,42.2,PC aa C38:5,NA
+sGF1,Sham,GF,16.3,PC aa C38:5,NA
+sGF2,Sham,GF,17.3,PC aa C38:5,NA
+sGF3,Sham,GF,22.7,PC aa C38:5,NA
+sGF4,Sham,GF,18.3,PC aa C38:5,NA
+sGF5,Sham,GF,21,PC aa C38:5,NA
+sexGF1,Sham,COL,25.5,PC aa C38:5,NA
+sexGF2,Sham,COL,23.5,PC aa C38:5,NA
+sexGF3,Sham,COL,27.4,PC aa C38:5,NA
+sexGF4,Sham,COL,26.6,PC aa C38:5,NA
+sexGF5,Sham,COL,24.7,PC aa C38:5,NA
+exGF06,AngII,COL,157,PC aa C38:6,PC aa C38:6
+exGF07,AngII,COL,108,PC aa C38:6,PC aa C38:6
+exGF09,AngII,COL,113,PC aa C38:6,PC aa C38:6
+exGF10,AngII,COL,109,PC aa C38:6,PC aa C38:6
+exGF11,AngII,COL,111,PC aa C38:6,PC aa C38:6
+exGF12,AngII,COL,94.3,PC aa C38:6,PC aa C38:6
+exGF13,AngII,COL,106,PC aa C38:6,PC aa C38:6
+exGF14,AngII,COL,84.9,PC aa C38:6,PC aa C38:6
+exGF16,AngII,COL,93.6,PC aa C38:6,PC aa C38:6
+exGF17,AngII,COL,91.6,PC aa C38:6,PC aa C38:6
+exGF18,AngII,COL,126,PC aa C38:6,PC aa C38:6
+exGF19,AngII,COL,80.5,PC aa C38:6,PC aa C38:6
+GF07,AngII,GF,116,PC aa C38:6,PC aa C38:6
+GF08,AngII,GF,111,PC aa C38:6,PC aa C38:6
+GF09,AngII,GF,48,PC aa C38:6,PC aa C38:6
+GF10,AngII,GF,115,PC aa C38:6,PC aa C38:6
+GF15,AngII,GF,92.3,PC aa C38:6,PC aa C38:6
+GF16,AngII,GF,24.4,PC aa C38:6,PC aa C38:6
+GF17,AngII,GF,133,PC aa C38:6,PC aa C38:6
+GF19,AngII,GF,104,PC aa C38:6,PC aa C38:6
+GF20,AngII,GF,109,PC aa C38:6,PC aa C38:6
+GF21,AngII,GF,140,PC aa C38:6,PC aa C38:6
+GF22,AngII,GF,133,PC aa C38:6,PC aa C38:6
+sGF1,Sham,GF,79,PC aa C38:6,PC aa C38:6
+sGF2,Sham,GF,81.3,PC aa C38:6,PC aa C38:6
+sGF3,Sham,GF,106,PC aa C38:6,PC aa C38:6
+sGF4,Sham,GF,84.2,PC aa C38:6,PC aa C38:6
+sGF5,Sham,GF,94,PC aa C38:6,PC aa C38:6
+sexGF1,Sham,COL,91.3,PC aa C38:6,PC aa C38:6
+sexGF2,Sham,COL,79.1,PC aa C38:6,PC aa C38:6
+sexGF3,Sham,COL,95.3,PC aa C38:6,PC aa C38:6
+sexGF4,Sham,COL,84.7,PC aa C38:6,PC aa C38:6
+sexGF5,Sham,COL,88.7,PC aa C38:6,PC aa C38:6
+exGF06,AngII,COL,0.453,PC aa C40:3,NA
+exGF07,AngII,COL,0.321,PC aa C40:3,NA
+exGF09,AngII,COL,0.508,PC aa C40:3,NA
+exGF10,AngII,COL,0.433,PC aa C40:3,NA
+exGF11,AngII,COL,0.51,PC aa C40:3,NA
+exGF12,AngII,COL,0.454,PC aa C40:3,NA
+exGF13,AngII,COL,0.43,PC aa C40:3,NA
+exGF14,AngII,COL,0.401,PC aa C40:3,NA
+exGF16,AngII,COL,0.338,PC aa C40:3,NA
+exGF17,AngII,COL,0.396,PC aa C40:3,NA
+exGF18,AngII,COL,0.26,PC aa C40:3,NA
+exGF19,AngII,COL,0.266,PC aa C40:3,NA
+GF07,AngII,GF,0.397,PC aa C40:3,NA
+GF08,AngII,GF,0.375,PC aa C40:3,NA
+GF09,AngII,GF,0.261,PC aa C40:3,NA
+GF10,AngII,GF,0.432,PC aa C40:3,NA
+GF15,AngII,GF,0.227,PC aa C40:3,NA
+GF16,AngII,GF,0.171,PC aa C40:3,NA
+GF17,AngII,GF,0.34,PC aa C40:3,NA
+GF19,AngII,GF,0.358,PC aa C40:3,NA
+GF20,AngII,GF,0.392,PC aa C40:3,NA
+GF21,AngII,GF,0.356,PC aa C40:3,NA
+GF22,AngII,GF,0.389,PC aa C40:3,NA
+sGF1,Sham,GF,0.335,PC aa C40:3,NA
+sGF2,Sham,GF,0.369,PC aa C40:3,NA
+sGF3,Sham,GF,0.469,PC aa C40:3,NA
+sGF4,Sham,GF,0.413,PC aa C40:3,NA
+sGF5,Sham,GF,0.306,PC aa C40:3,NA
+sexGF1,Sham,COL,0.596,PC aa C40:3,NA
+sexGF2,Sham,COL,0.59,PC aa C40:3,NA
+sexGF3,Sham,COL,0.582,PC aa C40:3,NA
+sexGF4,Sham,COL,0.525,PC aa C40:3,NA
+sexGF5,Sham,COL,0.5,PC aa C40:3,NA
+exGF06,AngII,COL,3.37,PC aa C40:4,NA
+exGF07,AngII,COL,2.2,PC aa C40:4,NA
+exGF09,AngII,COL,2.63,PC aa C40:4,NA
+exGF10,AngII,COL,2.39,PC aa C40:4,NA
+exGF11,AngII,COL,2.54,PC aa C40:4,NA
+exGF12,AngII,COL,2.06,PC aa C40:4,NA
+exGF13,AngII,COL,2.3,PC aa C40:4,NA
+exGF14,AngII,COL,1.98,PC aa C40:4,NA
+exGF16,AngII,COL,1.75,PC aa C40:4,NA
+exGF17,AngII,COL,1.83,PC aa C40:4,NA
+exGF18,AngII,COL,1.48,PC aa C40:4,NA
+exGF19,AngII,COL,1.6,PC aa C40:4,NA
+GF07,AngII,GF,2.68,PC aa C40:4,NA
+GF08,AngII,GF,2.59,PC aa C40:4,NA
+GF09,AngII,GF,1.8,PC aa C40:4,NA
+GF10,AngII,GF,2.81,PC aa C40:4,NA
+GF15,AngII,GF,1.93,PC aa C40:4,NA
+GF16,AngII,GF,0.803,PC aa C40:4,NA
+GF17,AngII,GF,2.38,PC aa C40:4,NA
+GF19,AngII,GF,2.32,PC aa C40:4,NA
+GF20,AngII,GF,2.32,PC aa C40:4,NA
+GF21,AngII,GF,2.83,PC aa C40:4,NA
+GF22,AngII,GF,2.47,PC aa C40:4,NA
+sGF1,Sham,GF,1.65,PC aa C40:4,NA
+sGF2,Sham,GF,1.8,PC aa C40:4,NA
+sGF3,Sham,GF,2.08,PC aa C40:4,NA
+sGF4,Sham,GF,1.66,PC aa C40:4,NA
+sGF5,Sham,GF,1.85,PC aa C40:4,NA
+sexGF1,Sham,COL,2.25,PC aa C40:4,NA
+sexGF2,Sham,COL,2.22,PC aa C40:4,NA
+sexGF3,Sham,COL,2.29,PC aa C40:4,NA
+sexGF4,Sham,COL,1.98,PC aa C40:4,NA
+sexGF5,Sham,COL,1.99,PC aa C40:4,NA
+exGF06,AngII,COL,0.136,PC aa C42:1,NA
+exGF07,AngII,COL,0.103,PC aa C42:1,NA
+exGF09,AngII,COL,0.088,PC aa C42:1,NA
+exGF10,AngII,COL,0.119,PC aa C42:1,NA
+exGF11,AngII,COL,0.12,PC aa C42:1,NA
+exGF12,AngII,COL,0.089,PC aa C42:1,NA
+exGF13,AngII,COL,0.095,PC aa C42:1,NA
+exGF14,AngII,COL,0.112,PC aa C42:1,NA
+exGF16,AngII,COL,0.102,PC aa C42:1,NA
+exGF17,AngII,COL,0.104,PC aa C42:1,NA
+exGF18,AngII,COL,0.056,PC aa C42:1,NA
+exGF19,AngII,COL,0.07,PC aa C42:1,NA
+GF07,AngII,GF,0.104,PC aa C42:1,NA
+GF08,AngII,GF,0.101,PC aa C42:1,NA
+GF09,AngII,GF,0.118,PC aa C42:1,NA
+GF10,AngII,GF,0.156,PC aa C42:1,NA
+GF15,AngII,GF,0.118,PC aa C42:1,NA
+GF16,AngII,GF,0.087,PC aa C42:1,NA
+GF17,AngII,GF,0.139,PC aa C42:1,NA
+GF19,AngII,GF,0.112,PC aa C42:1,NA
+GF20,AngII,GF,0.098,PC aa C42:1,NA
+GF21,AngII,GF,0.152,PC aa C42:1,NA
+GF22,AngII,GF,0.161,PC aa C42:1,NA
+sGF1,Sham,GF,0.107,PC aa C42:1,NA
+sGF2,Sham,GF,0.092,PC aa C42:1,NA
+sGF3,Sham,GF,0.103,PC aa C42:1,NA
+sGF4,Sham,GF,0.087,PC aa C42:1,NA
+sGF5,Sham,GF,0.117,PC aa C42:1,NA
+sexGF1,Sham,COL,0.086,PC aa C42:1,NA
+sexGF2,Sham,COL,0.091,PC aa C42:1,NA
+sexGF3,Sham,COL,0.115,PC aa C42:1,NA
+sexGF4,Sham,COL,0.096,PC aa C42:1,NA
+sexGF5,Sham,COL,0.07,PC aa C42:1,NA
+exGF06,AngII,COL,0.343,PC aa C42:5,NA
+exGF07,AngII,COL,0.274,PC aa C42:5,NA
+exGF09,AngII,COL,0.259,PC aa C42:5,NA
+exGF10,AngII,COL,0.279,PC aa C42:5,NA
+exGF11,AngII,COL,0.281,PC aa C42:5,NA
+exGF12,AngII,COL,0.25,PC aa C42:5,NA
+exGF13,AngII,COL,0.252,PC aa C42:5,NA
+exGF14,AngII,COL,0.243,PC aa C42:5,NA
+exGF16,AngII,COL,0.233,PC aa C42:5,NA
+exGF17,AngII,COL,0.239,PC aa C42:5,NA
+exGF18,AngII,COL,0.188,PC aa C42:5,NA
+exGF19,AngII,COL,0.154,PC aa C42:5,NA
+GF07,AngII,GF,0.261,PC aa C42:5,NA
+GF08,AngII,GF,0.298,PC aa C42:5,NA
+GF09,AngII,GF,0.185,PC aa C42:5,NA
+GF10,AngII,GF,0.27,PC aa C42:5,NA
+GF15,AngII,GF,0.212,PC aa C42:5,NA
+GF16,AngII,GF,0.092,PC aa C42:5,NA
+GF17,AngII,GF,0.273,PC aa C42:5,NA
+GF19,AngII,GF,0.238,PC aa C42:5,NA
+GF20,AngII,GF,0.218,PC aa C42:5,NA
+GF21,AngII,GF,0.3,PC aa C42:5,NA
+GF22,AngII,GF,0.295,PC aa C42:5,NA
+sGF1,Sham,GF,0.177,PC aa C42:5,NA
+sGF2,Sham,GF,0.205,PC aa C42:5,NA
+sGF3,Sham,GF,0.265,PC aa C42:5,NA
+sGF4,Sham,GF,0.217,PC aa C42:5,NA
+sGF5,Sham,GF,0.21,PC aa C42:5,NA
+sexGF1,Sham,COL,0.288,PC aa C42:5,NA
+sexGF2,Sham,COL,0.284,PC aa C42:5,NA
+sexGF3,Sham,COL,0.311,PC aa C42:5,NA
+sexGF4,Sham,COL,0.255,PC aa C42:5,NA
+sexGF5,Sham,COL,0.274,PC aa C42:5,NA
+exGF06,AngII,COL,0.683,PC ae C32:1,NA
+exGF07,AngII,COL,0.793,PC ae C32:1,NA
+exGF09,AngII,COL,0.598,PC ae C32:1,NA
+exGF10,AngII,COL,0.612,PC ae C32:1,NA
+exGF11,AngII,COL,0.464,PC ae C32:1,NA
+exGF12,AngII,COL,0.521,PC ae C32:1,NA
+exGF13,AngII,COL,0.479,PC ae C32:1,NA
+exGF14,AngII,COL,0.451,PC ae C32:1,NA
+exGF16,AngII,COL,0.545,PC ae C32:1,NA
+exGF17,AngII,COL,0.436,PC ae C32:1,NA
+exGF18,AngII,COL,0.355,PC ae C32:1,NA
+exGF19,AngII,COL,0.445,PC ae C32:1,NA
+GF07,AngII,GF,0.917,PC ae C32:1,NA
+GF08,AngII,GF,0.494,PC ae C32:1,NA
+GF09,AngII,GF,0.671,PC ae C32:1,NA
+GF10,AngII,GF,1.87,PC ae C32:1,NA
+GF15,AngII,GF,0.541,PC ae C32:1,NA
+GF16,AngII,GF,0.422,PC ae C32:1,NA
+GF17,AngII,GF,0.61,PC ae C32:1,NA
+GF19,AngII,GF,0.456,PC ae C32:1,NA
+GF20,AngII,GF,0.446,PC ae C32:1,NA
+GF21,AngII,GF,0.822,PC ae C32:1,NA
+GF22,AngII,GF,1.18,PC ae C32:1,NA
+sGF1,Sham,GF,0.435,PC ae C32:1,NA
+sGF2,Sham,GF,0.623,PC ae C32:1,NA
+sGF3,Sham,GF,0.714,PC ae C32:1,NA
+sGF4,Sham,GF,0.687,PC ae C32:1,NA
+sGF5,Sham,GF,0.439,PC ae C32:1,NA
+sexGF1,Sham,COL,0.585,PC ae C32:1,NA
+sexGF2,Sham,COL,0.715,PC ae C32:1,NA
+sexGF3,Sham,COL,0.831,PC ae C32:1,NA
+sexGF4,Sham,COL,0.652,PC ae C32:1,NA
+sexGF5,Sham,COL,0.567,PC ae C32:1,NA
+exGF06,AngII,COL,0.535,PC ae C34:0,NA
+exGF07,AngII,COL,0.5,PC ae C34:0,NA
+exGF09,AngII,COL,0.443,PC ae C34:0,NA
+exGF10,AngII,COL,0.522,PC ae C34:0,NA
+exGF11,AngII,COL,0.479,PC ae C34:0,NA
+exGF12,AngII,COL,0.322,PC ae C34:0,NA
+exGF13,AngII,COL,0.466,PC ae C34:0,NA
+exGF14,AngII,COL,0.428,PC ae C34:0,NA
+exGF16,AngII,COL,0.401,PC ae C34:0,NA
+exGF17,AngII,COL,0.403,PC ae C34:0,NA
+exGF18,AngII,COL,0.48,PC ae C34:0,NA
+exGF19,AngII,COL,0.469,PC ae C34:0,NA
+GF07,AngII,GF,0.555,PC ae C34:0,NA
+GF08,AngII,GF,0.577,PC ae C34:0,NA
+GF09,AngII,GF,0.25,PC ae C34:0,NA
+GF10,AngII,GF,0.647,PC ae C34:0,NA
+GF15,AngII,GF,0.492,PC ae C34:0,NA
+GF16,AngII,GF,0.366,PC ae C34:0,NA
+GF17,AngII,GF,0.541,PC ae C34:0,NA
+GF19,AngII,GF,0.397,PC ae C34:0,NA
+GF20,AngII,GF,0.432,PC ae C34:0,NA
+GF21,AngII,GF,0.541,PC ae C34:0,NA
+GF22,AngII,GF,0.66,PC ae C34:0,NA
+sGF1,Sham,GF,0.379,PC ae C34:0,NA
+sGF2,Sham,GF,0.469,PC ae C34:0,NA
+sGF3,Sham,GF,0.461,PC ae C34:0,NA
+sGF4,Sham,GF,0.391,PC ae C34:0,NA
+sGF5,Sham,GF,0.385,PC ae C34:0,NA
+sexGF1,Sham,COL,0.38,PC ae C34:0,NA
+sexGF2,Sham,COL,0.372,PC ae C34:0,NA
+sexGF3,Sham,COL,0.399,PC ae C34:0,NA
+sexGF4,Sham,COL,0.404,PC ae C34:0,NA
+sexGF5,Sham,COL,0.343,PC ae C34:0,NA
+exGF06,AngII,COL,4.87,PC ae C34:1,NA
+exGF07,AngII,COL,3.77,PC ae C34:1,NA
+exGF09,AngII,COL,3.88,PC ae C34:1,NA
+exGF10,AngII,COL,3.99,PC ae C34:1,NA
+exGF11,AngII,COL,3.96,PC ae C34:1,NA
+exGF12,AngII,COL,2.66,PC ae C34:1,NA
+exGF13,AngII,COL,3.32,PC ae C34:1,NA
+exGF14,AngII,COL,3.11,PC ae C34:1,NA
+exGF16,AngII,COL,2.59,PC ae C34:1,NA
+exGF17,AngII,COL,3.11,PC ae C34:1,NA
+exGF18,AngII,COL,2.98,PC ae C34:1,NA
+exGF19,AngII,COL,3.88,PC ae C34:1,NA
+GF07,AngII,GF,4.66,PC ae C34:1,NA
+GF08,AngII,GF,4.15,PC ae C34:1,NA
+GF09,AngII,GF,2.77,PC ae C34:1,NA
+GF10,AngII,GF,4.53,PC ae C34:1,NA
+GF15,AngII,GF,3.14,PC ae C34:1,NA
+GF16,AngII,GF,1.88,PC ae C34:1,NA
+GF17,AngII,GF,3.23,PC ae C34:1,NA
+GF19,AngII,GF,3.32,PC ae C34:1,NA
+GF20,AngII,GF,3.26,PC ae C34:1,NA
+GF21,AngII,GF,4.3,PC ae C34:1,NA
+GF22,AngII,GF,3.91,PC ae C34:1,NA
+sGF1,Sham,GF,2.05,PC ae C34:1,NA
+sGF2,Sham,GF,1.96,PC ae C34:1,NA
+sGF3,Sham,GF,2.49,PC ae C34:1,NA
+sGF4,Sham,GF,2.41,PC ae C34:1,NA
+sGF5,Sham,GF,2.22,PC ae C34:1,NA
+sexGF1,Sham,COL,3.15,PC ae C34:1,NA
+sexGF2,Sham,COL,2.81,PC ae C34:1,NA
+sexGF3,Sham,COL,3.31,PC ae C34:1,NA
+sexGF4,Sham,COL,3.23,PC ae C34:1,NA
+sexGF5,Sham,COL,3,PC ae C34:1,NA
+exGF06,AngII,COL,4.31,PC ae C34:2,NA
+exGF07,AngII,COL,3.72,PC ae C34:2,NA
+exGF09,AngII,COL,3.97,PC ae C34:2,NA
+exGF10,AngII,COL,3.27,PC ae C34:2,NA
+exGF11,AngII,COL,3.59,PC ae C34:2,NA
+exGF12,AngII,COL,3.23,PC ae C34:2,NA
+exGF13,AngII,COL,3.47,PC ae C34:2,NA
+exGF14,AngII,COL,2.84,PC ae C34:2,NA
+exGF16,AngII,COL,2.73,PC ae C34:2,NA
+exGF17,AngII,COL,2.97,PC ae C34:2,NA
+exGF18,AngII,COL,3.2,PC ae C34:2,NA
+exGF19,AngII,COL,3.08,PC ae C34:2,NA
+GF07,AngII,GF,4.22,PC ae C34:2,NA
+GF08,AngII,GF,3.89,PC ae C34:2,NA
+GF09,AngII,GF,3.9,PC ae C34:2,NA
+GF10,AngII,GF,5.04,PC ae C34:2,NA
+GF15,AngII,GF,2.98,PC ae C34:2,NA
+GF16,AngII,GF,3.05,PC ae C34:2,NA
+GF17,AngII,GF,3.61,PC ae C34:2,NA
+GF19,AngII,GF,3.56,PC ae C34:2,NA
+GF20,AngII,GF,3.41,PC ae C34:2,NA
+GF21,AngII,GF,4.29,PC ae C34:2,NA
+GF22,AngII,GF,4.05,PC ae C34:2,NA
+sGF1,Sham,GF,2.85,PC ae C34:2,NA
+sGF2,Sham,GF,2.73,PC ae C34:2,NA
+sGF3,Sham,GF,3.28,PC ae C34:2,NA
+sGF4,Sham,GF,2.79,PC ae C34:2,NA
+sGF5,Sham,GF,3.24,PC ae C34:2,NA
+sexGF1,Sham,COL,3.49,PC ae C34:2,NA
+sexGF2,Sham,COL,3.44,PC ae C34:2,NA
+sexGF3,Sham,COL,3.82,PC ae C34:2,NA
+sexGF4,Sham,COL,3.68,PC ae C34:2,NA
+sexGF5,Sham,COL,3.14,PC ae C34:2,NA
+exGF06,AngII,COL,3.22,PC ae C36:1,NA
+exGF07,AngII,COL,2.27,PC ae C36:1,NA
+exGF09,AngII,COL,2.29,PC ae C36:1,NA
+exGF10,AngII,COL,2.67,PC ae C36:1,NA
+exGF11,AngII,COL,2.64,PC ae C36:1,NA
+exGF12,AngII,COL,1.58,PC ae C36:1,NA
+exGF13,AngII,COL,1.93,PC ae C36:1,NA
+exGF14,AngII,COL,2.12,PC ae C36:1,NA
+exGF16,AngII,COL,1.96,PC ae C36:1,NA
+exGF17,AngII,COL,2.41,PC ae C36:1,NA
+exGF18,AngII,COL,1.85,PC ae C36:1,NA
+exGF19,AngII,COL,2.5,PC ae C36:1,NA
+GF07,AngII,GF,3.4,PC ae C36:1,NA
+GF08,AngII,GF,2.94,PC ae C36:1,NA
+GF09,AngII,GF,1.26,PC ae C36:1,NA
+GF10,AngII,GF,3.81,PC ae C36:1,NA
+GF15,AngII,GF,2.27,PC ae C36:1,NA
+GF16,AngII,GF,1.37,PC ae C36:1,NA
+GF17,AngII,GF,2.12,PC ae C36:1,NA
+GF19,AngII,GF,2.24,PC ae C36:1,NA
+GF20,AngII,GF,2.2,PC ae C36:1,NA
+GF21,AngII,GF,3.05,PC ae C36:1,NA
+GF22,AngII,GF,2.63,PC ae C36:1,NA
+sGF1,Sham,GF,1.43,PC ae C36:1,NA
+sGF2,Sham,GF,1.38,PC ae C36:1,NA
+sGF3,Sham,GF,1.65,PC ae C36:1,NA
+sGF4,Sham,GF,1.66,PC ae C36:1,NA
+sGF5,Sham,GF,1.53,PC ae C36:1,NA
+sexGF1,Sham,COL,2.4,PC ae C36:1,NA
+sexGF2,Sham,COL,1.99,PC ae C36:1,NA
+sexGF3,Sham,COL,2.09,PC ae C36:1,NA
+sexGF4,Sham,COL,2.26,PC ae C36:1,NA
+sexGF5,Sham,COL,1.96,PC ae C36:1,NA
+exGF06,AngII,COL,2.65,PC ae C36:3,NA
+exGF07,AngII,COL,1.86,PC ae C36:3,NA
+exGF09,AngII,COL,2.11,PC ae C36:3,NA
+exGF10,AngII,COL,2.03,PC ae C36:3,NA
+exGF11,AngII,COL,2.04,PC ae C36:3,NA
+exGF12,AngII,COL,1.75,PC ae C36:3,NA
+exGF13,AngII,COL,2.8,PC ae C36:3,NA
+exGF14,AngII,COL,1.55,PC ae C36:3,NA
+exGF16,AngII,COL,1.54,PC ae C36:3,NA
+exGF17,AngII,COL,1.61,PC ae C36:3,NA
+exGF18,AngII,COL,1.93,PC ae C36:3,NA
+exGF19,AngII,COL,1.77,PC ae C36:3,NA
+GF07,AngII,GF,2.62,PC ae C36:3,NA
+GF08,AngII,GF,2.15,PC ae C36:3,NA
+GF09,AngII,GF,1.84,PC ae C36:3,NA
+GF10,AngII,GF,3.12,PC ae C36:3,NA
+GF15,AngII,GF,1.68,PC ae C36:3,NA
+GF16,AngII,GF,1.13,PC ae C36:3,NA
+GF17,AngII,GF,1.83,PC ae C36:3,NA
+GF19,AngII,GF,1.82,PC ae C36:3,NA
+GF20,AngII,GF,1.84,PC ae C36:3,NA
+GF21,AngII,GF,2.4,PC ae C36:3,NA
+GF22,AngII,GF,2.14,PC ae C36:3,NA
+sGF1,Sham,GF,1.22,PC ae C36:3,NA
+sGF2,Sham,GF,1.26,PC ae C36:3,NA
+sGF3,Sham,GF,1.47,PC ae C36:3,NA
+sGF4,Sham,GF,1.18,PC ae C36:3,NA
+sGF5,Sham,GF,1.26,PC ae C36:3,NA
+sexGF1,Sham,COL,1.93,PC ae C36:3,NA
+sexGF2,Sham,COL,1.95,PC ae C36:3,NA
+sexGF3,Sham,COL,1.96,PC ae C36:3,NA
+sexGF4,Sham,COL,1.89,PC ae C36:3,NA
+sexGF5,Sham,COL,1.84,PC ae C36:3,NA
+exGF06,AngII,COL,0.819,PC ae C38:1,NA
+exGF07,AngII,COL,0.765,PC ae C38:1,NA
+exGF09,AngII,COL,0.683,PC ae C38:1,NA
+exGF10,AngII,COL,0.765,PC ae C38:1,NA
+exGF11,AngII,COL,0.665,PC ae C38:1,NA
+exGF12,AngII,COL,0.542,PC ae C38:1,NA
+exGF13,AngII,COL,0.465,PC ae C38:1,NA
+exGF14,AngII,COL,0.507,PC ae C38:1,NA
+exGF16,AngII,COL,0.479,PC ae C38:1,NA
+exGF17,AngII,COL,0.637,PC ae C38:1,NA
+exGF18,AngII,COL,0.448,PC ae C38:1,NA
+exGF19,AngII,COL,0.509,PC ae C38:1,NA
+GF07,AngII,GF,0.925,PC ae C38:1,NA
+GF08,AngII,GF,0.69,PC ae C38:1,NA
+GF09,AngII,GF,0.462,PC ae C38:1,NA
+GF10,AngII,GF,1.07,PC ae C38:1,NA
+GF15,AngII,GF,0.468,PC ae C38:1,NA
+GF16,AngII,GF,0.446,PC ae C38:1,NA
+GF17,AngII,GF,0.569,PC ae C38:1,NA
+GF19,AngII,GF,0.536,PC ae C38:1,NA
+GF20,AngII,GF,0.491,PC ae C38:1,NA
+GF21,AngII,GF,0.617,PC ae C38:1,NA
+GF22,AngII,GF,0.84,PC ae C38:1,NA
+sGF1,Sham,GF,0.33,PC ae C38:1,NA
+sGF2,Sham,GF,0.404,PC ae C38:1,NA
+sGF3,Sham,GF,0.412,PC ae C38:1,NA
+sGF4,Sham,GF,0.331,PC ae C38:1,NA
+sGF5,Sham,GF,0.482,PC ae C38:1,NA
+sexGF1,Sham,COL,0.623,PC ae C38:1,NA
+sexGF2,Sham,COL,0.608,PC ae C38:1,NA
+sexGF3,Sham,COL,0.554,PC ae C38:1,NA
+sexGF4,Sham,COL,0.545,PC ae C38:1,NA
+sexGF5,Sham,COL,0.428,PC ae C38:1,NA
+exGF06,AngII,COL,2.14,PC ae C38:3,NA
+exGF07,AngII,COL,1.43,PC ae C38:3,NA
+exGF09,AngII,COL,1.75,PC ae C38:3,NA
+exGF10,AngII,COL,1.55,PC ae C38:3,NA
+exGF11,AngII,COL,1.58,PC ae C38:3,NA
+exGF12,AngII,COL,1.11,PC ae C38:3,NA
+exGF13,AngII,COL,1.25,PC ae C38:3,NA
+exGF14,AngII,COL,1.16,PC ae C38:3,NA
+exGF16,AngII,COL,1.28,PC ae C38:3,NA
+exGF17,AngII,COL,1.24,PC ae C38:3,NA
+exGF18,AngII,COL,1.51,PC ae C38:3,NA
+exGF19,AngII,COL,1.51,PC ae C38:3,NA
+GF07,AngII,GF,2.21,PC ae C38:3,NA
+GF08,AngII,GF,1.97,PC ae C38:3,NA
+GF09,AngII,GF,1.27,PC ae C38:3,NA
+GF10,AngII,GF,2.61,PC ae C38:3,NA
+GF15,AngII,GF,1.34,PC ae C38:3,NA
+GF16,AngII,GF,0.84,PC ae C38:3,NA
+GF17,AngII,GF,1.53,PC ae C38:3,NA
+GF19,AngII,GF,1.54,PC ae C38:3,NA
+GF20,AngII,GF,1.27,PC ae C38:3,NA
+GF21,AngII,GF,1.85,PC ae C38:3,NA
+GF22,AngII,GF,1.78,PC ae C38:3,NA
+sGF1,Sham,GF,0.973,PC ae C38:3,NA
+sGF2,Sham,GF,1.03,PC ae C38:3,NA
+sGF3,Sham,GF,1.19,PC ae C38:3,NA
+sGF4,Sham,GF,0.956,PC ae C38:3,NA
+sGF5,Sham,GF,1.03,PC ae C38:3,NA
+sexGF1,Sham,COL,1.23,PC ae C38:3,NA
+sexGF2,Sham,COL,1.27,PC ae C38:3,NA
+sexGF3,Sham,COL,1.2,PC ae C38:3,NA
+sexGF4,Sham,COL,1.32,PC ae C38:3,NA
+sexGF5,Sham,COL,1.26,PC ae C38:3,NA
+exGF06,AngII,COL,2.91,PC ae C38:6,NA
+exGF07,AngII,COL,2.09,PC ae C38:6,NA
+exGF09,AngII,COL,2.24,PC ae C38:6,NA
+exGF10,AngII,COL,1.83,PC ae C38:6,NA
+exGF11,AngII,COL,1.91,PC ae C38:6,NA
+exGF12,AngII,COL,1.78,PC ae C38:6,NA
+exGF13,AngII,COL,1.88,PC ae C38:6,NA
+exGF14,AngII,COL,1.46,PC ae C38:6,NA
+exGF16,AngII,COL,1.7,PC ae C38:6,NA
+exGF17,AngII,COL,1.62,PC ae C38:6,NA
+exGF18,AngII,COL,1.78,PC ae C38:6,NA
+exGF19,AngII,COL,1.5,PC ae C38:6,NA
+GF07,AngII,GF,2.37,PC ae C38:6,NA
+GF08,AngII,GF,2.19,PC ae C38:6,NA
+GF09,AngII,GF,4.44,PC ae C38:6,NA
+GF10,AngII,GF,3.15,PC ae C38:6,NA
+GF15,AngII,GF,2.21,PC ae C38:6,NA
+GF16,AngII,GF,1.04,PC ae C38:6,NA
+GF17,AngII,GF,3.19,PC ae C38:6,NA
+GF19,AngII,GF,1.94,PC ae C38:6,NA
+GF20,AngII,GF,2.22,PC ae C38:6,NA
+GF21,AngII,GF,3.14,PC ae C38:6,NA
+GF22,AngII,GF,2.78,PC ae C38:6,NA
+sGF1,Sham,GF,1.86,PC ae C38:6,NA
+sGF2,Sham,GF,1.77,PC ae C38:6,NA
+sGF3,Sham,GF,2.14,PC ae C38:6,NA
+sGF4,Sham,GF,1.75,PC ae C38:6,NA
+sGF5,Sham,GF,2.01,PC ae C38:6,NA
+sexGF1,Sham,COL,1.73,PC ae C38:6,NA
+sexGF2,Sham,COL,1.49,PC ae C38:6,NA
+sexGF3,Sham,COL,1.78,PC ae C38:6,NA
+sexGF4,Sham,COL,1.61,PC ae C38:6,NA
+sexGF5,Sham,COL,1.52,PC ae C38:6,NA
+exGF06,AngII,COL,86.8,Phe,phenylalanine
+exGF07,AngII,COL,89.9,Phe,phenylalanine
+exGF09,AngII,COL,104,Phe,phenylalanine
+exGF10,AngII,COL,105,Phe,phenylalanine
+exGF11,AngII,COL,95.7,Phe,phenylalanine
+exGF12,AngII,COL,84.3,Phe,phenylalanine
+exGF13,AngII,COL,68.6,Phe,phenylalanine
+exGF14,AngII,COL,113,Phe,phenylalanine
+exGF16,AngII,COL,87.9,Phe,phenylalanine
+exGF17,AngII,COL,80.7,Phe,phenylalanine
+exGF18,AngII,COL,92.6,Phe,phenylalanine
+exGF19,AngII,COL,112,Phe,phenylalanine
+GF07,AngII,GF,57.9,Phe,phenylalanine
+GF08,AngII,GF,76.8,Phe,phenylalanine
+GF09,AngII,GF,175,Phe,phenylalanine
+GF10,AngII,GF,71.4,Phe,phenylalanine
+GF15,AngII,GF,98.7,Phe,phenylalanine
+GF16,AngII,GF,156,Phe,phenylalanine
+GF17,AngII,GF,117,Phe,phenylalanine
+GF19,AngII,GF,81.1,Phe,phenylalanine
+GF20,AngII,GF,70.9,Phe,phenylalanine
+GF21,AngII,GF,94.7,Phe,phenylalanine
+GF22,AngII,GF,85.7,Phe,phenylalanine
+sexGF1,Sham,COL,70.7,Phe,phenylalanine
+sexGF2,Sham,COL,81.3,Phe,phenylalanine
+sexGF3,Sham,COL,67,Phe,phenylalanine
+sexGF4,Sham,COL,72.7,Phe,phenylalanine
+sexGF5,Sham,COL,68.3,Phe,phenylalanine
+sGF1,Sham,GF,84.8,Phe,phenylalanine
+sGF2,Sham,GF,90.4,Phe,phenylalanine
+sGF3,Sham,GF,118,Phe,phenylalanine
+sGF4,Sham,GF,112,Phe,phenylalanine
+sGF5,Sham,GF,102,Phe,phenylalanine
+exGF06,AngII,COL,130,Pro,proline
+exGF07,AngII,COL,133,Pro,proline
+exGF09,AngII,COL,122,Pro,proline
+exGF10,AngII,COL,161,Pro,proline
+exGF11,AngII,COL,178,Pro,proline
+exGF12,AngII,COL,125,Pro,proline
+exGF13,AngII,COL,112,Pro,proline
+exGF14,AngII,COL,189,Pro,proline
+exGF16,AngII,COL,103,Pro,proline
+exGF17,AngII,COL,132,Pro,proline
+exGF18,AngII,COL,169,Pro,proline
+exGF19,AngII,COL,196,Pro,proline
+GF07,AngII,GF,83.8,Pro,proline
+GF08,AngII,GF,89.5,Pro,proline
+GF09,AngII,GF,86.7,Pro,proline
+GF10,AngII,GF,101,Pro,proline
+GF15,AngII,GF,131,Pro,proline
+GF16,AngII,GF,183,Pro,proline
+GF17,AngII,GF,222,Pro,proline
+GF19,AngII,GF,91.5,Pro,proline
+GF20,AngII,GF,85.5,Pro,proline
+GF21,AngII,GF,155,Pro,proline
+GF22,AngII,GF,90.4,Pro,proline
+sexGF1,Sham,COL,91.9,Pro,proline
+sexGF2,Sham,COL,97.9,Pro,proline
+sexGF3,Sham,COL,79.1,Pro,proline
+sexGF4,Sham,COL,97.4,Pro,proline
+sexGF5,Sham,COL,97.4,Pro,proline
+sGF1,Sham,GF,96.2,Pro,proline
+sGF2,Sham,GF,98.9,Pro,proline
+sGF3,Sham,GF,147,Pro,proline
+sGF4,Sham,GF,128,Pro,proline
+sGF5,Sham,GF,125,Pro,proline
+exGF06,AngII,COL,1.38,Sarcosine,sarcosine
+exGF07,AngII,COL,1.94,Sarcosine,sarcosine
+exGF09,AngII,COL,2.19,Sarcosine,sarcosine
+exGF10,AngII,COL,1.62,Sarcosine,sarcosine
+exGF11,AngII,COL,1.74,Sarcosine,sarcosine
+exGF12,AngII,COL,1.13,Sarcosine,sarcosine
+exGF13,AngII,COL,,Sarcosine,sarcosine
+exGF14,AngII,COL,1.24,Sarcosine,sarcosine
+exGF16,AngII,COL,,Sarcosine,sarcosine
+exGF17,AngII,COL,1.2,Sarcosine,sarcosine
+exGF18,AngII,COL,1.81,Sarcosine,sarcosine
+exGF19,AngII,COL,2.63,Sarcosine,sarcosine
+GF07,AngII,GF,1.25,Sarcosine,sarcosine
+GF08,AngII,GF,1.22,Sarcosine,sarcosine
+GF09,AngII,GF,2.79,Sarcosine,sarcosine
+GF10,AngII,GF,1.81,Sarcosine,sarcosine
+GF15,AngII,GF,1.22,Sarcosine,sarcosine
+GF16,AngII,GF,1.25,Sarcosine,sarcosine
+GF17,AngII,GF,2.6,Sarcosine,sarcosine
+GF19,AngII,GF,1.55,Sarcosine,sarcosine
+GF20,AngII,GF,1.15,Sarcosine,sarcosine
+GF21,AngII,GF,1.7,Sarcosine,sarcosine
+GF22,AngII,GF,1.27,Sarcosine,sarcosine
+sexGF1,Sham,COL,,Sarcosine,sarcosine
+sexGF2,Sham,COL,,Sarcosine,sarcosine
+sexGF3,Sham,COL,,Sarcosine,sarcosine
+sexGF4,Sham,COL,,Sarcosine,sarcosine
+sexGF5,Sham,COL,,Sarcosine,sarcosine
+sGF1,Sham,GF,,Sarcosine,sarcosine
+sGF2,Sham,GF,,Sarcosine,sarcosine
+sGF3,Sham,GF,1.49,Sarcosine,sarcosine
+sGF4,Sham,GF,1.26,Sarcosine,sarcosine
+sGF5,Sham,GF,1.45,Sarcosine,sarcosine
+exGF06,AngII,COL,145,Ser,serine
+exGF07,AngII,COL,140,Ser,serine
+exGF09,AngII,COL,133,Ser,serine
+exGF10,AngII,COL,144,Ser,serine
+exGF11,AngII,COL,155,Ser,serine
+exGF12,AngII,COL,149,Ser,serine
+exGF13,AngII,COL,123,Ser,serine
+exGF14,AngII,COL,178,Ser,serine
+exGF16,AngII,COL,138,Ser,serine
+exGF17,AngII,COL,144,Ser,serine
+exGF18,AngII,COL,99.5,Ser,serine
+exGF19,AngII,COL,192,Ser,serine
+GF07,AngII,GF,143,Ser,serine
+GF08,AngII,GF,153,Ser,serine
+GF09,AngII,GF,187,Ser,serine
+GF10,AngII,GF,209,Ser,serine
+GF15,AngII,GF,180,Ser,serine
+GF16,AngII,GF,356,Ser,serine
+GF17,AngII,GF,264,Ser,serine
+GF19,AngII,GF,158,Ser,serine
+GF20,AngII,GF,166,Ser,serine
+GF21,AngII,GF,183,Ser,serine
+GF22,AngII,GF,154,Ser,serine
+sexGF1,Sham,COL,109,Ser,serine
+sexGF2,Sham,COL,129,Ser,serine
+sexGF3,Sham,COL,88.7,Ser,serine
+sexGF4,Sham,COL,107,Ser,serine
+sexGF5,Sham,COL,109,Ser,serine
+sGF1,Sham,GF,166,Ser,serine
+sGF2,Sham,GF,177,Ser,serine
+sGF3,Sham,GF,216,Ser,serine
+sGF4,Sham,GF,200,Ser,serine
+sGF5,Sham,GF,211,Ser,serine
+exGF06,AngII,COL,0.365,SM (OH) C16:1,NA
+exGF07,AngII,COL,0.299,SM (OH) C16:1,NA
+exGF09,AngII,COL,0.383,SM (OH) C16:1,NA
+exGF10,AngII,COL,0.277,SM (OH) C16:1,NA
+exGF11,AngII,COL,0.35,SM (OH) C16:1,NA
+exGF12,AngII,COL,0.226,SM (OH) C16:1,NA
+exGF13,AngII,COL,0.323,SM (OH) C16:1,NA
+exGF14,AngII,COL,0.337,SM (OH) C16:1,NA
+exGF16,AngII,COL,0.301,SM (OH) C16:1,NA
+exGF17,AngII,COL,0.275,SM (OH) C16:1,NA
+exGF18,AngII,COL,0.222,SM (OH) C16:1,NA
+exGF19,AngII,COL,0.281,SM (OH) C16:1,NA
+GF07,AngII,GF,0.423,SM (OH) C16:1,NA
+GF08,AngII,GF,0.436,SM (OH) C16:1,NA
+GF09,AngII,GF,0.433,SM (OH) C16:1,NA
+GF10,AngII,GF,0.523,SM (OH) C16:1,NA
+GF15,AngII,GF,0.38,SM (OH) C16:1,NA
+GF16,AngII,GF,0.234,SM (OH) C16:1,NA
+GF17,AngII,GF,0.443,SM (OH) C16:1,NA
+GF19,AngII,GF,0.389,SM (OH) C16:1,NA
+GF20,AngII,GF,0.414,SM (OH) C16:1,NA
+GF21,AngII,GF,0.47,SM (OH) C16:1,NA
+GF22,AngII,GF,0.519,SM (OH) C16:1,NA
+sGF1,Sham,GF,0.299,SM (OH) C16:1,NA
+sGF2,Sham,GF,0.249,SM (OH) C16:1,NA
+sGF3,Sham,GF,0.377,SM (OH) C16:1,NA
+sGF4,Sham,GF,0.379,SM (OH) C16:1,NA
+sGF5,Sham,GF,0.332,SM (OH) C16:1,NA
+sexGF1,Sham,COL,0.237,SM (OH) C16:1,NA
+sexGF2,Sham,COL,0.255,SM (OH) C16:1,NA
+sexGF3,Sham,COL,0.247,SM (OH) C16:1,NA
+sexGF4,Sham,COL,0.239,SM (OH) C16:1,NA
+sexGF5,Sham,COL,0.19,SM (OH) C16:1,NA
+exGF06,AngII,COL,2.21,SM (OH) C22:1,NA
+exGF07,AngII,COL,1.72,SM (OH) C22:1,NA
+exGF09,AngII,COL,1.92,SM (OH) C22:1,NA
+exGF10,AngII,COL,1.44,SM (OH) C22:1,NA
+exGF11,AngII,COL,1.42,SM (OH) C22:1,NA
+exGF12,AngII,COL,1.48,SM (OH) C22:1,NA
+exGF13,AngII,COL,1.68,SM (OH) C22:1,NA
+exGF14,AngII,COL,1.56,SM (OH) C22:1,NA
+exGF16,AngII,COL,2.19,SM (OH) C22:1,NA
+exGF17,AngII,COL,1.67,SM (OH) C22:1,NA
+exGF18,AngII,COL,0.905,SM (OH) C22:1,NA
+exGF19,AngII,COL,0.967,SM (OH) C22:1,NA
+GF07,AngII,GF,2.41,SM (OH) C22:1,NA
+GF08,AngII,GF,2.72,SM (OH) C22:1,NA
+GF09,AngII,GF,1.3,SM (OH) C22:1,NA
+GF10,AngII,GF,2.83,SM (OH) C22:1,NA
+GF15,AngII,GF,2.07,SM (OH) C22:1,NA
+GF16,AngII,GF,1.5,SM (OH) C22:1,NA
+GF17,AngII,GF,2.19,SM (OH) C22:1,NA
+GF19,AngII,GF,2.35,SM (OH) C22:1,NA
+GF20,AngII,GF,2.06,SM (OH) C22:1,NA
+GF21,AngII,GF,3.08,SM (OH) C22:1,NA
+GF22,AngII,GF,2.52,SM (OH) C22:1,NA
+sGF1,Sham,GF,2.14,SM (OH) C22:1,NA
+sGF2,Sham,GF,2.07,SM (OH) C22:1,NA
+sGF3,Sham,GF,2.79,SM (OH) C22:1,NA
+sGF4,Sham,GF,2.66,SM (OH) C22:1,NA
+sGF5,Sham,GF,2.14,SM (OH) C22:1,NA
+sexGF1,Sham,COL,1.48,SM (OH) C22:1,NA
+sexGF2,Sham,COL,1.6,SM (OH) C22:1,NA
+sexGF3,Sham,COL,1.63,SM (OH) C22:1,NA
+sexGF4,Sham,COL,1.78,SM (OH) C22:1,NA
+sexGF5,Sham,COL,1.52,SM (OH) C22:1,NA
+exGF06,AngII,COL,1.44,SM (OH) C22:2,NA
+exGF07,AngII,COL,1.19,SM (OH) C22:2,NA
+exGF09,AngII,COL,1.58,SM (OH) C22:2,NA
+exGF10,AngII,COL,1.14,SM (OH) C22:2,NA
+exGF11,AngII,COL,1.18,SM (OH) C22:2,NA
+exGF12,AngII,COL,1.17,SM (OH) C22:2,NA
+exGF13,AngII,COL,1.18,SM (OH) C22:2,NA
+exGF14,AngII,COL,1.22,SM (OH) C22:2,NA
+exGF16,AngII,COL,1.57,SM (OH) C22:2,NA
+exGF17,AngII,COL,1.48,SM (OH) C22:2,NA
+exGF18,AngII,COL,0.728,SM (OH) C22:2,NA
+exGF19,AngII,COL,0.935,SM (OH) C22:2,NA
+GF07,AngII,GF,1.86,SM (OH) C22:2,NA
+GF08,AngII,GF,1.97,SM (OH) C22:2,NA
+GF09,AngII,GF,1.37,SM (OH) C22:2,NA
+GF10,AngII,GF,2.07,SM (OH) C22:2,NA
+GF15,AngII,GF,1.6,SM (OH) C22:2,NA
+GF16,AngII,GF,0.942,SM (OH) C22:2,NA
+GF17,AngII,GF,1.8,SM (OH) C22:2,NA
+GF19,AngII,GF,1.53,SM (OH) C22:2,NA
+GF20,AngII,GF,1.55,SM (OH) C22:2,NA
+GF21,AngII,GF,2.18,SM (OH) C22:2,NA
+GF22,AngII,GF,1.68,SM (OH) C22:2,NA
+sGF1,Sham,GF,1.62,SM (OH) C22:2,NA
+sGF2,Sham,GF,1.52,SM (OH) C22:2,NA
+sGF3,Sham,GF,2.11,SM (OH) C22:2,NA
+sGF4,Sham,GF,2.01,SM (OH) C22:2,NA
+sGF5,Sham,GF,1.81,SM (OH) C22:2,NA
+sexGF1,Sham,COL,1.22,SM (OH) C22:2,NA
+sexGF2,Sham,COL,1.2,SM (OH) C22:2,NA
+sexGF3,Sham,COL,1.31,SM (OH) C22:2,NA
+sexGF4,Sham,COL,1.19,SM (OH) C22:2,NA
+sexGF5,Sham,COL,1.18,SM (OH) C22:2,NA
+exGF06,AngII,COL,27.5,SM C16:0,SM C16:0
+exGF07,AngII,COL,23.9,SM C16:0,SM C16:0
+exGF09,AngII,COL,29.3,SM C16:0,SM C16:0
+exGF10,AngII,COL,22.4,SM C16:0,SM C16:0
+exGF11,AngII,COL,23.6,SM C16:0,SM C16:0
+exGF12,AngII,COL,17.1,SM C16:0,SM C16:0
+exGF13,AngII,COL,20.1,SM C16:0,SM C16:0
+exGF14,AngII,COL,21.3,SM C16:0,SM C16:0
+exGF16,AngII,COL,22.6,SM C16:0,SM C16:0
+exGF17,AngII,COL,21.9,SM C16:0,SM C16:0
+exGF18,AngII,COL,16.2,SM C16:0,SM C16:0
+exGF19,AngII,COL,19.7,SM C16:0,SM C16:0
+GF07,AngII,GF,29.4,SM C16:0,SM C16:0
+GF08,AngII,GF,31.6,SM C16:0,SM C16:0
+GF09,AngII,GF,25.5,SM C16:0,SM C16:0
+GF10,AngII,GF,41.5,SM C16:0,SM C16:0
+GF15,AngII,GF,25.8,SM C16:0,SM C16:0
+GF16,AngII,GF,19.7,SM C16:0,SM C16:0
+GF17,AngII,GF,29.7,SM C16:0,SM C16:0
+GF19,AngII,GF,26.9,SM C16:0,SM C16:0
+GF20,AngII,GF,25.6,SM C16:0,SM C16:0
+GF21,AngII,GF,36.9,SM C16:0,SM C16:0
+GF22,AngII,GF,34.9,SM C16:0,SM C16:0
+sGF1,Sham,GF,19.7,SM C16:0,SM C16:0
+sGF2,Sham,GF,17.6,SM C16:0,SM C16:0
+sGF3,Sham,GF,25,SM C16:0,SM C16:0
+sGF4,Sham,GF,22.6,SM C16:0,SM C16:0
+sGF5,Sham,GF,21.3,SM C16:0,SM C16:0
+sexGF1,Sham,COL,14.8,SM C16:0,SM C16:0
+sexGF2,Sham,COL,16.1,SM C16:0,SM C16:0
+sexGF3,Sham,COL,17.4,SM C16:0,SM C16:0
+sexGF4,Sham,COL,15.4,SM C16:0,SM C16:0
+sexGF5,Sham,COL,14.5,SM C16:0,SM C16:0
+exGF06,AngII,COL,4.61,SM C16:1,SM C16:1
+exGF07,AngII,COL,3.83,SM C16:1,SM C16:1
+exGF09,AngII,COL,5.02,SM C16:1,SM C16:1
+exGF10,AngII,COL,3.72,SM C16:1,SM C16:1
+exGF11,AngII,COL,4.12,SM C16:1,SM C16:1
+exGF12,AngII,COL,3.16,SM C16:1,SM C16:1
+exGF13,AngII,COL,3.23,SM C16:1,SM C16:1
+exGF14,AngII,COL,3.36,SM C16:1,SM C16:1
+exGF16,AngII,COL,3.23,SM C16:1,SM C16:1
+exGF17,AngII,COL,3.39,SM C16:1,SM C16:1
+exGF18,AngII,COL,2.17,SM C16:1,SM C16:1
+exGF19,AngII,COL,2.47,SM C16:1,SM C16:1
+GF07,AngII,GF,4.69,SM C16:1,SM C16:1
+GF08,AngII,GF,4.56,SM C16:1,SM C16:1
+GF09,AngII,GF,4.02,SM C16:1,SM C16:1
+GF10,AngII,GF,6.34,SM C16:1,SM C16:1
+GF15,AngII,GF,3.83,SM C16:1,SM C16:1
+GF16,AngII,GF,2.23,SM C16:1,SM C16:1
+GF17,AngII,GF,4.9,SM C16:1,SM C16:1
+GF19,AngII,GF,3.93,SM C16:1,SM C16:1
+GF20,AngII,GF,3.77,SM C16:1,SM C16:1
+GF21,AngII,GF,5.71,SM C16:1,SM C16:1
+GF22,AngII,GF,5.12,SM C16:1,SM C16:1
+sGF1,Sham,GF,3.38,SM C16:1,SM C16:1
+sGF2,Sham,GF,3.16,SM C16:1,SM C16:1
+sGF3,Sham,GF,4.31,SM C16:1,SM C16:1
+sGF4,Sham,GF,3.78,SM C16:1,SM C16:1
+sGF5,Sham,GF,3.65,SM C16:1,SM C16:1
+sexGF1,Sham,COL,3.03,SM C16:1,SM C16:1
+sexGF2,Sham,COL,3.34,SM C16:1,SM C16:1
+sexGF3,Sham,COL,3.33,SM C16:1,SM C16:1
+sexGF4,Sham,COL,2.94,SM C16:1,SM C16:1
+sexGF5,Sham,COL,2.8,SM C16:1,SM C16:1
+exGF06,AngII,COL,2,SM C18:0,SM C18:0
+exGF07,AngII,COL,1.77,SM C18:0,SM C18:0
+exGF09,AngII,COL,2.13,SM C18:0,SM C18:0
+exGF10,AngII,COL,1.76,SM C18:0,SM C18:0
+exGF11,AngII,COL,2.01,SM C18:0,SM C18:0
+exGF12,AngII,COL,1.5,SM C18:0,SM C18:0
+exGF13,AngII,COL,1.74,SM C18:0,SM C18:0
+exGF14,AngII,COL,1.77,SM C18:0,SM C18:0
+exGF16,AngII,COL,2.01,SM C18:0,SM C18:0
+exGF17,AngII,COL,1.53,SM C18:0,SM C18:0
+exGF18,AngII,COL,1.02,SM C18:0,SM C18:0
+exGF19,AngII,COL,1.54,SM C18:0,SM C18:0
+GF07,AngII,GF,2.11,SM C18:0,SM C18:0
+GF08,AngII,GF,2.14,SM C18:0,SM C18:0
+GF09,AngII,GF,2,SM C18:0,SM C18:0
+GF10,AngII,GF,2.61,SM C18:0,SM C18:0
+GF15,AngII,GF,2.03,SM C18:0,SM C18:0
+GF16,AngII,GF,1.26,SM C18:0,SM C18:0
+GF17,AngII,GF,2.43,SM C18:0,SM C18:0
+GF19,AngII,GF,1.75,SM C18:0,SM C18:0
+GF20,AngII,GF,1.86,SM C18:0,SM C18:0
+GF21,AngII,GF,2.71,SM C18:0,SM C18:0
+GF22,AngII,GF,2.6,SM C18:0,SM C18:0
+sGF1,Sham,GF,1.52,SM C18:0,SM C18:0
+sGF2,Sham,GF,1.54,SM C18:0,SM C18:0
+sGF3,Sham,GF,1.92,SM C18:0,SM C18:0
+sGF4,Sham,GF,1.96,SM C18:0,SM C18:0
+sGF5,Sham,GF,1.55,SM C18:0,SM C18:0
+sexGF1,Sham,COL,1.29,SM C18:0,SM C18:0
+sexGF2,Sham,COL,1.28,SM C18:0,SM C18:0
+sexGF3,Sham,COL,1.43,SM C18:0,SM C18:0
+sexGF4,Sham,COL,1.35,SM C18:0,SM C18:0
+sexGF5,Sham,COL,1.25,SM C18:0,SM C18:0
+exGF06,AngII,COL,0.893,SM C18:1,SM C18:1
+exGF07,AngII,COL,0.725,SM C18:1,SM C18:1
+exGF09,AngII,COL,0.917,SM C18:1,SM C18:1
+exGF10,AngII,COL,0.667,SM C18:1,SM C18:1
+exGF11,AngII,COL,0.769,SM C18:1,SM C18:1
+exGF12,AngII,COL,0.677,SM C18:1,SM C18:1
+exGF13,AngII,COL,0.693,SM C18:1,SM C18:1
+exGF14,AngII,COL,0.699,SM C18:1,SM C18:1
+exGF16,AngII,COL,0.715,SM C18:1,SM C18:1
+exGF17,AngII,COL,0.725,SM C18:1,SM C18:1
+exGF18,AngII,COL,0.378,SM C18:1,SM C18:1
+exGF19,AngII,COL,0.552,SM C18:1,SM C18:1
+GF07,AngII,GF,0.876,SM C18:1,SM C18:1
+GF08,AngII,GF,0.92,SM C18:1,SM C18:1
+GF09,AngII,GF,0.958,SM C18:1,SM C18:1
+GF10,AngII,GF,1.24,SM C18:1,SM C18:1
+GF15,AngII,GF,0.821,SM C18:1,SM C18:1
+GF16,AngII,GF,0.416,SM C18:1,SM C18:1
+GF17,AngII,GF,1.02,SM C18:1,SM C18:1
+GF19,AngII,GF,0.782,SM C18:1,SM C18:1
+GF20,AngII,GF,0.767,SM C18:1,SM C18:1
+GF21,AngII,GF,1.08,SM C18:1,SM C18:1
+GF22,AngII,GF,0.936,SM C18:1,SM C18:1
+sGF1,Sham,GF,0.613,SM C18:1,SM C18:1
+sGF2,Sham,GF,0.586,SM C18:1,SM C18:1
+sGF3,Sham,GF,0.779,SM C18:1,SM C18:1
+sGF4,Sham,GF,0.848,SM C18:1,SM C18:1
+sGF5,Sham,GF,0.602,SM C18:1,SM C18:1
+sexGF1,Sham,COL,0.56,SM C18:1,SM C18:1
+sexGF2,Sham,COL,0.53,SM C18:1,SM C18:1
+sexGF3,Sham,COL,0.622,SM C18:1,SM C18:1
+sexGF4,Sham,COL,0.56,SM C18:1,SM C18:1
+sexGF5,Sham,COL,0.551,SM C18:1,SM C18:1
+exGF06,AngII,COL,17.2,SM C24:1,SM C24:1
+exGF07,AngII,COL,16.6,SM C24:1,SM C24:1
+exGF09,AngII,COL,17.4,SM C24:1,SM C24:1
+exGF10,AngII,COL,14.7,SM C24:1,SM C24:1
+exGF11,AngII,COL,15.3,SM C24:1,SM C24:1
+exGF12,AngII,COL,11.7,SM C24:1,SM C24:1
+exGF13,AngII,COL,12.9,SM C24:1,SM C24:1
+exGF14,AngII,COL,14.5,SM C24:1,SM C24:1
+exGF16,AngII,COL,16.4,SM C24:1,SM C24:1
+exGF17,AngII,COL,14.3,SM C24:1,SM C24:1
+exGF18,AngII,COL,9.25,SM C24:1,SM C24:1
+exGF19,AngII,COL,11,SM C24:1,SM C24:1
+GF07,AngII,GF,14.6,SM C24:1,SM C24:1
+GF08,AngII,GF,16.8,SM C24:1,SM C24:1
+GF09,AngII,GF,9.69,SM C24:1,SM C24:1
+GF10,AngII,GF,17.7,SM C24:1,SM C24:1
+GF15,AngII,GF,13.1,SM C24:1,SM C24:1
+GF16,AngII,GF,7.05,SM C24:1,SM C24:1
+GF17,AngII,GF,15.4,SM C24:1,SM C24:1
+GF19,AngII,GF,13.9,SM C24:1,SM C24:1
+GF20,AngII,GF,13.2,SM C24:1,SM C24:1
+GF21,AngII,GF,20.7,SM C24:1,SM C24:1
+GF22,AngII,GF,18.2,SM C24:1,SM C24:1
+sGF1,Sham,GF,12.5,SM C24:1,SM C24:1
+sGF2,Sham,GF,11.7,SM C24:1,SM C24:1
+sGF3,Sham,GF,15.6,SM C24:1,SM C24:1
+sGF4,Sham,GF,15.7,SM C24:1,SM C24:1
+sGF5,Sham,GF,13.7,SM C24:1,SM C24:1
+sexGF1,Sham,COL,10.8,SM C24:1,SM C24:1
+sexGF2,Sham,COL,11.8,SM C24:1,SM C24:1
+sexGF3,Sham,COL,12.4,SM C24:1,SM C24:1
+sexGF4,Sham,COL,12,SM C24:1,SM C24:1
+sexGF5,Sham,COL,11,SM C24:1,SM C24:1
+exGF06,AngII,COL,1.75,Spermidine,spermidine
+exGF07,AngII,COL,1.08,Spermidine,spermidine
+exGF09,AngII,COL,1.37,Spermidine,spermidine
+exGF10,AngII,COL,1.75,Spermidine,spermidine
+exGF11,AngII,COL,2.15,Spermidine,spermidine
+exGF12,AngII,COL,1.04,Spermidine,spermidine
+exGF13,AngII,COL,1.42,Spermidine,spermidine
+exGF14,AngII,COL,1.13,Spermidine,spermidine
+exGF16,AngII,COL,1.41,Spermidine,spermidine
+exGF17,AngII,COL,1.26,Spermidine,spermidine
+exGF18,AngII,COL,3.4,Spermidine,spermidine
+exGF19,AngII,COL,0.854,Spermidine,spermidine
+GF07,AngII,GF,1.8,Spermidine,spermidine
+GF08,AngII,GF,4.96,Spermidine,spermidine
+GF09,AngII,GF,5.45,Spermidine,spermidine
+GF10,AngII,GF,2.07,Spermidine,spermidine
+GF15,AngII,GF,2.13,Spermidine,spermidine
+GF16,AngII,GF,0.46,Spermidine,spermidine
+GF17,AngII,GF,2.98,Spermidine,spermidine
+GF19,AngII,GF,2.07,Spermidine,spermidine
+GF20,AngII,GF,1.72,Spermidine,spermidine
+GF21,AngII,GF,1.79,Spermidine,spermidine
+GF22,AngII,GF,1.84,Spermidine,spermidine
+sexGF1,Sham,COL,1,Spermidine,spermidine
+sexGF2,Sham,COL,1.18,Spermidine,spermidine
+sexGF3,Sham,COL,0.847,Spermidine,spermidine
+sexGF4,Sham,COL,1,Spermidine,spermidine
+sexGF5,Sham,COL,1,Spermidine,spermidine
+sGF1,Sham,GF,2.27,Spermidine,spermidine
+sGF2,Sham,GF,2.51,Spermidine,spermidine
+sGF3,Sham,GF,2.71,Spermidine,spermidine
+sGF4,Sham,GF,2.66,Spermidine,spermidine
+sGF5,Sham,GF,2.54,Spermidine,spermidine
+exGF06,AngII,COL,20.2,t4-OH-Pro,trans-4-hydroxyproline
+exGF07,AngII,COL,17.9,t4-OH-Pro,trans-4-hydroxyproline
+exGF09,AngII,COL,19.7,t4-OH-Pro,trans-4-hydroxyproline
+exGF10,AngII,COL,16.9,t4-OH-Pro,trans-4-hydroxyproline
+exGF11,AngII,COL,18.7,t4-OH-Pro,trans-4-hydroxyproline
+exGF12,AngII,COL,12.6,t4-OH-Pro,trans-4-hydroxyproline
+exGF13,AngII,COL,12.6,t4-OH-Pro,trans-4-hydroxyproline
+exGF14,AngII,COL,17.8,t4-OH-Pro,trans-4-hydroxyproline
+exGF16,AngII,COL,10,t4-OH-Pro,trans-4-hydroxyproline
+exGF17,AngII,COL,15,t4-OH-Pro,trans-4-hydroxyproline
+exGF18,AngII,COL,12.1,t4-OH-Pro,trans-4-hydroxyproline
+exGF19,AngII,COL,10.6,t4-OH-Pro,trans-4-hydroxyproline
+GF07,AngII,GF,14.7,t4-OH-Pro,trans-4-hydroxyproline
+GF08,AngII,GF,14,t4-OH-Pro,trans-4-hydroxyproline
+GF09,AngII,GF,5.63,t4-OH-Pro,trans-4-hydroxyproline
+GF10,AngII,GF,16,t4-OH-Pro,trans-4-hydroxyproline
+GF15,AngII,GF,17.7,t4-OH-Pro,trans-4-hydroxyproline
+GF16,AngII,GF,6.42,t4-OH-Pro,trans-4-hydroxyproline
+GF17,AngII,GF,21.2,t4-OH-Pro,trans-4-hydroxyproline
+GF19,AngII,GF,16,t4-OH-Pro,trans-4-hydroxyproline
+GF20,AngII,GF,16.9,t4-OH-Pro,trans-4-hydroxyproline
+GF21,AngII,GF,25.5,t4-OH-Pro,trans-4-hydroxyproline
+GF22,AngII,GF,17.9,t4-OH-Pro,trans-4-hydroxyproline
+sexGF1,Sham,COL,12.9,t4-OH-Pro,trans-4-hydroxyproline
+sexGF2,Sham,COL,14,t4-OH-Pro,trans-4-hydroxyproline
+sexGF3,Sham,COL,11.9,t4-OH-Pro,trans-4-hydroxyproline
+sexGF4,Sham,COL,12.5,t4-OH-Pro,trans-4-hydroxyproline
+sexGF5,Sham,COL,11.8,t4-OH-Pro,trans-4-hydroxyproline
+sGF1,Sham,GF,12,t4-OH-Pro,trans-4-hydroxyproline
+sGF2,Sham,GF,11,t4-OH-Pro,trans-4-hydroxyproline
+sGF3,Sham,GF,15.7,t4-OH-Pro,trans-4-hydroxyproline
+sGF4,Sham,GF,13.2,t4-OH-Pro,trans-4-hydroxyproline
+sGF5,Sham,GF,12.7,t4-OH-Pro,trans-4-hydroxyproline
+exGF06,AngII,COL,0.203,TCA,taurocholate
+exGF07,AngII,COL,0.16,TCA,taurocholate
+exGF09,AngII,COL,0.203,TCA,taurocholate
+exGF10,AngII,COL,0.388,TCA,taurocholate
+exGF11,AngII,COL,0.323,TCA,taurocholate
+exGF12,AngII,COL,0.193,TCA,taurocholate
+exGF13,AngII,COL,0.611,TCA,taurocholate
+exGF14,AngII,COL,0.147,TCA,taurocholate
+exGF16,AngII,COL,0.164,TCA,taurocholate
+exGF17,AngII,COL,0.13,TCA,taurocholate
+exGF18,AngII,COL,0.821,TCA,taurocholate
+exGF19,AngII,COL,0.486,TCA,taurocholate
+GF07,AngII,GF,0.95,TCA,taurocholate
+GF08,AngII,GF,0.274,TCA,taurocholate
+GF09,AngII,GF,,TCA,taurocholate
+GF10,AngII,GF,0.655,TCA,taurocholate
+GF15,AngII,GF,1.24,TCA,taurocholate
+GF16,AngII,GF,,TCA,taurocholate
+GF17,AngII,GF,0.732,TCA,taurocholate
+GF19,AngII,GF,1.48,TCA,taurocholate
+GF20,AngII,GF,0.566,TCA,taurocholate
+GF21,AngII,GF,0.34,TCA,taurocholate
+GF22,AngII,GF,,TCA,taurocholate
+sexGF1,Sham,COL,0.146,TCA,taurocholate
+sexGF2,Sham,COL,0.212,TCA,taurocholate
+sexGF3,Sham,COL,0.326,TCA,taurocholate
+sexGF4,Sham,COL,0.619,TCA,taurocholate
+sexGF5,Sham,COL,0.409,TCA,taurocholate
+sGF1,Sham,GF,0.895,TCA,taurocholate
+sGF2,Sham,GF,0.748,TCA,taurocholate
+sGF3,Sham,GF,0.733,TCA,taurocholate
+sGF4,Sham,GF,0.773,TCA,taurocholate
+sGF5,Sham,GF,0.512,TCA,taurocholate
+exGF06,AngII,COL,207,Thr,threonine
+exGF07,AngII,COL,224,Thr,threonine
+exGF09,AngII,COL,203,Thr,threonine
+exGF10,AngII,COL,197,Thr,threonine
+exGF11,AngII,COL,216,Thr,threonine
+exGF12,AngII,COL,166,Thr,threonine
+exGF13,AngII,COL,172,Thr,threonine
+exGF14,AngII,COL,237,Thr,threonine
+exGF16,AngII,COL,145,Thr,threonine
+exGF17,AngII,COL,191,Thr,threonine
+exGF18,AngII,COL,183,Thr,threonine
+exGF19,AngII,COL,265,Thr,threonine
+GF07,AngII,GF,175,Thr,threonine
+GF08,AngII,GF,178,Thr,threonine
+GF09,AngII,GF,211,Thr,threonine
+GF10,AngII,GF,199,Thr,threonine
+GF15,AngII,GF,251,Thr,threonine
+GF16,AngII,GF,198,Thr,threonine
+GF17,AngII,GF,328,Thr,threonine
+GF19,AngII,GF,180,Thr,threonine
+GF20,AngII,GF,188,Thr,threonine
+GF21,AngII,GF,245,Thr,threonine
+GF22,AngII,GF,181,Thr,threonine
+sexGF1,Sham,COL,129,Thr,threonine
+sexGF2,Sham,COL,158,Thr,threonine
+sexGF3,Sham,COL,105,Thr,threonine
+sexGF4,Sham,COL,119,Thr,threonine
+sexGF5,Sham,COL,120,Thr,threonine
+sGF1,Sham,GF,162,Thr,threonine
+sGF2,Sham,GF,178,Thr,threonine
+sGF3,Sham,GF,221,Thr,threonine
+sGF4,Sham,GF,212,Thr,threonine
+sGF5,Sham,GF,207,Thr,threonine
+exGF06,AngII,COL,4.9,Trigonelline,trigonelline
+exGF07,AngII,COL,5.36,Trigonelline,trigonelline
+exGF09,AngII,COL,2.57,Trigonelline,trigonelline
+exGF10,AngII,COL,3.83,Trigonelline,trigonelline
+exGF11,AngII,COL,3.89,Trigonelline,trigonelline
+exGF12,AngII,COL,2.2,Trigonelline,trigonelline
+exGF13,AngII,COL,2.22,Trigonelline,trigonelline
+exGF14,AngII,COL,3.54,Trigonelline,trigonelline
+exGF16,AngII,COL,2.74,Trigonelline,trigonelline
+exGF17,AngII,COL,3.16,Trigonelline,trigonelline
+exGF18,AngII,COL,3.41,Trigonelline,trigonelline
+exGF19,AngII,COL,3.43,Trigonelline,trigonelline
+GF07,AngII,GF,3.26,Trigonelline,trigonelline
+GF08,AngII,GF,3.94,Trigonelline,trigonelline
+GF09,AngII,GF,2.9,Trigonelline,trigonelline
+GF10,AngII,GF,3.5,Trigonelline,trigonelline
+GF15,AngII,GF,1.46,Trigonelline,trigonelline
+GF16,AngII,GF,1.47,Trigonelline,trigonelline
+GF17,AngII,GF,3,Trigonelline,trigonelline
+GF19,AngII,GF,2.61,Trigonelline,trigonelline
+GF20,AngII,GF,3.06,Trigonelline,trigonelline
+GF21,AngII,GF,3.44,Trigonelline,trigonelline
+GF22,AngII,GF,1.86,Trigonelline,trigonelline
+sexGF1,Sham,COL,2.06,Trigonelline,trigonelline
+sexGF2,Sham,COL,1.36,Trigonelline,trigonelline
+sexGF3,Sham,COL,1.33,Trigonelline,trigonelline
+sexGF4,Sham,COL,1.21,Trigonelline,trigonelline
+sexGF5,Sham,COL,1.71,Trigonelline,trigonelline
+sGF1,Sham,GF,,Trigonelline,trigonelline
+sGF2,Sham,GF,,Trigonelline,trigonelline
+sGF3,Sham,GF,1.53,Trigonelline,trigonelline
+sGF4,Sham,GF,1.33,Trigonelline,trigonelline
+sGF5,Sham,GF,1.57,Trigonelline,trigonelline
+exGF06,AngII,COL,91.3,Trp,tryptophan
+exGF07,AngII,COL,93.8,Trp,tryptophan
+exGF09,AngII,COL,114,Trp,tryptophan
+exGF10,AngII,COL,107,Trp,tryptophan
+exGF11,AngII,COL,118,Trp,tryptophan
+exGF12,AngII,COL,91,Trp,tryptophan
+exGF13,AngII,COL,84.3,Trp,tryptophan
+exGF14,AngII,COL,109,Trp,tryptophan
+exGF16,AngII,COL,109,Trp,tryptophan
+exGF17,AngII,COL,94.1,Trp,tryptophan
+exGF18,AngII,COL,95.8,Trp,tryptophan
+exGF19,AngII,COL,108,Trp,tryptophan
+GF07,AngII,GF,127,Trp,tryptophan
+GF08,AngII,GF,159,Trp,tryptophan
+GF09,AngII,GF,128,Trp,tryptophan
+GF10,AngII,GF,118,Trp,tryptophan
+GF15,AngII,GF,152,Trp,tryptophan
+GF16,AngII,GF,143,Trp,tryptophan
+GF17,AngII,GF,181,Trp,tryptophan
+GF19,AngII,GF,130,Trp,tryptophan
+GF20,AngII,GF,136,Trp,tryptophan
+GF21,AngII,GF,183,Trp,tryptophan
+GF22,AngII,GF,147,Trp,tryptophan
+sexGF1,Sham,COL,79.4,Trp,tryptophan
+sexGF2,Sham,COL,94.6,Trp,tryptophan
+sexGF3,Sham,COL,78.4,Trp,tryptophan
+sexGF4,Sham,COL,80,Trp,tryptophan
+sexGF5,Sham,COL,80.8,Trp,tryptophan
+sGF1,Sham,GF,107,Trp,tryptophan
+sGF2,Sham,GF,109,Trp,tryptophan
+sGF3,Sham,GF,153,Trp,tryptophan
+sGF4,Sham,GF,151,Trp,tryptophan
+sGF5,Sham,GF,121,Trp,tryptophan
+exGF06,AngII,COL,62.7,Tyr,tyrosine
+exGF07,AngII,COL,66.2,Tyr,tyrosine
+exGF09,AngII,COL,105,Tyr,tyrosine
+exGF10,AngII,COL,95.7,Tyr,tyrosine
+exGF11,AngII,COL,97.8,Tyr,tyrosine
+exGF12,AngII,COL,85.1,Tyr,tyrosine
+exGF13,AngII,COL,65.8,Tyr,tyrosine
+exGF14,AngII,COL,79.5,Tyr,tyrosine
+exGF16,AngII,COL,48.2,Tyr,tyrosine
+exGF17,AngII,COL,61.2,Tyr,tyrosine
+exGF18,AngII,COL,82.8,Tyr,tyrosine
+exGF19,AngII,COL,80.3,Tyr,tyrosine
+GF07,AngII,GF,66.1,Tyr,tyrosine
+GF08,AngII,GF,82.4,Tyr,tyrosine
+GF09,AngII,GF,143,Tyr,tyrosine
+GF10,AngII,GF,83.5,Tyr,tyrosine
+GF15,AngII,GF,89.6,Tyr,tyrosine
+GF16,AngII,GF,164,Tyr,tyrosine
+GF17,AngII,GF,98.5,Tyr,tyrosine
+GF19,AngII,GF,85.4,Tyr,tyrosine
+GF20,AngII,GF,68.6,Tyr,tyrosine
+GF21,AngII,GF,97.4,Tyr,tyrosine
+GF22,AngII,GF,79.3,Tyr,tyrosine
+sexGF1,Sham,COL,58.2,Tyr,tyrosine
+sexGF2,Sham,COL,77,Tyr,tyrosine
+sexGF3,Sham,COL,55.2,Tyr,tyrosine
+sexGF4,Sham,COL,52.1,Tyr,tyrosine
+sexGF5,Sham,COL,47.5,Tyr,tyrosine
+sGF1,Sham,GF,60.9,Tyr,tyrosine
+sGF2,Sham,GF,78.4,Tyr,tyrosine
+sGF3,Sham,GF,93.1,Tyr,tyrosine
+sGF4,Sham,GF,87.1,Tyr,tyrosine
+sGF5,Sham,GF,72.8,Tyr,tyrosine
+exGF06,AngII,COL,307,Val,valine
+exGF07,AngII,COL,306,Val,valine
+exGF09,AngII,COL,295,Val,valine
+exGF10,AngII,COL,305,Val,valine
+exGF11,AngII,COL,346,Val,valine
+exGF12,AngII,COL,264,Val,valine
+exGF13,AngII,COL,226,Val,valine
+exGF14,AngII,COL,402,Val,valine
+exGF16,AngII,COL,235,Val,valine
+exGF17,AngII,COL,317,Val,valine
+exGF18,AngII,COL,224,Val,valine
+exGF19,AngII,COL,383,Val,valine
+GF07,AngII,GF,253,Val,valine
+GF08,AngII,GF,329,Val,valine
+GF09,AngII,GF,704,Val,valine
+GF10,AngII,GF,317,Val,valine
+GF15,AngII,GF,313,Val,valine
+GF16,AngII,GF,406,Val,valine
+GF17,AngII,GF,392,Val,valine
+GF19,AngII,GF,286,Val,valine
+GF20,AngII,GF,264,Val,valine
+GF21,AngII,GF,315,Val,valine
+GF22,AngII,GF,263,Val,valine
+sexGF1,Sham,COL,208,Val,valine
+sexGF2,Sham,COL,255,Val,valine
+sexGF3,Sham,COL,188,Val,valine
+sexGF4,Sham,COL,193,Val,valine
+sexGF5,Sham,COL,198,Val,valine
+sGF1,Sham,GF,291,Val,valine
+sGF2,Sham,GF,309,Val,valine
+sGF3,Sham,GF,336,Val,valine
+sGF4,Sham,GF,346,Val,valine
+sGF5,Sham,GF,318,Val,valine
