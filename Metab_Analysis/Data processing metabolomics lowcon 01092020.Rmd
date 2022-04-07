@@ -1,0 +1,779 @@
+---
+title: "Data processing from low concentration matrix 01092020"
+author: "Ellen Avery"
+date: "September 4, 2020"
+output: html_document
+---
+**GF Biocrates kit data- low concentration data**
+
+This report has been generated for the analysis of metabolite lowcon data from the Biocrates MxP500 Quant kit for serum samples from the GF study. 
+Files used: 
+lowcon_Serum_FIA_normalised_intensities_wide.csv
+lowcon_Serum_LC_normalised_intensities_wide.csv
+Compound_annotations_GF26082020.csv
+
+Output files: 
+full_lowcon_cleaneddata_04092020.csv
+COLonly_lowcon_cleaneddata_04092020.csv
+GFonly_lowcon_cleaneddata_04092020.csv
+full_lowcon_cleaneddata_wImputation_04092020.csv
+COLonly_lowcon_cleaneddata_wImputation_04092020.csv
+GFonly_lowcon_cleaneddata_wImputation_04092020.csv
+
+```{r warning=FALSE, echo=FALSE, include=FALSE}
+
+{library(dplyr)
+library(ggplot2)
+library(readr)
+library(knitr)
+library(visdat)
+library(ggrepel)
+library(viridis)
+library(ggpubr)
+library(vegan)
+library(tidyr)
+  }
+
+knitr::opts_knit$set(root.dir = "~/R/GF/lowcon")
+knitr::opts_chunk$set(collapse = TRUE)
+
+
+#load in the data
+
+FIA <- read.table("lowcon_Serum_FIA_normalised_intensities_wide.csv", header = T, sep = ",", dec = ".", na.strings = "NA")
+LC <- read.table("lowcon_Serum_LC_normalised_intensities_wide.csv", header = T, sep = ",", dec = ".", na.strings = "NA")
+
+names(LC)[names(LC) == "ï..Compound"] <- "Compound"
+
+#pivot longer and add sample annotation
+LC_long <- pivot_longer(LC, cols = -c("Compound"), names_to = "ID", values_to = "NormInt")
+LC_long1 <- LC_long %>% mutate(Sample.Type = gsub("[[:digit:][:punct:]]", "", ID), Method = "LC")
+
+FIA_long <- pivot_longer(FIA, cols = -c("Compound"), names_to = "ID", values_to = "NormInt")
+FIA_long1 <- FIA_long %>% mutate(Sample.Type = gsub("[[:digit:][:punct:]]", "", ID), Method = "FIA")
+
+
+
+#optional code to bind both dataframes for full analysis
+#check whether col names are the same or not 
+colnames(FIA_long1) == colnames(LC_long1)
+
+#bind the data such that analysis can be run on both simultaneously 
+full_lowcon<- rbind.data.frame(FIA_long1, LC_long1)
+
+## add in annotations 
+#load in the annotations
+annotations <- read.table("Compound_annotations_GF26082020.csv", header = T, sep = ",", dec = ".", na.strings = "NA")
+names(annotations)[names(annotations) == "ï..Full.name"] <- "full_name"
+
+#join them with the OG dataframe, called ds from the last chunk
+full_lowcon<-unique(inner_join(full_lowcon, annotations, by = "Compound"))
+
+```
+
+**1. Pooled control samples quality analysis for LC and FIA **
+
+A: For each metabolite individually, use the pooled samples as a group to calculate the mean from the normInt, SD and RSD (variability of individual compounds). 
+
+Based on this assessment, data for ~70 metabolites is likely unreliable because they were unmeasurable in the pooled control samples, these were therefore removed from the analysis from both the pooled and the overall datasheet. 
+```{r, collapse= TRUE}
+#create a summary table with each mean, SD, and RSD for all individual compounds 
+##til now, NA's are omited for value calculations. can be changed. 
+pooled_dataGF<- full_lowcon %>% filter(Sample.Type == "pooledQC") %>% group_by(Compound, Method) %>% 
+  summarize(mean_conc = mean(NormInt, na.rm = TRUE), sd_conc = sd(NormInt, na.rm=TRUE), rsd_conc = (sd(NormInt, na.rm=TRUE)*100)/mean(NormInt, na.rm= TRUE))
+
+#remove compounds w not pooled QC val from the pooled data table and also from the overall datatable 
+pooled_dataGF1 <- pooled_dataGF %>% filter(!(mean_conc == "NaN"))
+#over 70 metabs where there were no pooled vals are removed- so now also take this out of the overall table 
+reliable_compounds <- data.frame(pooled_dataGF1$Compound)
+names(reliable_compounds)[names(reliable_compounds) == "pooled_dataGF1.Compound"] <- "Compound"
+full_lowcon1 <- full_lowcon %>% semi_join(reliable_compounds, by = "Compound")
+
+```
+
+
+B: Calculation of median RSD from the individual RSDs of all compounds across the pooled QC samples (variability of the measurement; threshold RSD 15%). Done for each method individually here (LC or FIA).    
+
+```{r, collapse = TRUE}
+print(pooled_dataGF1 %>% group_by(Method) %>% summarize(median_pooledRSD= median(rsd_conc)))
+
+```
+Values here are about 8% for each method within the pooled samples, meeting the 15% threshold. 
+
+
+C: Count the number of metabolites present in each pooled sample. Stratify data for pooled samples and then count metabolites within each of these pools (by their unique sample ID). 
+
+I used the data here where we had already removed metabs for which nothing was measurable in QCs.
+
+```{r}
+cnds_pooledsample<- full_lowcon1 %>% filter(Sample.Type == "pooledQC") %>% group_by(ID)
+
+counts_perconc <- cnds_pooledsample %>% group_by(ID, Method) %>% tally(!is.na(NormInt), n= "Metabolite count")
+counts_perconc %>% arrange(Method)
+
+```
+
+
+D: Calculate sum of concentrations for both LC and FIA for each pooled sample individually (pool 1, pool 2, etc) by summing the concentration for all measurable metabolites within the sample.    
+```{r}
+## for each method, separately
+sum_concD<- cnds_pooledsample %>% group_by(ID, Method) %>%
+  summarize(sum_conc = sum(NormInt, na.rm=TRUE))
+sum_concD %>% arrange(Method)
+
+```
+
+
+E: From the previous step, now calculate from pooled samples the sum of the concentration mean, SD and RSD (variability of the instrument run); plot the individual samples, and plot the mean and 2 times SD above or below (range 2xSD) (technical variability). Do this for each metabolite individually. 
+
+```{r}
+pooledsampleE<- sum_concD %>% group_by(Method) %>% summarise(mean_sum = mean(sum_conc), sd_sum = sd(sum_conc), rsd_sum = ((sd(sum_conc)/mean(sum_conc))*100))
+print(pooledsampleE)
+
+#LC graph
+a<- ggplot((sum_concD %>% filter(Method== "FIA")), aes(x = ID, y= sum_conc)) + geom_col() +
+  geom_hline(yintercept = as.numeric(pooledsampleE[1,2]), color = 'red') + 
+  geom_hline(yintercept = as.numeric(pooledsampleE[1,2]+2*pooledsampleE[1,3]), color = 'yellow', lty= 2) + 
+  geom_hline(yintercept = as.numeric(pooledsampleE[1,2]-2*pooledsampleE[1,3]), color = 'yellow', lty= 2) + 
+  labs(title = "Pooled sum of metabolite concetration- FIA", x= "Pooled sample ID", y= "Sum of NormInt of all metabs" )
+#FIA graph 
+b <- ggplot((sum_concD %>% filter(Method== "LC")), aes(x = ID, y= sum_conc)) + geom_col() +
+  geom_hline(yintercept = as.numeric(pooledsampleE[2,2]), color = 'red') + 
+  geom_hline(yintercept = as.numeric(pooledsampleE[2,2]+2*pooledsampleE[2,3]), color = 'yellow', lty= 2) + 
+  geom_hline(yintercept = as.numeric(pooledsampleE[2,2]-2*pooledsampleE[2,3]), color = 'yellow', lty= 2) + 
+  labs(title = "Pooled sum of metabolite concetration- LC", x= "Pooled sample ID", y= "Sum of NormInt of all metabs" )
+  
+ggarrange(a,b, nrow=1, ncol=2, widths= 5, heights=7, align = "h")
+
+```
+
+
+
+**2. Sample quality analysis for LC and FIA  **
+For each compound, split the data by study group. Groups are as follows (n = #): 
+sham GF ; sGF = 5
+GF + AngII ; GF = 11
+sham COL ; sexGF = 5
+COL + AngII ; exGF = 12
+
+Pre-analysis cleaning: for all compounds where within a group, there are less than 70% of values available for any given group, remove the compound from the analysis. Do this for the broader datasheet, and also for the Colonized groups alone (ex and sexGF). 
+```{r, collapse= TRUE}
+#double-check how many samples are in each group: 
+full_lowcon1 %>% filter(Compound == "Sarcosine") %>% count(Sample.Type)
+print<- full_lowcon1 %>% filter(Compound == "Sarcosine")
+
+## find the percentage of missing values for a given compound within each of the subgroupings  
+remove<- full_lowcon1 %>% filter(!(Sample.Type == "pooledQC")) %>% group_by(Method, Compound, Sample.Type) %>% summarize(missing_per = sum(is.na(NormInt))/length(NormInt))
+
+## create the COLonly cleaned data frame 
+COLonly <- remove %>% filter(Sample.Type == "exGF" | Sample.Type == "sexGF") %>% group_by(Compound, Method, Sample.Type) %>% filter(missing_per >= .3)
+
+#compounds with over 30% missing values trimmed out  
+unreliable_compounds <- data.frame(unique(COLonly$Compound))
+names(unreliable_compounds)[names(unreliable_compounds) == "unique.COLonly.Compound."] <- "Compound"
+COLONLY_lowcon <- full_lowcon1 %>% filter(Sample.Type == "exGF" | Sample.Type == "sexGF") %>% anti_join(unreliable_compounds, by = "Compound")
+
+## create GF only cleaned data frame 
+
+GFonly <- remove %>% filter(Sample.Type == "GF" | Sample.Type == "sGF") %>% group_by(Compound, Method, Sample.Type) %>% filter(missing_per >= .3)
+
+#compounds with over 30% missing values trimmed out  
+unreliable_compounds <- data.frame(unique(GFonly$Compound))
+names(unreliable_compounds)[names(unreliable_compounds) == "unique.GFonly.Compound."] <- "Compound"
+GFONLY_lowcon <- full_lowcon1 %>% filter(Sample.Type == "GF" | Sample.Type == "sGF") %>% anti_join(unreliable_compounds, by = "Compound")
+
+
+##create a FULL cleaned data frame -- where no compound can have more than 30% missing values 
+full_cleaned <- remove %>% group_by(Compound, Method, Sample.Type) %>% filter(missing_per >= .3)
+
+#compounds with over 30% missing values trimmed out  
+unreliable_compounds <- data.frame(unique(full_cleaned$Compound))
+names(unreliable_compounds)[names(unreliable_compounds) == "unique.full_cleaned.Compound."] <- "Compound"
+full_lowcon2 <- full_lowcon1 %>% filter(!(Sample.Type == "pooledQC")) %>% anti_join(unreliable_compounds, by = "Compound")
+
+## are there any compounds which are reliable in the COL only data set, but not in the full data? AKA not present, or not consistently present in the GF or sGF data? 
+COLonly_compounds <- unique(COLONLY_lowcon$Compound)
+GFonly_compounds <- unique(GFONLY_lowcon$Compound)
+all_compounds <- unique(full_lowcon2$Compound)
+# see all the places where these vectors do NOT intersect 
+outersect <- function(x, y) {
+  sort(c(x[!x%in%y],
+         y[!y%in%x]))
+}
+
+indiv_datasets <- outersect(GFonly_compounds, COLonly_compounds)
+GFonly_metabs <- outersect(GFonly_compounds, all_compounds)
+COLonly_metabs <- outersect(COLonly_compounds, all_compounds)
+print(COLonly_metabs)
+print(GFonly_metabs)
+print(indiv_datasets)
+
+
+```
+Interesting that three that are found here are known biomarkers for CVD -- Indoxyl Sulfate, HomoArginine, and TMAO
+
+
+A: For each compound within the preselected subgroups (all permutations), calculate the mean from the concentration/area or intensity, SD and RSD (variability of individual compounds)
+
+```{r, collapse = TRUE}
+#calculated based on Norm Int values within each of the sample groupings for full data sheet 
+sample_dataGFall<- full_lowcon2 %>% filter(!(Sample.Type == "pooledQC")) %>% group_by (Method, Compound, Class, Sample.Type) %>% summarize( mean_conc = mean(NormInt, na.rm = TRUE), sd_conc = sd(NormInt, na.rm = TRUE), rsd_conc = (sd(NormInt, na.rm = TRUE)*100)/mean(NormInt, na.rm = TRUE))
+#double check 
+sample_dataGFall %>% filter(mean_conc == "NaN")
+
+
+#for GF only datasheet
+sample_dataGFonly <- GFONLY_lowcon%>% filter(!(Sample.Type == "pooledQC")) %>% group_by (Method, Compound, Class, Sample.Type) %>% summarize( mean_conc = mean(NormInt, na.rm = TRUE), sd_conc = sd(NormInt, na.rm = TRUE), rsd_conc = (sd(NormInt, na.rm = TRUE)*100)/mean(NormInt, na.rm = TRUE))
+#double check 
+sample_dataGFonly %>% filter(mean_conc == "NaN")
+
+
+
+#for COL only data sheet 
+sample_dataCOLonly <- COLONLY_lowcon %>% filter(!(Sample.Type == "pooledQC")) %>% group_by (Method, Compound, Class, Sample.Type) %>% summarize( mean_conc = mean(NormInt, na.rm = TRUE), sd_conc = sd(NormInt, na.rm = TRUE), rsd_conc = (sd(NormInt, na.rm = TRUE)*100)/mean(NormInt, na.rm = TRUE))
+#double check 
+sample_dataCOLonly %>% filter(mean_conc == "NaN")
+
+
+```
+
+B: Calculation of median RSD for each compound across subgroups (variability of the measurement; threshold RSD 15%)
+
+```{r, collapse= TRUE}
+## median RSD by compound for all groups combined
+medRSD_compound <- sample_dataGFall %>% group_by(Compound, Class, Method) %>% summarize(medianRSD = median(rsd_conc))
+## second way, median RSD by grouping for each compound
+medRSD_subgroup <- sample_dataGFall %>% group_by(Sample.Type, Method) %>% summarize(medianRSD = median(rsd_conc))
+print(medRSD_compound)
+print(medRSD_subgroup)
+
+
+## GF only 
+medRSD_compound1 <- sample_dataGFonly %>% group_by(Compound, Class, Method) %>% summarize(medianRSD = median(rsd_conc))
+## second way, median RSD by grouping for each compound
+medRSD_subgroup1 <- sample_dataGFonly %>% group_by(Sample.Type, Method) %>% summarize(medianRSD = median(rsd_conc))
+print(medRSD_compound1)
+print(medRSD_subgroup1)
+
+
+
+## COL only 
+medRSD_compound2 <- sample_dataCOLonly %>% group_by(Compound, Class, Method) %>% summarize(medianRSD = median(rsd_conc))
+## second way, median RSD by grouping for each compound
+medRSD_subgroup2 <- sample_dataCOLonly %>% group_by(Sample.Type, Method) %>% summarize(medianRSD = median(rsd_conc))
+print(medRSD_compound2)
+print(medRSD_subgroup2)
+
+
+
+```
+
+Looks pretty good, a fair amount of compounds are meeting this 15% threshold value. Some are not, particularly the triglycerides, but for the most part the other within the other compound classes most compounds close or under 15%. 
+Within subgroups, much more variability within the AngII treated groups than the sham groups. 
+```{r}
+#how to show this on a graph ALL
+e <- ggplot(medRSD_compound, aes(x= Compound, y= medianRSD, fill=Class)) + geom_col() + 
+   geom_hline(yintercept = 15, color = 'red') +
+   theme(axis.text.x = element_text(angle = -90, size = 2, hjust = 0, vjust = 0), 
+         legend.text = element_text(size = 6))
+print(e)
+
+f<- ggplot(medRSD_subgroup, aes(x= Sample.Type, y= medianRSD)) + 
+  facet_wrap(~Method) +
+  geom_bar(stat="identity") + 
+   geom_hline(yintercept = 15, color = 'red') 
+print(f)
+
+## GF ONLY 
+
+
+e1 <- ggplot(medRSD_compound1, aes(x= Compound, y= medianRSD, fill=Class)) + geom_col() + 
+   geom_hline(yintercept = 15, color = 'red') +
+   theme(axis.text.x = element_text(angle = -90, size = 2, hjust = 0, vjust = 0), 
+         legend.text = element_text(size = 6))
+print(e1)
+
+f1 <- ggplot(medRSD_subgroup1, aes(x= Sample.Type, y= medianRSD)) + 
+  facet_wrap(~Method) +
+  geom_bar(stat="identity") + 
+   geom_hline(yintercept = 15, color = 'red') 
+print(f1)
+
+
+
+## COL ONLY 
+
+e2 <- ggplot(medRSD_compound2, aes(x= Compound, y= medianRSD, fill=Class)) + geom_col() + 
+   geom_hline(yintercept = 15, color = 'red') +
+   theme(axis.text.x = element_text(angle = -90, size = 2, hjust = 0, vjust = 0), 
+         legend.text = element_text(size = 6))
+print(e2)
+
+f2<- ggplot(medRSD_subgroup2, aes(x= Sample.Type, y= medianRSD)) + 
+  facet_wrap(~Method) +
+  geom_bar(stat="identity") + 
+   geom_hline(yintercept = 15, color = 'red') 
+print(f2)
+
+
+```
+
+C: Calculate the amount of compounds with an RSD below 15% (% for detected compounds and % for total compounds) within each subgrouping; high RSDs above 100% should be manually checked for outliers. If a sample is an outlier for multiple compounds, likely an error in preparation or measurement occur so the entire sample should be excluded. Cross check with the sum of concentration or area/intensity if this is also highly different in the subgroup.
+
+
+```{r, Collapse = TRUE}
+## find compounds with RSD below15 ALL 
+sample_dataGFall1<- sample_dataGFall %>% mutate(RSD_below15 = ifelse(rsd_conc<=15, yes= 1, no=0))
+
+#summarize the data -- how many of the compounds are below 15% rsd?  ALL 
+summary_6c1<- sample_dataGFall1 %>% group_by(Sample.Type, Method) %>% summarise(medianRSD = median(rsd_conc), count_rsdbelow15 = sum(RSD_below15))
+print(summary_6c1 %>% arrange(Method))
+
+
+## GF ONLY 
+sample_dataGFonly1<- sample_dataGFonly %>% mutate(RSD_below15 = ifelse(rsd_conc<=15, yes= 1, no=0))
+
+#summarize the data -- how many of the compounds are below 15% rsd?
+summary_6c2<- sample_dataGFonly1 %>% group_by(Sample.Type, Method) %>% summarise(medianRSD = median(rsd_conc), count_rsdbelow15 = sum(RSD_below15))
+print(summary_6c2 %>% arrange(Method))
+
+
+
+## COL ONLY 
+sample_dataCOLonly1<- sample_dataCOLonly %>% mutate(RSD_below15 = ifelse(rsd_conc<=15, yes= 1, no=0))
+
+#summarize the data -- how many of the compounds are below 15% rsd? 
+summary_6c3 <- sample_dataCOLonly1 %>% group_by(Sample.Type, Method) %>% summarise(medianRSD = median(rsd_conc), count_rsdbelow15 = sum(RSD_below15))
+print(summary_6c3 %>% arrange(Method))
+
+
+
+```
+
+Identify the ID's (if any) which are consistently falling outside of 2*sd from the mean within a group. 
+
+```{r}
+#first merge these data frames based on Compound and Sample.Type information (this will multiply the amnt of times the mean_conc and rsd-conc is printed in order to correspond with all relavent sample IDs) - FULL datasheet 
+compound_info <- merge(full_lowcon2, sample_dataGFall, by = c("Sample.Type", "Compound","Class", "Method"))
+# now find where the NormInt is outside 2 rsd. 
+outlier_ID <- compound_info %>% mutate(outliers = ifelse((2*sd_conc + mean_conc) < NormInt & NormInt > (mean_conc- 2*sd_conc), yes = "yes", no = NA))
+#number of yes vals present in each ID 
+Outlier_counts <- outlier_ID %>% group_by(Sample.Type, ID) %>% tally(!is.na(outliers), n= "outliers")
+print(Outlier_counts %>% arrange(outliers))
+
+
+## GF ONLY 
+
+compound_info1 <- merge(GFONLY_lowcon, sample_dataGFonly, by = c("Sample.Type", "Compound","Class", "Method"))
+# now find where the NormInt is outside 2 rsd. 
+outlier_ID1 <- compound_info1 %>% mutate(outliers = ifelse((2*sd_conc + mean_conc) < NormInt & NormInt > (mean_conc- 2*sd_conc), yes = "yes", no = NA))
+#number of yes vals present in each ID 
+Outlier_counts1 <- outlier_ID1 %>% group_by(Sample.Type, ID) %>% tally(!is.na(outliers), n= "outliers")
+print(Outlier_counts1 %>% arrange(outliers))
+
+
+## COL ONLY 
+
+compound_info2 <- merge(COLONLY_lowcon, sample_dataCOLonly, by = c("Sample.Type", "Compound","Class", "Method"))
+# now find where the NormInt is outside 2 rsd. 
+outlier_ID2 <- compound_info2 %>% mutate(outliers = ifelse((2*sd_conc + mean_conc) < NormInt & NormInt > (mean_conc- 2*sd_conc), yes = "yes", no = NA))
+#number of yes vals present in each ID 
+Outlier_counts2 <- outlier_ID2 %>% group_by(Sample.Type, ID) %>% tally(!is.na(outliers), n= "outliers")
+print(Outlier_counts2 %>% arrange(outliers))
+
+
+## filter full datasheets as needed 
+full_lowcon3 <- full_lowcon2 %>% filter(ID != "exGF06")
+COLONLY_lowcon1 <- COLONLY_lowcon %>% filter(ID != "exGF06")
+
+```
+
+In the context of all the various metabolites measured (350 included at this time), safe to leave some with outliers in. Highest number of times any given sample was an outlier was 64 (exGF06) --this sample is far and above all the rest in terms of outliers, and will be removed. 
+
+
+
+D: Count the number of metabolites and the number of missing values present in each sample and take then mean per biological subgroup. Calculate the amount of metabolites per compound class (Indole derivatives, Amino acids, etc.).
+```{r, collapse= TRUE}
+#number of NA vals present in each sample (all)
+counts_persamp <- full_lowcon3 %>% group_by(Sample.Type, Method, Class, ID) %>% tally(is.na(NormInt), n= "Metabolites missing")
+counts_persamp
+
+## GF only 
+counts_persamp1 <- GFONLY_lowcon %>% group_by(Sample.Type, Method, Class, ID) %>% tally(is.na(NormInt), n= "Metabolites missing")
+counts_persamp1
+
+
+## COL only 
+counts_persamp2 <- COLONLY_lowcon1 %>% group_by(Sample.Type, Method, Class, ID) %>% tally(is.na(NormInt), n= "Metabolites missing")
+counts_persamp2
+
+
+```
+ 
+ The mean number of missing values per biological subgroup. 
+```{r}
+counts_persamp %>% group_by(Sample.Type, Method) %>% summarize(mean_missingnum = mean(`Metabolites missing`))
+
+counts_persamp1 %>% group_by(Sample.Type, Method) %>% summarize(mean_missingnum = mean(`Metabolites missing`))
+
+
+counts_persamp2 %>% group_by(Sample.Type, Method) %>% summarize(mean_missingnum = mean(`Metabolites missing`))
+
+```
+
+Calculate the amount of missing values for metabolites *per compound class (Indole derivatives, Amino acids, etc.).*
+
+```{r, collapse=TRUE}
+counts_perclass <- full_lowcon3 %>% group_by(Sample.Type, Class, ID) %>% tally(is.na(NormInt), n = "Metabolites missing")
+#counts of missing values by compound class
+counts_perclass1<- counts_perclass %>% group_by(Sample.Type, Class) %>% summarise(meanperclass = mean(`Metabolites missing`), medianperclass= median(`Metabolites missing`), sdperclass = sd(`Metabolites missing`))
+counts_perclass1
+
+## GF only 
+
+counts_perclass2 <- GFONLY_lowcon %>% group_by(Sample.Type, Class, ID) %>% tally(is.na(NormInt), n = "Metabolites missing")
+#counts of missing values by compound class
+counts_perclass3<- counts_perclass2 %>% group_by(Sample.Type, Class) %>% summarise(meanperclass = mean(`Metabolites missing`), medianperclass= median(`Metabolites missing`), sdperclass = sd(`Metabolites missing`))
+counts_perclass3
+
+
+
+
+## COL only 
+
+counts_perclass4 <- COLONLY_lowcon1 %>% group_by(Sample.Type, Class, ID) %>% tally(is.na(NormInt), n = "Metabolites missing")
+#counts of missing values by compound class
+counts_perclass5 <- counts_perclass4 %>% group_by(Sample.Type, Class) %>% summarise(meanperclass = mean(`Metabolites missing`), medianperclass= median(`Metabolites missing`), sdperclass = sd(`Metabolites missing`))
+counts_perclass5 
+
+```
+
+
+
+```{r, collapse=TRUE}
+#graphically showing the reverse of this (but the same theme) - this gives the compound # for each sample individually - ALL 
+counts_perclass_rev <- full_lowcon3 %>% group_by(Sample.Type, Method, ID, Class) %>% tally(!is.na(NormInt), n= "Metabolite_count")
+counts_perclass_rev<- counts_perclass_rev %>% arrange(Class)
+counts_perclass_rev$Metabolite_count<- as.numeric(counts_perclass_rev$Metabolite_count)
+
+ggplot(counts_perclass_rev, aes(x=Sample.Type, y=Metabolite_count)) + 
+  geom_boxplot(outlier.colour = 'red', outlier.size = 1) +
+  theme(axis.text.x = element_text(angle = -90, size = 6, hjust = 0, vjust = 0)) +
+  facet_wrap(~Class, scales = "free")
+
+counts_total <- counts_perclass_rev %>% group_by(ID) %>% summarise(total_metabcount = sum(Metabolite_count))
+print(counts_total)
+
+
+## GF ONLY 
+
+counts_perclass_rev1 <- GFONLY_lowcon %>% group_by(Sample.Type, Method, ID, Class) %>% tally(!is.na(NormInt), n= "Metabolite_count")
+counts_perclass_rev1<- counts_perclass_rev1 %>% arrange(Class)
+counts_perclass_rev1$Metabolite_count<- as.numeric(counts_perclass_rev1$Metabolite_count)
+
+ggplot(counts_perclass_rev1, aes(x=Sample.Type, y=Metabolite_count)) + 
+  geom_boxplot(outlier.colour = 'red', outlier.size = 1) +
+  theme(axis.text.x = element_text(angle = -90, size = 6, hjust = 0, vjust = 0)) +
+  facet_wrap(~Class, scales = "free")
+
+counts_total1 <- counts_perclass_rev1 %>% group_by(ID) %>% summarise(total_metabcount = sum(Metabolite_count))
+print(counts_total1)
+
+
+## COL ONLY 
+
+counts_perclass_rev2 <- COLONLY_lowcon1 %>% group_by(Sample.Type, Method, ID, Class) %>% tally(!is.na(NormInt), n= "Metabolite_count")
+counts_perclass_rev2<- counts_perclass_rev2 %>% arrange(Class)
+counts_perclass_rev2$Metabolite_count<- as.numeric(counts_perclass_rev2$Metabolite_count)
+
+ggplot(counts_perclass_rev2, aes(x=Sample.Type, y=Metabolite_count)) + 
+  geom_boxplot(outlier.colour = 'red', outlier.size = 1) +
+  theme(axis.text.x = element_text(angle = -90, size = 6, hjust = 0, vjust = 0)) +
+  facet_wrap(~Class, scales = "free")
+
+counts_total2 <- counts_perclass_rev2 %>% group_by(ID) %>% summarise(total_metabcount = sum(Metabolite_count))
+print(counts_total2)
+
+
+
+## only one sample that has a drastically reduced number of metabolites measurable compared to the others, and it is GF09. 
+full_lowcon4 <- full_lowcon3 %>% filter(ID != "GF09")
+GFONLY_lowcon1 <- GFONLY_lowcon %>% filter(ID != "GF09")
+```
+
+Red are outliers. for the most part, very little variation within groups. GF09 is removed from the analysis because of the drastically high number of missing metabolites here compared with all other samples. 
+
+
+
+E: Calculate sum of the NormInt within each sample for each method.
+```{r, collapse = TRUE }
+#take the sum of the concentration for each sample across methods, combined (ALL)
+sum_conc_sample<- full_lowcon4 %>% group_by(ID, Method, Sample.Type) %>% summarize(sum_conc = sum(NormInt, na.rm=TRUE))
+sum_conc_sample
+
+## GF ONLY 
+sum_conc_sample1<- GFONLY_lowcon1 %>% group_by(ID, Method, Sample.Type) %>% summarize(sum_conc = sum(NormInt, na.rm=TRUE))
+sum_conc_sample1
+
+
+##COL ONLY 
+sum_conc_sample2<- COLONLY_lowcon1 %>% group_by(ID, Method, Sample.Type) %>% summarize(sum_conc = sum(NormInt, na.rm=TRUE))
+sum_conc_sample2
+
+
+```
+
+F: Calculate from sum of area mean, SD and RSD (variability of the instrument run); plot the individual samples for each subgroup, and plot the mean and 2 times SD above or below (range 2xSD) (overview of the variability of the biological replicates); if there are outliers, check other confounding factors. 
+```{r}
+##ALL 
+subgroup_concsum<- sum_conc_sample %>% group_by(Method, Sample.Type)%>% summarise(mean_sum = mean(sum_conc), sd_sum = sd(sum_conc), rsd_sum = ((sd(sum_conc)/mean(sum_conc))*100))
+subgroup_concsum
+
+
+## GF ONLY 
+subgroup_concsum1<- sum_conc_sample1 %>% group_by(Method, Sample.Type)%>% summarise(mean_sum = mean(sum_conc), sd_sum = sd(sum_conc), rsd_sum = ((sd(sum_conc)/mean(sum_conc))*100))
+subgroup_concsum1
+
+
+## COL ONLY
+subgroup_concsum2<- sum_conc_sample2 %>% group_by(Method, Sample.Type)%>% summarise(mean_sum = mean(sum_conc), sd_sum = sd(sum_conc), rsd_sum = ((sd(sum_conc)/mean(sum_conc))*100))
+subgroup_concsum2
+
+```
+These RSD values are very good, data is pretty clean at this point. 
+
+
+** Because the RSD's are essentially the same for the GF only and COL only as in the overall data frame, the following only plots the ALL data frame for visual summary. 
+
+
+FOR LC METHOD
+these graphs show whether the samples for each specific method, group, and visit fall within the appropriate range (2*SD) or not. Measure of consistency across samples in a certain group. 
+```{r}
+
+# graphs  - LC 
+o <- sum_conc_sample %>% filter(Method == "LC", Sample.Type == "exGF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - exGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+p <- sum_conc_sample %>% filter(Method == "LC", Sample.Type == "sexGF") %>% 
+ ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - sexGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+q <- sum_conc_sample %>% filter(Method == "LC", Sample.Type == "GF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - GF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+r <- sum_conc_sample %>% filter(Method == "LC", Sample.Type == "sGF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - Group sGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+
+ 
+ggarrange(o,p,q,r, nrow=2, ncol=2, widths= 6, heights=2, align = "h")
+
+
+```
+All samples lie within 2SD from the mean-- which is great, this means there is relative consistency within groups. 
+
+
+
+FOR FIA METHOD
+```{r}
+s <- sum_conc_sample %>% filter(Method == "FIA", Sample.Type == "exGF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - exGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+t <- sum_conc_sample %>% filter(Method == "FIA", Sample.Type == "sexGF") %>% 
+ ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - sexGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+u <- sum_conc_sample %>% filter(Method == "FIA", Sample.Type == "GF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - GF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+v <- sum_conc_sample %>% filter(Method == "FIA", Sample.Type == "sGF") %>% 
+  ggplot(aes(x=as.character(ID), y= sum_conc))+ 
+  geom_bar(stat="identity") + 
+  geom_hline(aes(yintercept = mean(sum_conc)), color = 'green', 
+        linetype = 'dotdash') + 
+  geom_hline(aes(yintercept = mean(sum_conc)-
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  geom_hline(aes(yintercept = mean(sum_conc)+
+        2*sd(sum_conc)), color = c('red'), linetype = 'dotdash') +
+  labs(title = "Sum of conc - Group sGF", x= "Sample ID")+
+    theme(panel.grid.minor=element_blank()) +
+       theme(panel.grid.major=element_blank()) +
+       theme(panel.background=element_blank()) +
+       theme(axis.line=element_line())
+
+
+ 
+ggarrange(s,t, u , v, nrow=2, ncol=2, widths= 6, heights=2, align = "h")
+
+
+```
+GF16 is the only sample which is slightly outside of 2SD from the mean, but it will be left in because it has already passed all other tests, and remains within range for LC measurements. 
+
+
+
+
+DATASHEET OUTPUT 
+
+In summary, data was cleaned based on missing values and outlier identification. Criteria for a compound to remain in the analysis was that it would not have more than ~30% missing values. Hence why there is a COL ONLY datasheet-- because not all compounds were reliably measurable in both. Criteria for individual samples was based on # of missing values within the data and times that this ID fell outside of 2*SD of the mean. This resulted in 2 sample ID's getting kicked out of the analysis, exGF06 and GF09. 
+
+full CLEAN data sheets without imputation
+```{r}
+
+# final full datasheet 
+write.csv(full_lowcon4,"full_lowcon_cleaneddata_04092020.csv", row.names = FALSE)
+
+
+#final COL ONLY datasheet-- can be used for microbiome compatible analysis 
+write.csv(COLONLY_lowcon1,"COLonly_lowcon_cleaneddata_04092020.csv", row.names = FALSE)
+
+# final GF only datasheet 
+write.csv(GFONLY_lowcon1,"GFonly_lowcon_cleaneddata_04092020.csv", row.names = FALSE)
+```
+
+
+## Full data sheets with imputation 
+
+For the full dataset-- data has already been preselected such that no compounds within the data are missing more than 70% of values for any given metabolite. Therefore, the only imputation used was to, where NA values remain, impute the mean value from the subgroup where a value was missing. 
+
+For the COL only selected data-- again any metabolite where more than 70% of values were missing within a subgroup was selected out. Imputation 
+
+```{r}
+#see whether there is any data missing (all)
+vis_miss(full_lowcon4)
+subs<- full_lowcon4 %>% filter(is.na(NormInt))
+subs
+#quite a few are missing, so going to try and impute these
+full_lowcon5<- full_lowcon4 %>% group_by(Sample.Type, Compound) %>%
+mutate(NormInt=ifelse(is.na(NormInt),mean(NormInt,na.rm=TRUE), NormInt))
+
+vis_miss(full_lowcon5)
+## so that took care of all the missing values in the full data sheet. 
+
+
+
+##GF ONLY 
+
+vis_miss(GFONLY_lowcon1)
+#use the same technique in the COL only data 
+subs1<- GFONLY_lowcon1 %>% filter(is.na(NormInt))
+#within a variety of samples so safe to say there is no error upstream, so now these will be imputed. 
+GFONLY_lowcon2<- GFONLY_lowcon1 %>% group_by(Sample.Type, Compound) %>%
+mutate(NormInt=ifelse(is.na(NormInt),mean(NormInt,na.rm=TRUE), NormInt))
+
+vis_miss(GFONLY_lowcon2)
+
+
+
+##COL only 
+
+vis_miss(COLONLY_lowcon1)
+#use the same technique in the COL only data 
+subs2<- COLONLY_lowcon1 %>% filter(is.na(NormInt))
+#within a variety of samples so safe to say there is no error upstream, so now these will be imputed. 
+COLONLY_lowcon2<- COLONLY_lowcon1 %>% group_by(Sample.Type, Compound) %>%
+mutate(NormInt=ifelse(is.na(NormInt),mean(NormInt,na.rm=TRUE), NormInt))
+
+vis_miss(COLONLY_lowcon2)
+
+#yep! No more NA values. 
+
+
+# final full datasheet WITH IMPUTATION
+write.csv(full_lowcon5,"full_lowcon_cleaneddata_wImputation_04092020.csv", row.names = FALSE)
+
+
+#final COL ONLY datasheet-- can be used for microbiome compatible analysis WITH IMPUTATION 
+write.csv(COLONLY_lowcon2,"COLonly_lowcon_cleaneddata_wImputation_04092020.csv", row.names = FALSE)
+
+
+# final GF ONLY datasheet 
+
+write.csv(GFONLY_lowcon2,"GFonly_lowcon_cleaneddata_wImputation_04092020.csv", row.names = FALSE)
+
+
+
+
+
+```

@@ -1,0 +1,631 @@
+﻿Full name ,Compound,Class
+Trigonelline,Trigonelline,Alkaloids
+Trimethylamine N-oxide,TMAO,Amine oxides
+Alanine,Ala,Amino acids
+Arginine,Arg,Amino acids
+Asparagine,Asn,Amino acids
+Aspartic Acid,Asp,Amino acids
+Cysteine,Cys,Amino acids
+Glutamic Acid,Glu,Amino acids
+Glutamine,Gln,Amino acids
+Glycine,Gly,Amino acids
+Histidine,His,Amino acids
+Isoleucine,Ile,Amino acids
+Leucine,Leu,Amino acids
+Lysine,Lys,Amino acids
+Methionine,Met,Amino acids
+Phenylalanine,Phe,Amino acids
+Proline,Pro,Amino acids
+Serine,Ser,Amino acids
+Threonine,Thr,Amino acids
+Tryptophan,Trp,Amino acids
+Tyrosine,Tyr,Amino acids
+Valine,Val,Amino acids
+1-Methylhistidine,1-Met-His,Amino acid related
+3-Methylhistidine,3-Met-His,Amino acid related
+5-Aminovaleric acid,5-AVA,Amino acid related
+Acetylornithine,Ac-Orn,Amino acid related
+Alpha-Aminobutyric acid,AABA,Amino acid related
+Asymmetric dimethylarginine,ADMA,Amino acid related
+Betaine,Betaine,Amino acid related
+Carnosine,Carnosine,Amino acid related
+cis-4-Hydroxyproline,c4-OH-Pro,Amino acid related
+Citrulline,Cit,Amino acid related
+Creatinine,Creatinine,Amino acid related
+Cystine,Cystine,Amino acid related
+Dihydroxyphenylalanine,DOPA,Amino acid related
+Homoarginine,HArg,Amino acid related
+Homocysteine,HCys,Amino acid related
+Kynurenine,Kynurenine,Amino acid related
+L-Anserine,Anserine,Amino acid related
+Methionine-Sulfoxide,Met-SO,Amino acid related
+Nitrotyrosine,Nitro-Tyr,Amino acid related
+Ornithine,Orn,Amino acid related
+Phenylacetylglycine,PAG,Amino acid related
+Phenylalanine betaine,PheAlaBetaine,Amino acid related
+Proline betaine,ProBetaine,Amino acid related
+Sarcosine,Sarcosine,Amino acid related
+Symmetric dimethylarginine,SDMA,Amino acid related
+Taurine,Taurine,Amino acid related
+Tryptophan betaine,TrpBetaine,Amino acid related
+alpha-Aminoadipic acid,alpha-AAA,Amino acid related
+beta-Aminobutyric acid,BABA,Amino acid related
+trans-4-Hydroxyproline,t4-OH-Pro,Amino acid related
+Chenodeoxycholic acid,CDCA,Bile acids
+Cholic Acid,CA,Bile acids
+Deoxycholic acid,DCA,Bile acids
+Glycochenodeoxycholic acid,GCDCA,Bile acids
+Glycocholic acid,GCA,Bile acids
+Glycodeoxycholic acid,GDCA,Bile acids
+Glycolithocholic acid,GLCA,Bile acids
+Glycolithocholic acid sulfate,GLCAS,Bile acids
+Glycoursodeoxycholic acid,GUDCA,Bile acids
+Taurochenodeoxycholic acid,TCDCA,Bile acids
+Taurocholic acid,TCA,Bile acids
+Taurodeoxycholic acid,TDCA,Bile acids
+Taurolithocholic acid,TLCA,Bile acids
+Tauro-muricholic acids,TMCA,Bile acids
+Dopamine,Dopamine,Biogenic amines
+Histamine,Histamine,Biogenic amines
+Phenylethylamine,PEA,Biogenic amines
+Putrescine,Putrescine,Biogenic amines
+Serotonin,Serotonin,Biogenic amines
+Spermidine,Spermidine,Biogenic amines
+Spermine,Spermine,Biogenic amines
+beta-Alanine,beta-Ala,Biogenic amines
+gamma-Aminobutyric acid,GABA,Biogenic amines
+Aconitic acid,AconAcid,Carboxylic acids
+Dodecanedioic acid,DiCA(12:0),Carboxylic acids
+Tetradecanedioic acid,DiCA(14:0),Carboxylic acids
+Hippuric acid,HipAcid,Carboxylic acids
+Lactic acid,Lac,Carboxylic acids
+Hydroxyglutaric acid,OH-GlutAcid,Carboxylic acids
+Succinic acid,Suc,Carboxylic acids
+p-Cresol sulfate,p-Cresol-SO4,Cresols
+Arachidonic acid,AA,Fatty acids
+Docosahexaenoic acid,DHA,Fatty acids
+Eicosapentaenoic acid,EPA,Fatty acids
+Dodecanoic acid,FA(12:0),Fatty acids
+Myristic acid,FA(14:0),Fatty acids
+Palmitic acid,FA(16:0),Fatty acids
+Stearic acid,FA(18:0),Fatty acids
+Octadecenoic acid,FA(18:1),Fatty acids
+Octadecadienoate,FA(18:2),Fatty acids
+Eicosenoic acid,FA(20:1),Fatty acids
+Eicosadienoic acid,FA(20:2),Fatty acids
+Eicosatrienoic acid,FA(20:3),Fatty acids
+Abscisic acid,AbsAcid,Hormones and related
+Cortisol,Cortisol,Hormones and related
+Cortisone,Cortisone,Hormones and related
+Dehydroepiandrosterone sulfate,DHEAS,Hormones and related
+Indoxyl sulfate,Ind-SO4,Indoles and derivatives
+Indole,Indole,Indoles and derivatives
+Indoleacetic acid,3-IAA,Indoles and derivatives
+Indolepropionic acid,3-IPA,Indoles and derivatives
+Hypoxanthine,Hypoxanthine,Nucleobases and related
+Xanthine,Xanthine,Nucleobases and related
+Choline,Choline,Vitamins and cofactors
+Carnitine,C0,Acylcarnitines
+Acetylcarnitine,C2,Acylcarnitines
+Propionylcarnitine,C3,Acylcarnitines
+Malonylcarnitine (Hydroxybutyrylcarnitine),C3-DC (C4-OH),Acylcarnitines
+Hydroxypropionylcarnitine,C3-OH,Acylcarnitines
+Propenylcarnitine,C3:1,Acylcarnitines
+Butyrylcarnitine,C4,Acylcarnitines
+Butenylcarnitine,C4:1,Acylcarnitines
+Valerylcarnitine,C5,Acylcarnitines
+Glutarylcarnitine (Hydroxyhexanoylcarnitine),C5-DC (C6-OH),Acylcarnitines
+Methylglutarylcarnitine,C5-M-DC,Acylcarnitines
+Hydroxyvalerylcarnitine (Methylmalonylcarnitine),C5-OH (C3-DC-M),Acylcarnitines
+Tiglylcarnitine,C5:1,Acylcarnitines
+Glutaconylcarnitine,C5:1-DC,Acylcarnitines
+Hexanoylcarnitine (Fumarylcarnitine),C6 (C4:1-DC),Acylcarnitines
+Hexenoylcarnitine,C6:1,Acylcarnitines
+Pimelylcarnitine,C7-DC,Acylcarnitines
+Octanoylcarnitine,C8,Acylcarnitines
+Nonanoylcarnitine,C9,Acylcarnitines
+Decanoylcarnitine,C10,Acylcarnitines
+Decenoylcarnitine,C10:1,Acylcarnitines
+Decadienoylcarnitine,C10:2,Acylcarnitines
+Dodecanoylcarnitine,C12,Acylcarnitines
+Dodecanedioylcarnitine,C12-DC,Acylcarnitines
+Dodecenoylcarnitine,C12:1,Acylcarnitines
+Tetradecanoylcarnitine,C14,Acylcarnitines
+Tetradecenoylcarnitine,C14:1,Acylcarnitines
+Hydroxytetradecenoylcarnitine,C14:1-OH,Acylcarnitines
+Tetradecadienylcarnitine,C14:2,Acylcarnitines
+Hydroxytetradecadienylcarnitine,C14:2-OH,Acylcarnitines
+Hexadecanoylcarnitine,C16,Acylcarnitines
+Hydroxyhexadecanoylcarnitine,C16-OH,Acylcarnitines
+Hexadecenoylcarnitine,C16:1,Acylcarnitines
+Hydroxyhexadecenoylcarnitine,C16:1-OH,Acylcarnitines
+Hexadecadienylcarnitine,C16:2,Acylcarnitines
+Hydroxyhexadecadienoylcarnitine,C16:2-OH,Acylcarnitines
+Octadecanoylcarnitine,C18,Acylcarnitines
+Octadecenoylcarnitine,C18:1,Acylcarnitines
+Hydroxyoctadecenoylcarnitine,C18:1-OH,Acylcarnitines
+Octadecadienylcarnitine,C18:2,Acylcarnitines
+Lysophosphatidylcholine a C14:0,lysoPC a C14:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C16:0,lysoPC a C16:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C16:1,lysoPC a C16:1,Lysophosphatidylcholines
+Lysophosphatidylcholine a C17:0,lysoPC a C17:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C18:0,lysoPC a C18:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C18:1,lysoPC a C18:1,Lysophosphatidylcholines
+Lysophosphatidylcholine a C18:2,lysoPC a C18:2,Lysophosphatidylcholines
+Lysophosphatidylcholine a C20:3,lysoPC a C20:3,Lysophosphatidylcholines
+Lysophosphatidylcholine a C20:4,lysoPC a C20:4,Lysophosphatidylcholines
+Lysophosphatidylcholine a C24:0,lysoPC a C24:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C26:0,lysoPC a C26:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C26:1,lysoPC a C26:1,Lysophosphatidylcholines
+Lysophosphatidylcholine a C28:0,lysoPC a C28:0,Lysophosphatidylcholines
+Lysophosphatidylcholine a C28:1,lysoPC a C28:1,Lysophosphatidylcholines
+Phosphatidylcholine aa C24:0,PC aa C24:0,Phosphatidylcholines
+Phosphatidylcholine aa C26:0,PC aa C26:0,Phosphatidylcholines
+Phosphatidylcholine aa C28:1,PC aa C28:1,Phosphatidylcholines
+Phosphatidylcholine aa C30:0,PC aa C30:0,Phosphatidylcholines
+Phosphatidylcholine aa C30:2,PC aa C30:2,Phosphatidylcholines
+Phosphatidylcholine aa C32:0,PC aa C32:0,Phosphatidylcholines
+Phosphatidylcholine aa C32:1,PC aa C32:1,Phosphatidylcholines
+Phosphatidylcholine aa C32:2,PC aa C32:2,Phosphatidylcholines
+Phosphatidylcholine aa C32:3,PC aa C32:3,Phosphatidylcholines
+Phosphatidylcholine aa C34:1,PC aa C34:1,Phosphatidylcholines
+Phosphatidylcholine aa C34:2,PC aa C34:2,Phosphatidylcholines
+Phosphatidylcholine aa C34:3,PC aa C34:3,Phosphatidylcholines
+Phosphatidylcholine aa C34:4,PC aa C34:4,Phosphatidylcholines
+Phosphatidylcholine aa C36:0,PC aa C36:0,Phosphatidylcholines
+Phosphatidylcholine aa C36:1,PC aa C36:1,Phosphatidylcholines
+Phosphatidylcholine aa C36:2,PC aa C36:2,Phosphatidylcholines
+Phosphatidylcholine aa C36:3,PC aa C36:3,Phosphatidylcholines
+Phosphatidylcholine aa C36:4,PC aa C36:4,Phosphatidylcholines
+Phosphatidylcholine aa C36:5,PC aa C36:5,Phosphatidylcholines
+Phosphatidylcholine aa C36:6,PC aa C36:6,Phosphatidylcholines
+Phosphatidylcholine aa C38:0,PC aa C38:0,Phosphatidylcholines
+Phosphatidylcholine aa C38:1,PC aa C38:1,Phosphatidylcholines
+Phosphatidylcholine aa C38:3,PC aa C38:3,Phosphatidylcholines
+Phosphatidylcholine aa C38:4,PC aa C38:4,Phosphatidylcholines
+Phosphatidylcholine aa C38:5,PC aa C38:5,Phosphatidylcholines
+Phosphatidylcholine aa C38:6,PC aa C38:6,Phosphatidylcholines
+Phosphatidylcholine aa C40:1,PC aa C40:1,Phosphatidylcholines
+Phosphatidylcholine aa C40:2,PC aa C40:2,Phosphatidylcholines
+Phosphatidylcholine aa C40:3,PC aa C40:3,Phosphatidylcholines
+Phosphatidylcholine aa C40:4,PC aa C40:4,Phosphatidylcholines
+Phosphatidylcholine aa C40:5,PC aa C40:5,Phosphatidylcholines
+Phosphatidylcholine aa C40:6,PC aa C40:6,Phosphatidylcholines
+Phosphatidylcholine aa C42:0,PC aa C42:0,Phosphatidylcholines
+Phosphatidylcholine aa C42:1,PC aa C42:1,Phosphatidylcholines
+Phosphatidylcholine aa C42:2,PC aa C42:2,Phosphatidylcholines
+Phosphatidylcholine aa C42:4,PC aa C42:4,Phosphatidylcholines
+Phosphatidylcholine aa C42:5,PC aa C42:5,Phosphatidylcholines
+Phosphatidylcholine aa C42:6,PC aa C42:6,Phosphatidylcholines
+Phosphatidylcholine ae C30:0,PC ae C30:0,Phosphatidylcholines
+Phosphatidylcholine ae C30:1,PC ae C30:1,Phosphatidylcholines
+Phosphatidylcholine ae C30:2,PC ae C30:2,Phosphatidylcholines
+Phosphatidylcholine ae C32:1,PC ae C32:1,Phosphatidylcholines
+Phosphatidylcholine ae C32:2,PC ae C32:2,Phosphatidylcholines
+Phosphatidylcholine ae C34:0,PC ae C34:0,Phosphatidylcholines
+Phosphatidylcholine ae C34:1,PC ae C34:1,Phosphatidylcholines
+Phosphatidylcholine ae C34:2,PC ae C34:2,Phosphatidylcholines
+Phosphatidylcholine ae C34:3,PC ae C34:3,Phosphatidylcholines
+Phosphatidylcholine ae C36:0,PC ae C36:0,Phosphatidylcholines
+Phosphatidylcholine ae C36:1,PC ae C36:1,Phosphatidylcholines
+Phosphatidylcholine ae C36:2,PC ae C36:2,Phosphatidylcholines
+Phosphatidylcholine ae C36:3,PC ae C36:3,Phosphatidylcholines
+Phosphatidylcholine ae C36:4,PC ae C36:4,Phosphatidylcholines
+Phosphatidylcholine ae C36:5,PC ae C36:5,Phosphatidylcholines
+Phosphatidylcholine ae C38:0,PC ae C38:0,Phosphatidylcholines
+Phosphatidylcholine ae C38:1,PC ae C38:1,Phosphatidylcholines
+Phosphatidylcholine ae C38:2,PC ae C38:2,Phosphatidylcholines
+Phosphatidylcholine ae C38:3,PC ae C38:3,Phosphatidylcholines
+Phosphatidylcholine ae C38:4,PC ae C38:4,Phosphatidylcholines
+Phosphatidylcholine ae C38:5,PC ae C38:5,Phosphatidylcholines
+Phosphatidylcholine ae C38:6,PC ae C38:6,Phosphatidylcholines
+Phosphatidylcholine ae C40:1,PC ae C40:1,Phosphatidylcholines
+Phosphatidylcholine ae C40:2,PC ae C40:2,Phosphatidylcholines
+Phosphatidylcholine ae C40:3,PC ae C40:3,Phosphatidylcholines
+Phosphatidylcholine ae C40:4,PC ae C40:4,Phosphatidylcholines
+Phosphatidylcholine ae C40:5,PC ae C40:5,Phosphatidylcholines
+Phosphatidylcholine ae C40:6,PC ae C40:6,Phosphatidylcholines
+Phosphatidylcholine ae C42:0,PC ae C42:0,Phosphatidylcholines
+Phosphatidylcholine ae C42:1,PC ae C42:1,Phosphatidylcholines
+Phosphatidylcholine ae C42:2,PC ae C42:2,Phosphatidylcholines
+Phosphatidylcholine ae C42:3,PC ae C42:3,Phosphatidylcholines
+Phosphatidylcholine ae C42:4,PC ae C42:4,Phosphatidylcholines
+Phosphatidylcholine ae C42:5,PC ae C42:5,Phosphatidylcholines
+Phosphatidylcholine ae C44:3,PC ae C44:3,Phosphatidylcholines
+Phosphatidylcholine ae C44:4,PC ae C44:4,Phosphatidylcholines
+Phosphatidylcholine ae C44:5,PC ae C44:5,Phosphatidylcholines
+Phosphatidylcholine ae C44:6,PC ae C44:6,Phosphatidylcholines
+Ceramide(d16:1/18:0),Cer(d16:1/18:0),Ceramides
+Ceramide(d16:1/20:0),Cer(d16:1/20:0),Ceramides
+Ceramide(d16:1/22:0),Cer(d16:1/22:0),Ceramides
+Ceramide(d16:1/23:0),Cer(d16:1/23:0),Ceramides
+Ceramide(d16:1/24:0),Cer(d16:1/24:0),Ceramides
+Ceramide(d18:1/14:0),Cer(d18:1/14:0),Ceramides
+Ceramide(d18:1/16:0),Cer(d18:1/16:0),Ceramides
+Ceramide(d18:1/18:0),Cer(d18:1/18:0),Ceramides
+Ceramide(d18:1/18:0(OH)),Cer(d18:1/18:0(OH)),Ceramides
+Ceramide(d18:1/18:1),Cer(d18:1/18:1),Ceramides
+Ceramide(d18:1/20:0),Cer(d18:1/20:0),Ceramides
+Ceramide(d18:1/20:0(OH)),Cer(d18:1/20:0(OH)),Ceramides
+Ceramide(d18:1/22:0),Cer(d18:1/22:0),Ceramides
+Ceramide(d18:1/23:0),Cer(d18:1/23:0),Ceramides
+Ceramide(d18:1/24:0),Cer(d18:1/24:0),Ceramides
+Ceramide(d18:1/24:1),Cer(d18:1/24:1),Ceramides
+Ceramide(d18:1/25:0),Cer(d18:1/25:0),Ceramides
+Ceramide(d18:1/26:0),Cer(d18:1/26:0),Ceramides
+Ceramide(d18:1/26:1),Cer(d18:1/26:1),Ceramides
+Ceramide(d18:2/14:0),Cer(d18:2/14:0),Ceramides
+Ceramide(d18:2/16:0),Cer(d18:2/16:0),Ceramides
+Ceramide(d18:2/18:0),Cer(d18:2/18:0),Ceramides
+Ceramide(d18:2/18:1),Cer(d18:2/18:1),Ceramides
+Ceramide(d18:2/20:0),Cer(d18:2/20:0),Ceramides
+Ceramide(d18:2/22:0),Cer(d18:2/22:0),Ceramides
+Ceramide(d18:2/23:0),Cer(d18:2/23:0),Ceramides
+Ceramide(d18:2/24:0),Cer(d18:2/24:0),Ceramides
+Ceramide(d18:2/24:1),Cer(d18:2/24:1),Ceramides
+Dihydroceramide(d18:0/18:0),Cer(d18:0/18:0),Dihydroceramides
+Dihydroceramide(d18:0/18:0(OH)),Cer(d18:0/18:0(OH)),Dihydroceramides
+Dihydroceramide(d18:0/20:0),Cer(d18:0/20:0),Dihydroceramides
+Dihydroceramide(d18:0/22:0),Cer(d18:0/22:0),Dihydroceramides
+Dihydroceramide(d18:0/24:0),Cer(d18:0/24:0),Dihydroceramides
+Dihydroceramide(d18:0/24:1),Cer(d18:0/24:1),Dihydroceramides
+Dihydroceramide(d18:0/26:1),Cer(d18:0/26:1),Dihydroceramides
+Dihydroceramide(d18:0/26:1(OH)),Cer(d18:0/26:1(OH)),Dihydroceramides
+Hexosylceramide(d16:1/22:0),HexCer(d16:1/22:0),Hexosylceramides
+Hexosylceramide(d16:1/24:0),HexCer(d16:1/24:0),Hexosylceramides
+Hexosylceramide(d18:1/14:0),HexCer(d18:1/14:0),Hexosylceramides
+Hexosylceramide(d18:1/16:0),HexCer(d18:1/16:0),Hexosylceramides
+Hexosylceramide(d18:1/18:0),HexCer(d18:1/18:0),Hexosylceramides
+Hexosylceramide(d18:1/18:1),HexCer(d18:1/18:1),Hexosylceramides
+Hexosylceramide(d18:1/20:0),HexCer(d18:1/20:0),Hexosylceramides
+Hexosylceramide(d18:1/22:0),HexCer(d18:1/22:0),Hexosylceramides
+Hexosylceramide(d18:1/23:0),HexCer(d18:1/23:0),Hexosylceramides
+Hexosylceramide(d18:1/24:0),HexCer(d18:1/24:0),Hexosylceramides
+Hexosylceramide(d18:1/24:1),HexCer(d18:1/24:1),Hexosylceramides
+Hexosylceramide(d18:1/26:0),HexCer(d18:1/26:0),Hexosylceramides
+Hexosylceramide(d18:1/26:1),HexCer(d18:1/26:1),Hexosylceramides
+Hexosylceramide(d18:2/16:0),HexCer(d18:2/16:0),Hexosylceramides
+Hexosylceramide(d18:2/18:0),HexCer(d18:2/18:0),Hexosylceramides
+Hexosylceramide(d18:2/20:0),HexCer(d18:2/20:0),Hexosylceramides
+Hexosylceramide(d18:2/22:0),HexCer(d18:2/22:0),Hexosylceramides
+Hexosylceramide(d18:2/23:0),HexCer(d18:2/23:0),Hexosylceramides
+Hexosylceramide(d18:2/24:0),HexCer(d18:2/24:0),Hexosylceramides
+Dihexosylceramide(d18:1/14:0),Hex2Cer(d18:1/14:0),Dihexosylceramides
+Dihexosylceramide(d18:1/16:0),Hex2Cer(d18:1/16:0),Dihexosylceramides
+Dihexosylceramide(d18:1/18:0),Hex2Cer(d18:1/18:0),Dihexosylceramides
+Dihexosylceramide(d18:1/20:0),Hex2Cer(d18:1/20:0),Dihexosylceramides
+Dihexosylceramide(d18:1/22:0),Hex2Cer(d18:1/22:0),Dihexosylceramides
+Dihexosylceramide(d18:1/24:0),Hex2Cer(d18:1/24:0),Dihexosylceramides
+Dihexosylceramide(d18:1/24:1),Hex2Cer(d18:1/24:1),Dihexosylceramides
+Dihexosylceramide(d18:1/26:0),Hex2Cer(d18:1/26:0),Dihexosylceramides
+Dihexosylceramide(d18:1/26:1),Hex2Cer(d18:1/26:1),Dihexosylceramides
+Trihexosylceramide(d18:1/16:0),Hex3Cer(d18:1/16:0),Trihexosylceramides
+Trihexosylceramide(d18:1/18:0),Hex3Cer(d18:1/18:0),Trihexosylceramides
+Trihexosylceramide(d18:1_20:0),Hex3Cer(d18:1_20:0),Trihexosylceramides
+Trihexosylceramide(d18:1_22:0),Hex3Cer(d18:1_22:0),Trihexosylceramides
+Trihexosylceramide(d18:1/24:1),Hex3Cer(d18:1/24:1),Trihexosylceramides
+Trihexosylceramide(d18:1/26:1),Hex3Cer(d18:1/26:1),Trihexosylceramides
+Sphingomyelin C16:0,SM C16:0,Sphingomyelins
+Sphingomyelin C16:1,SM C16:1,Sphingomyelins
+Sphingomyelin C18:0,SM C18:0,Sphingomyelins
+Sphingomyelin C18:1,SM C18:1,Sphingomyelins
+Sphingomyelin C20:2,SM C20:2,Sphingomyelins
+Sphingomyelin C22:3,SM C22:3,Sphingomyelins
+Sphingomyelin C24:0,SM C24:0,Sphingomyelins
+Sphingomyelin C24:1,SM C24:1,Sphingomyelins
+Sphingomyelin C26:0,SM C26:0,Sphingomyelins
+Sphingomyelin C26:1,SM C26:1,Sphingomyelins
+Hydroxysphingomyelin C14:1,SM (OH) C14:1,Sphingomyelins
+Hydroxysphingomyelin C16:1,SM (OH) C16:1,Sphingomyelins
+Hydroxysphingomyelin C22:1,SM (OH) C22:1,Sphingomyelins
+Hydroxysphingomyelin C22:2,SM (OH) C22:2,Sphingomyelins
+Hydroxysphingomyelin C24:1,SM (OH) C24:1,Sphingomyelins
+Cholesteryl ester 14:0,CE(14:0),Cholesteryl esters
+Cholesteryl ester 14:1,CE(14:1),Cholesteryl esters
+Cholesteryl ester 15:0,CE(15:0),Cholesteryl esters
+Cholesteryl ester 15:1,CE(15:1),Cholesteryl esters
+Cholesteryl ester 16:0,CE(16:0),Cholesteryl esters
+Cholesteryl ester 16:1,CE(16:1),Cholesteryl esters
+Cholesteryl ester 17:0,CE(17:0),Cholesteryl esters
+Cholesteryl ester 17:1,CE(17:1),Cholesteryl esters
+Cholesteryl ester 18:0,CE(18:0),Cholesteryl esters
+Cholesteryl ester 18:1,CE(18:1),Cholesteryl esters
+Cholesteryl ester 18:2,CE(18:2),Cholesteryl esters
+Cholesteryl ester 18:3,CE(18:3),Cholesteryl esters
+Cholesteryl ester 20:0,CE(20:0),Cholesteryl esters
+Cholesteryl ester 20:1,CE(20:1),Cholesteryl esters
+Cholesteryl ester 20:3,CE(20:3),Cholesteryl esters
+Cholesteryl ester 20:4,CE(20:4),Cholesteryl esters
+Cholesteryl ester 20:5,CE(20:5),Cholesteryl esters
+Cholesteryl ester 22:0,CE(22:0),Cholesteryl esters
+Cholesteryl ester 22:1,CE(22:1),Cholesteryl esters
+Cholesteryl ester 22:2,CE(22:2),Cholesteryl esters
+Cholesteryl ester 22:5,CE(22:5),Cholesteryl esters
+Cholesteryl ester 22:6,CE(22:6),Cholesteryl esters
+Diacylglyceride O-(14:0_18:2),DG-O(14:0_18:2),Diglycerides
+Diacylglyceride O-(16:0_18:1),DG-O(16:0_18:1),Diglycerides
+Diacylglyceride O-(16:0_20:4),DG-O(16:0_20:4),Diglycerides
+Diacylglyceride(14:0_14:0),DG(14:0_14:0),Diglycerides
+Diacylglyceride(14:0_18:1),DG(14:0_18:1),Diglycerides
+Diacylglyceride(14:0_18:2),DG(14:0_18:2),Diglycerides
+Diacylglyceride(14:0_20:0),DG(14:0_20:0),Diglycerides
+Diacylglyceride(14:1_18:1),DG(14:1_18:1),Diglycerides
+Diacylglyceride(14:1_20:2),DG(14:1_20:2),Diglycerides
+Diacylglyceride(16:0_16:0),DG(16:0_16:0),Diglycerides
+Diacylglyceride(16:0_16:1),DG(16:0_16:1),Diglycerides
+Diacylglyceride(16:0_18:1),DG(16:0_18:1),Diglycerides
+Diacylglyceride(16:0_18:2),DG(16:0_18:2),Diglycerides
+Diacylglyceride(16:0_20:0),DG(16:0_20:0),Diglycerides
+Diacylglyceride(16:0_20:3),DG(16:0_20:3),Diglycerides
+Diacylglyceride(16:0_20:4),DG(16:0_20:4),Diglycerides
+Diacylglyceride(16:1_18:0),DG(16:1_18:0),Diglycerides
+Diacylglyceride(16:1_18:1),DG(16:1_18:1),Diglycerides
+Diacylglyceride(16:1_18:2),DG(16:1_18:2),Diglycerides
+Diacylglyceride(16:1_20:0),DG(16:1_20:0),Diglycerides
+Diacylglyceride(17:0_17:1),DG(17:0_17:1),Diglycerides
+Diacylglyceride(17:0_18:1),DG(17:0_18:1),Diglycerides
+Diacylglyceride(18:0_20:0),DG(18:0_20:0),Diglycerides
+Diacylglyceride(18:0_20:4),DG(18:0_20:4),Diglycerides
+Diacylglyceride(18:1_18:1),DG(18:1_18:1),Diglycerides
+Diacylglyceride(18:1_18:2),DG(18:1_18:2),Diglycerides
+Diacylglyceride(18:1_18:3),DG(18:1_18:3),Diglycerides
+Diacylglyceride(18:1_18:4),DG(18:1_18:4),Diglycerides
+Diacylglyceride(18:1_20:0),DG(18:1_20:0),Diglycerides
+Diacylglyceride(18:1_20:1),DG(18:1_20:1),Diglycerides
+Diacylglyceride(18:1_20:2),DG(18:1_20:2),Diglycerides
+Diacylglyceride(18:1_20:3),DG(18:1_20:3),Diglycerides
+Diacylglyceride(18:1_20:4),DG(18:1_20:4),Diglycerides
+Diacylglyceride(18:1_22:5),DG(18:1_22:5),Diglycerides
+Diacylglyceride(18:1_22:6),DG(18:1_22:6),Diglycerides
+Diacylglyceride(18:2_18:2),DG(18:2_18:2),Diglycerides
+Diacylglyceride(18:2_18:3),DG(18:2_18:3),Diglycerides
+Diacylglyceride(18:2_18:4),DG(18:2_18:4),Diglycerides
+Diacylglyceride(18:2_20:0),DG(18:2_20:0),Diglycerides
+Diacylglyceride(18:2_20:4),DG(18:2_20:4),Diglycerides
+Diacylglyceride(18:3_18:3),DG(18:3_18:3),Diglycerides
+Diacylglyceride(18:3_20:2),DG(18:3_20:2),Diglycerides
+Diacylglyceride(21:0_22:6),DG(21:0_22:6),Diglycerides
+Diacylglyceride(22:1_22:2),DG(22:1_22:2),Diglycerides
+Triacylglyceride(14:0_32:2),TG(14:0_32:2),Triglycerides
+Triacylglyceride(14:0_34:0),TG(14:0_34:0),Triglycerides
+Triacylglyceride(14:0_34:1),TG(14:0_34:1),Triglycerides
+Triacylglyceride(14:0_34:2),TG(14:0_34:2),Triglycerides
+Triacylglyceride(14:0_34:3),TG(14:0_34:3),Triglycerides
+Triacylglyceride(14:0_35:1),TG(14:0_35:1),Triglycerides
+Triacylglyceride(14:0_35:2),TG(14:0_35:2),Triglycerides
+Triacylglyceride(14:0_36:1),TG(14:0_36:1),Triglycerides
+Triacylglyceride(14:0_36:2),TG(14:0_36:2),Triglycerides
+Triacylglyceride(14:0_36:3),TG(14:0_36:3),Triglycerides
+Triacylglyceride(14:0_36:4),TG(14:0_36:4),Triglycerides
+Triacylglyceride(14:0_38:4),TG(14:0_38:4),Triglycerides
+Triacylglyceride(14:0_38:5),TG(14:0_38:5),Triglycerides
+Triacylglyceride(14:0_39:3),TG(14:0_39:3),Triglycerides
+Triacylglyceride(16:0_28:1),TG(16:0_28:1),Triglycerides
+Triacylglyceride(16:0_28:2),TG(16:0_28:2),Triglycerides
+Triacylglyceride(16:0_30:2),TG(16:0_30:2),Triglycerides
+Triacylglyceride(16:0_32:0),TG(16:0_32:0),Triglycerides
+Triacylglyceride(16:0_32:1),TG(16:0_32:1),Triglycerides
+Triacylglyceride(16:0_32:2),TG(16:0_32:2),Triglycerides
+Triacylglyceride(16:0_32:3),TG(16:0_32:3),Triglycerides
+Triacylglyceride(16:0_33:1),TG(16:0_33:1),Triglycerides
+Triacylglyceride(16:0_33:2),TG(16:0_33:2),Triglycerides
+Triacylglyceride(16:0_34:0),TG(16:0_34:0),Triglycerides
+Triacylglyceride(16:0_34:1),TG(16:0_34:1),Triglycerides
+Triacylglyceride(16:0_34:2),TG(16:0_34:2),Triglycerides
+Triacylglyceride(16:0_34:3),TG(16:0_34:3),Triglycerides
+Triacylglyceride(16:0_34:4),TG(16:0_34:4),Triglycerides
+Triacylglyceride(16:0_35:1),TG(16:0_35:1),Triglycerides
+Triacylglyceride(16:0_35:2),TG(16:0_35:2),Triglycerides
+Triacylglyceride(16:0_35:3),TG(16:0_35:3),Triglycerides
+Triacylglyceride(16:0_36:2),TG(16:0_36:2),Triglycerides
+Triacylglyceride(16:0_36:3),TG(16:0_36:3),Triglycerides
+Triacylglyceride(16:0_36:4),TG(16:0_36:4),Triglycerides
+Triacylglyceride(16:0_36:5),TG(16:0_36:5),Triglycerides
+Triacylglyceride(16:0_36:6),TG(16:0_36:6),Triglycerides
+Triacylglyceride(16:0_37:3),TG(16:0_37:3),Triglycerides
+Triacylglyceride(16:0_38:1),TG(16:0_38:1),Triglycerides
+Triacylglyceride(16:0_38:2),TG(16:0_38:2),Triglycerides
+Triacylglyceride(16:0_38:3),TG(16:0_38:3),Triglycerides
+Triacylglyceride(16:0_38:4),TG(16:0_38:4),Triglycerides
+Triacylglyceride(16:0_38:5),TG(16:0_38:5),Triglycerides
+Triacylglyceride(16:0_38:6),TG(16:0_38:6),Triglycerides
+Triacylglyceride(16:0_38:7),TG(16:0_38:7),Triglycerides
+Triacylglyceride(16:0_40:6),TG(16:0_40:6),Triglycerides
+Triacylglyceride(16:0_40:7),TG(16:0_40:7),Triglycerides
+Triacylglyceride(16:0_40:8),TG(16:0_40:8),Triglycerides
+Triacylglyceride(16:1_28:0),TG(16:1_28:0),Triglycerides
+Triacylglyceride(16:1_30:1),TG(16:1_30:1),Triglycerides
+Triacylglyceride(16:1_32:0),TG(16:1_32:0),Triglycerides
+Triacylglyceride(16:1_32:1),TG(16:1_32:1),Triglycerides
+Triacylglyceride(16:1_32:2),TG(16:1_32:2),Triglycerides
+Triacylglyceride(16:1_33:1),TG(16:1_33:1),Triglycerides
+Triacylglyceride(16:1_34:0),TG(16:1_34:0),Triglycerides
+Triacylglyceride(16:1_34:1),TG(16:1_34:1),Triglycerides
+Triacylglyceride(16:1_34:2),TG(16:1_34:2),Triglycerides
+Triacylglyceride(16:1_34:3),TG(16:1_34:3),Triglycerides
+Triacylglyceride(16:1_36:1),TG(16:1_36:1),Triglycerides
+Triacylglyceride(16:1_36:2),TG(16:1_36:2),Triglycerides
+Triacylglyceride(16:1_36:3),TG(16:1_36:3),Triglycerides
+Triacylglyceride(16:1_36:4),TG(16:1_36:4),Triglycerides
+Triacylglyceride(16:1_36:5),TG(16:1_36:5),Triglycerides
+Triacylglyceride(16:1_38:3),TG(16:1_38:3),Triglycerides
+Triacylglyceride(16:1_38:4),TG(16:1_38:4),Triglycerides
+Triacylglyceride(16:1_38:5),TG(16:1_38:5),Triglycerides
+Triacylglyceride(17:0_32:1),TG(17:0_32:1),Triglycerides
+Triacylglyceride(17:0_34:1),TG(17:0_34:1),Triglycerides
+Triacylglyceride(17:0_34:2),TG(17:0_34:2),Triglycerides
+Triacylglyceride(17:0_34:3),TG(17:0_34:3),Triglycerides
+Triacylglyceride(17:0_36:3),TG(17:0_36:3),Triglycerides
+Triacylglyceride(17:0_36:4),TG(17:0_36:4),Triglycerides
+Triacylglyceride(17:1_32:1),TG(17:1_32:1),Triglycerides
+Triacylglyceride(17:1_34:1),TG(17:1_34:1),Triglycerides
+Triacylglyceride(17:1_34:2),TG(17:1_34:2),Triglycerides
+Triacylglyceride(17:1_34:3),TG(17:1_34:3),Triglycerides
+Triacylglyceride(17:1_36:3),TG(17:1_36:3),Triglycerides
+Triacylglyceride(17:1_36:4),TG(17:1_36:4),Triglycerides
+Triacylglyceride(17:1_36:5),TG(17:1_36:5),Triglycerides
+Triacylglyceride(17:1_38:5),TG(17:1_38:5),Triglycerides
+Triacylglyceride(17:1_38:6),TG(17:1_38:6),Triglycerides
+Triacylglyceride(17:1_38:7),TG(17:1_38:7),Triglycerides
+Triacylglyceride(17:2_34:2),TG(17:2_34:2),Triglycerides
+Triacylglyceride(17:2_34:3),TG(17:2_34:3),Triglycerides
+Triacylglyceride(17:2_36:2),TG(17:2_36:2),Triglycerides
+Triacylglyceride(17:2_36:3),TG(17:2_36:3),Triglycerides
+Triacylglyceride(17:2_36:4),TG(17:2_36:4),Triglycerides
+Triacylglyceride(17:2_38:5),TG(17:2_38:5),Triglycerides
+Triacylglyceride(17:2_38:6),TG(17:2_38:6),Triglycerides
+Triacylglyceride(17:2_38:7),TG(17:2_38:7),Triglycerides
+Triacylglyceride(18:0_30:0),TG(18:0_30:0),Triglycerides
+Triacylglyceride(18:0_30:1),TG(18:0_30:1),Triglycerides
+Triacylglyceride(18:0_32:0),TG(18:0_32:0),Triglycerides
+Triacylglyceride(18:0_32:1),TG(18:0_32:1),Triglycerides
+Triacylglyceride(18:0_32:2),TG(18:0_32:2),Triglycerides
+Triacylglyceride(18:0_34:2),TG(18:0_34:2),Triglycerides
+Triacylglyceride(18:0_34:3),TG(18:0_34:3),Triglycerides
+Triacylglyceride(18:0_36:1),TG(18:0_36:1),Triglycerides
+Triacylglyceride(18:0_36:2),TG(18:0_36:2),Triglycerides
+Triacylglyceride(18:0_36:3),TG(18:0_36:3),Triglycerides
+Triacylglyceride(18:0_36:4),TG(18:0_36:4),Triglycerides
+Triacylglyceride(18:0_36:5),TG(18:0_36:5),Triglycerides
+Triacylglyceride(18:0_38:6),TG(18:0_38:6),Triglycerides
+Triacylglyceride(18:0_38:7),TG(18:0_38:7),Triglycerides
+Triacylglyceride(18:1_26:0),TG(18:1_26:0),Triglycerides
+Triacylglyceride(18:1_28:1),TG(18:1_28:1),Triglycerides
+Triacylglyceride(18:1_30:0),TG(18:1_30:0),Triglycerides
+Triacylglyceride(18:1_30:1),TG(18:1_30:1),Triglycerides
+Triacylglyceride(18:1_30:2),TG(18:1_30:2),Triglycerides
+Triacylglyceride(18:1_31:0),TG(18:1_31:0),Triglycerides
+Triacylglyceride(18:1_32:0),TG(18:1_32:0),Triglycerides
+Triacylglyceride(18:1_32:1),TG(18:1_32:1),Triglycerides
+Triacylglyceride(18:1_32:2),TG(18:1_32:2),Triglycerides
+Triacylglyceride(18:1_32:3),TG(18:1_32:3),Triglycerides
+Triacylglyceride(18:1_33:0),TG(18:1_33:0),Triglycerides
+Triacylglyceride(18:1_33:1),TG(18:1_33:1),Triglycerides
+Triacylglyceride(18:1_33:2),TG(18:1_33:2),Triglycerides
+Triacylglyceride(18:1_33:3),TG(18:1_33:3),Triglycerides
+Triacylglyceride(18:1_34:1),TG(18:1_34:1),Triglycerides
+Triacylglyceride(18:1_34:2),TG(18:1_34:2),Triglycerides
+Triacylglyceride(18:1_34:3),TG(18:1_34:3),Triglycerides
+Triacylglyceride(18:1_34:4),TG(18:1_34:4),Triglycerides
+Triacylglyceride(18:1_35:2),TG(18:1_35:2),Triglycerides
+Triacylglyceride(18:1_35:3),TG(18:1_35:3),Triglycerides
+Triacylglyceride(18:1_36:0),TG(18:1_36:0),Triglycerides
+Triacylglyceride(18:1_36:1),TG(18:1_36:1),Triglycerides
+Triacylglyceride(18:1_36:2),TG(18:1_36:2),Triglycerides
+Triacylglyceride(18:1_36:3),TG(18:1_36:3),Triglycerides
+Triacylglyceride(18:1_36:4),TG(18:1_36:4),Triglycerides
+Triacylglyceride(18:1_36:5),TG(18:1_36:5),Triglycerides
+Triacylglyceride(18:1_36:6),TG(18:1_36:6),Triglycerides
+Triacylglyceride(18:1_38:5),TG(18:1_38:5),Triglycerides
+Triacylglyceride(18:1_38:6),TG(18:1_38:6),Triglycerides
+Triacylglyceride(18:1_38:7),TG(18:1_38:7),Triglycerides
+Triacylglyceride(18:2_28:0),TG(18:2_28:0),Triglycerides
+Triacylglyceride(18:2_30:0),TG(18:2_30:0),Triglycerides
+Triacylglyceride(18:2_30:1),TG(18:2_30:1),Triglycerides
+Triacylglyceride(18:2_31:0),TG(18:2_31:0),Triglycerides
+Triacylglyceride(18:2_32:0),TG(18:2_32:0),Triglycerides
+Triacylglyceride(18:2_32:1),TG(18:2_32:1),Triglycerides
+Triacylglyceride(18:2_32:2),TG(18:2_32:2),Triglycerides
+Triacylglyceride(18:2_33:0),TG(18:2_33:0),Triglycerides
+Triacylglyceride(18:2_33:1),TG(18:2_33:1),Triglycerides
+Triacylglyceride(18:2_33:2),TG(18:2_33:2),Triglycerides
+Triacylglyceride(18:2_34:0),TG(18:2_34:0),Triglycerides
+Triacylglyceride(18:2_34:1),TG(18:2_34:1),Triglycerides
+Triacylglyceride(18:2_34:2),TG(18:2_34:2),Triglycerides
+Triacylglyceride(18:2_34:3),TG(18:2_34:3),Triglycerides
+Triacylglyceride(18:2_34:4),TG(18:2_34:4),Triglycerides
+Triacylglyceride(18:2_35:1),TG(18:2_35:1),Triglycerides
+Triacylglyceride(18:2_35:2),TG(18:2_35:2),Triglycerides
+Triacylglyceride(18:2_35:3),TG(18:2_35:3),Triglycerides
+Triacylglyceride(18:2_36:0),TG(18:2_36:0),Triglycerides
+Triacylglyceride(18:2_36:1),TG(18:2_36:1),Triglycerides
+Triacylglyceride(18:2_36:2),TG(18:2_36:2),Triglycerides
+Triacylglyceride(18:2_36:3),TG(18:2_36:3),Triglycerides
+Triacylglyceride(18:2_36:4),TG(18:2_36:4),Triglycerides
+Triacylglyceride(18:2_36:5),TG(18:2_36:5),Triglycerides
+Triacylglyceride(18:2_38:4),TG(18:2_38:4),Triglycerides
+Triacylglyceride(18:2_38:5),TG(18:2_38:5),Triglycerides
+Triacylglyceride(18:2_38:6),TG(18:2_38:6),Triglycerides
+Triacylglyceride(18:3_30:0),TG(18:3_30:0),Triglycerides
+Triacylglyceride(18:3_32:0),TG(18:3_32:0),Triglycerides
+Triacylglyceride(18:3_32:1),TG(18:3_32:1),Triglycerides
+Triacylglyceride(18:3_33:2),TG(18:3_33:2),Triglycerides
+Triacylglyceride(18:3_34:0),TG(18:3_34:0),Triglycerides
+Triacylglyceride(18:3_34:1),TG(18:3_34:1),Triglycerides
+Triacylglyceride(18:3_34:2),TG(18:3_34:2),Triglycerides
+Triacylglyceride(18:3_34:3),TG(18:3_34:3),Triglycerides
+Triacylglyceride(18:3_35:2),TG(18:3_35:2),Triglycerides
+Triacylglyceride(18:3_36:1),TG(18:3_36:1),Triglycerides
+Triacylglyceride(18:3_36:2),TG(18:3_36:2),Triglycerides
+Triacylglyceride(18:3_36:3),TG(18:3_36:3),Triglycerides
+Triacylglyceride(18:3_36:4),TG(18:3_36:4),Triglycerides
+Triacylglyceride(18:3_38:5),TG(18:3_38:5),Triglycerides
+Triacylglyceride(18:3_38:6),TG(18:3_38:6),Triglycerides
+Triacylglyceride(20:0_32:3),TG(20:0_32:3),Triglycerides
+Triacylglyceride(20:0_32:4),TG(20:0_32:4),Triglycerides
+Triacylglyceride(20:0_34:1),TG(20:0_34:1),Triglycerides
+Triacylglyceride(20:1_24:3),TG(20:1_24:3),Triglycerides
+Triacylglyceride(20:1_26:1),TG(20:1_26:1),Triglycerides
+Triacylglyceride(20:1_30:1),TG(20:1_30:1),Triglycerides
+Triacylglyceride(20:1_31:0),TG(20:1_31:0),Triglycerides
+Triacylglyceride(20:1_32:1),TG(20:1_32:1),Triglycerides
+Triacylglyceride(20:1_32:2),TG(20:1_32:2),Triglycerides
+Triacylglyceride(20:1_32:3),TG(20:1_32:3),Triglycerides
+Triacylglyceride(20:1_34:0),TG(20:1_34:0),Triglycerides
+Triacylglyceride(20:1_34:1),TG(20:1_34:1),Triglycerides
+Triacylglyceride(20:1_34:2),TG(20:1_34:2),Triglycerides
+Triacylglyceride(20:1_34:3),TG(20:1_34:3),Triglycerides
+Triacylglyceride(20:2_32:0),TG(20:2_32:0),Triglycerides
+Triacylglyceride(20:2_32:1),TG(20:2_32:1),Triglycerides
+Triacylglyceride(20:2_34:1),TG(20:2_34:1),Triglycerides
+Triacylglyceride(20:2_34:2),TG(20:2_34:2),Triglycerides
+Triacylglyceride(20:2_34:3),TG(20:2_34:3),Triglycerides
+Triacylglyceride(20:2_34:4),TG(20:2_34:4),Triglycerides
+Triacylglyceride(20:2_36:5),TG(20:2_36:5),Triglycerides
+Triacylglyceride(20:3_32:0),TG(20:3_32:0),Triglycerides
+Triacylglyceride(20:3_32:1),TG(20:3_32:1),Triglycerides
+Triacylglyceride(20:3_32:2),TG(20:3_32:2),Triglycerides
+Triacylglyceride(20:3_34:0),TG(20:3_34:0),Triglycerides
+Triacylglyceride(20:3_34:1),TG(20:3_34:1),Triglycerides
+Triacylglyceride(20:3_34:2),TG(20:3_34:2),Triglycerides
+Triacylglyceride(20:3_34:3),TG(20:3_34:3),Triglycerides
+Triacylglyceride(20:3_36:3),TG(20:3_36:3),Triglycerides
+Triacylglyceride(20:3_36:4),TG(20:3_36:4),Triglycerides
+Triacylglyceride(20:3_36:5),TG(20:3_36:5),Triglycerides
+Triacylglyceride(20:4_30:0),TG(20:4_30:0),Triglycerides
+Triacylglyceride(20:4_32:0),TG(20:4_32:0),Triglycerides
+Triacylglyceride(20:4_32:1),TG(20:4_32:1),Triglycerides
+Triacylglyceride(20:4_32:2),TG(20:4_32:2),Triglycerides
+Triacylglyceride(20:4_33:2),TG(20:4_33:2),Triglycerides
+Triacylglyceride(20:4_34:0),TG(20:4_34:0),Triglycerides
+Triacylglyceride(20:4_34:1),TG(20:4_34:1),Triglycerides
+Triacylglyceride(20:4_34:2),TG(20:4_34:2),Triglycerides
+Triacylglyceride(20:4_34:3),TG(20:4_34:3),Triglycerides
+Triacylglyceride(20:4_35:3),TG(20:4_35:3),Triglycerides
+Triacylglyceride(20:4_36:2),TG(20:4_36:2),Triglycerides
+Triacylglyceride(20:4_36:3),TG(20:4_36:3),Triglycerides
+Triacylglyceride(20:4_36:4),TG(20:4_36:4),Triglycerides
+Triacylglyceride(20:4_36:5),TG(20:4_36:5),Triglycerides
+Triacylglyceride(20:5_34:0),TG(20:5_34:0),Triglycerides
+Triacylglyceride(20:5_34:1),TG(20:5_34:1),Triglycerides
+Triacylglyceride(20:5_34:2),TG(20:5_34:2),Triglycerides
+Triacylglyceride(20:5_36:2),TG(20:5_36:2),Triglycerides
+Triacylglyceride(20:5_36:3),TG(20:5_36:3),Triglycerides
+Triacylglyceride(22:0_32:4),TG(22:0_32:4),Triglycerides
+Triacylglyceride(22:1_32:5),TG(22:1_32:5),Triglycerides
+Triacylglyceride(22:2_32:4),TG(22:2_32:4),Triglycerides
+Triacylglyceride(22:3_30:2),TG(22:3_30:2),Triglycerides
+Triacylglyceride(22:4_32:0),TG(22:4_32:0),Triglycerides
+Triacylglyceride(22:4_32:2),TG(22:4_32:2),Triglycerides
+Triacylglyceride(22:4_34:2),TG(22:4_34:2),Triglycerides
+Triacylglyceride(22:5_32:0),TG(22:5_32:0),Triglycerides
+Triacylglyceride(22:5_32:1),TG(22:5_32:1),Triglycerides
+Triacylglyceride(22:5_34:1),TG(22:5_34:1),Triglycerides
+Triacylglyceride(22:5_34:2),TG(22:5_34:2),Triglycerides
+Triacylglyceride(22:5_34:3),TG(22:5_34:3),Triglycerides
+Triacylglyceride(22:6_32:0),TG(22:6_32:0),Triglycerides
+Triacylglyceride(22:6_32:1),TG(22:6_32:1),Triglycerides
+Triacylglyceride(22:6_34:1),TG(22:6_34:1),Triglycerides
+Triacylglyceride(22:6_34:2),TG(22:6_34:2),Triglycerides
+Triacylglyceride(22:6_34:3),TG(22:6_34:3),Triglycerides
+Hexose,H1,Monosaccharides
