@@ -1,0 +1,29 @@
+Sample	Animal	Origin	Microbiome	Treatment	Cage
+D19	exGF 10	feces	COL	Ang2	Cage 3
+D18	exGF 11	feces	COL	Ang2	Cage 3
+D17	exGF 12	feces	COL	Ang2	Cage 4
+D16	exGF 13	feces	COL	Ang2	Cage 4
+D10	exGF 14	coecum	COL	Ang2	Cage 5
+D15	exGF 14	feces	COL	Ang2	Cage 5
+D14	exGF 16	feces	COL	Ang2	Cage 5
+D9	exGF 16	coecum	COL	Ang2	Cage 5
+D13	exGF 17	feces	COL	Ang2	Cage 5
+D8	exGF 17	coecum	COL	Ang2	Cage 5
+D12	exGF 18	feces	COL	Ang2	Cage 6
+D7	exGF 18	coecum	COL	Ang2	Cage 6
+D11	exGF 19	feces	COL	Ang2	Cage 6
+D6	exGF 19	coecum	COL	Ang2	Cage 6
+D22	exGF 6	feces	COL	Ang2	Cage 1
+D21	exGF 7	feces	COL	Ang2	Cage 1
+D20	exGF 9	feces	COL	Ang2	Cage 2
+D28	GF 12	feces	GF	Ang2	NA
+D27	sexGF 1	feces	COL	sham	Cage 7
+D5	sexGF 1	coecum	COL	sham	Cage 7
+D26	sexGF 2	feces	COL	sham	Cage 7
+D4	sexGF 2	coecum	COL	sham	Cage 7
+D25	sexGF 3	feces	COL	sham	Cage 7
+D3	sexGF 3	coecum	COL	sham	Cage 7
+D2	sexGF 4	coecum	COL	sham	Cage 7
+D24	sexGF 4	feces	COL	sham	Cage 7
+D1	sexGF 5	coecum	COL	sham	Cage 7
+D23	sexGF 5	feces	COL	sham	Cage 7
